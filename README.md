@@ -1063,837 +1063,114 @@ $.xmo.client.newRequest..downloadFile($.xpaths.mySagemcomBox.maintenance.saveRes
 ##### Some other intresting links without any required login you can visit (there is tons of settings to enable to get a really powerful router. This you must figured out yourself since it's to much work to fix a wiki for this atm, I maybe fixing later - have 
 fun! :)):
 
-http://192.168.1.1/0.1/gui/js/answering-machine.js
-
-http://192.168.1.1/0.1/gui/js/config.js
-
-http://192.168.1.1/0.1/gui/js/grid.locale-en.js
-
-http://192.168.1.1/0.1/gui/js/gui-api.js
-
-http://192.168.1.1/0.1/gui/js/gui-common.js
-
-http://192.168.1.1/0.1/gui/js/gui-core.js
-
-http://192.168.1.1/0.1/gui/js/gui-widgets.js
-
-http://192.168.1.1/0.1/gui/js/jquery-1.3.2-sc.js
-
-http://192.168.1.1/0.1/gui/js/jquery-1.7.2-sc.js
-
-http://192.168.1.1/0.1/gui/js/jquery-ui-1.7.2.custom.js
-
-http://192.168.1.1/0.1/gui/js/jquery-ui-1.7.3.custom-sc.js
-
-http://192.168.1.1/0.1/gui/js/jquery-ui-1.8.20.custom.js
-
-http://192.168.1.1/0.1/gui/js/jquery-ui.js
-
-http://192.168.1.1/0.1/gui/js/jquery-utils.js
-
-http://192.168.1.1/0.1/gui/js/jquery.cookie.js
-
-http://192.168.1.1/0.1/gui/js/jquery.form.js
-
-http://192.168.1.1/0.1/gui/js/jquery.jcarousel.js
-
-http://192.168.1.1/0.1/gui/js/jquery.jqGrid.js
-
-http://192.168.1.1/0.1/gui/js/jquery.js
-
-http://192.168.1.1/0.1/gui/js/jquery.metadata.js
-
-http://192.168.1.1/0.1/gui/js/jquery.mobile.js
-
-http://192.168.1.1/0.1/gui/js/jquery.printf.js
-
-http://192.168.1.1/0.1/gui/js/jquery.random.js
-
-http://192.168.1.1/0.1/gui/js/jquery.tmpl.js
-
-http://192.168.1.1/0.1/gui/js/json
-
-http://192.168.1.1/0.1/gui/js/json2.js
-
-http://192.168.1.1/0.1/gui/js/libs.js
-
-http://192.168.1.1/0.1/gui/js/md5.js
-
-http://192.168.1.1/0.1/gui/js/scripts.js
-
-http://192.168.1.1/0.1/gui/js/sha512.js
-
-http://192.168.1.1/0.1/gui/js/vendor.js
-
-http://192.168.1.1/0.1/gui/js/xmo.js
-
-http://192.168.1.1/0.1/gui/images/BoB-down-icon-24.png
-
-http://192.168.1.1/0.1/gui/images/BoB-up-icon-24.png
-
-http://192.168.1.1/0.1/gui/images/alert.png
-
-http://192.168.1.1/0.1/gui/images/allow-both.png
-
-http://192.168.1.1/0.1/gui/images/allow-local.png
-
-http://192.168.1.1/0.1/gui/images/allow-remote.png
-
-http://192.168.1.1/0.1/gui/images/app-install-01.png
-
-http://192.168.1.1/0.1/gui/images/app-install-02.png
-
-http://192.168.1.1/0.1/gui/images/arrow.jpg
-
-http://192.168.1.1/0.1/gui/images/arrow_down.png
-
-http://192.168.1.1/0.1/gui/images/barcode-2d.png
-
-http://192.168.1.1/0.1/gui/images/btn-arrow-left-over.svg
-
-http://192.168.1.1/0.1/gui/images/btn-arrow-left.svg
-
-http://192.168.1.1/0.1/gui/images/btn-arrow-right-over.svg
-
-http://192.168.1.1/0.1/gui/images/btn-arrow-right.svg
-
-http://192.168.1.1/0.1/gui/images/btn_arrow.svg
-
-http://192.168.1.1/0.1/gui/images/btn_arrow2.svg
-
-http://192.168.1.1/0.1/gui/images/btn_arrow2_press.svg
-
-http://192.168.1.1/0.1/gui/images/btn_arrow_press.svg
-
-http://192.168.1.1/0.1/gui/images/check-status-hybrid.png
-
-http://192.168.1.1/0.1/gui/images/check-status-no.png
-
-http://192.168.1.1/0.1/gui/images/check-status-other.png
-
-http://192.168.1.1/0.1/gui/images/coloricons-sprite.png
-
-http://192.168.1.1/0.1/gui/images/coloricons-sprite2.png
-
-http://192.168.1.1/0.1/gui/images/conect-05.svg
-
-http://192.168.1.1/0.1/gui/images/conect-06.svg
-
-http://192.168.1.1/0.1/gui/images/disallow-both.png
-
-http://192.168.1.1/0.1/gui/images/disallow-local.png
-
-http://192.168.1.1/0.1/gui/images/disallow-remote.png
-
-http://192.168.1.1/0.1/gui/images/dlna-icon.png
-
-http://192.168.1.1/0.1/gui/images/dot-bg.gif
-
-http://192.168.1.1/0.1/gui/images/download166.png
-
-http://192.168.1.1/0.1/gui/images/downstream.png
-
-http://192.168.1.1/0.1/gui/images/external-link-pink.png
-
-http://192.168.1.1/0.1/gui/images/external-link.png
-
-http://192.168.1.1/0.1/gui/images/fair.gif
-
-http://192.168.1.1/0.1/gui/images/favicon-gomalta.ico
-
-http://192.168.1.1/0.1/gui/images/faviconNone.ico
-
-http://192.168.1.1/0.1/gui/images/get_adobe_flash.png
-
-http://192.168.1.1/0.1/gui/images/get_adobe_shockwave.png
-
-http://192.168.1.1/0.1/gui/images/help-icon.png
-
-http://192.168.1.1/0.1/gui/images/hide-password-icon.png
-
-http://192.168.1.1/0.1/gui/images/ico-bottomNavigation.png
-
-http://192.168.1.1/0.1/gui/images/ico-maintance.svg
-
-http://192.168.1.1/0.1/gui/images/ico-qrcode.svg
-
-http://192.168.1.1/0.1/gui/images/ico-sagencom.svg
-
-http://192.168.1.1/0.1/gui/images/ico-wifi.svg
-
-http://192.168.1.1/0.1/gui/images/icon-add-gcontacts-pink.png
-
-http://192.168.1.1/0.1/gui/images/icon-add-gcontacts.png
-
-http://192.168.1.1/0.1/gui/images/icon-alert-white.png
-
-http://192.168.1.1/0.1/gui/images/icon-arrow.png
-
-http://192.168.1.1/0.1/gui/images/icon-cell-phone.png
-
-http://192.168.1.1/0.1/gui/images/icon-delete.png
-
-http://192.168.1.1/0.1/gui/images/icon-dlna.png
-
-http://192.168.1.1/0.1/gui/images/icon-dropbox.png
-
-http://192.168.1.1/0.1/gui/images/icon-eject.png
-
-http://192.168.1.1/0.1/gui/images/icon-ethernet.png
-
-http://192.168.1.1/0.1/gui/images/icon-export-pink.png
-
-http://192.168.1.1/0.1/gui/images/icon-export.png
-
-http://192.168.1.1/0.1/gui/images/icon-femto.png
-
-http://192.168.1.1/0.1/gui/images/icon-gcontacts-pink.png
-
-http://192.168.1.1/0.1/gui/images/icon-gcontacts.png
-
-http://192.168.1.1/0.1/gui/images/icon-gcontacts2.png
-
-http://192.168.1.1/0.1/gui/images/icon-gdrive.png
-
-http://192.168.1.1/0.1/gui/images/icon-harddrive-white.png
-
-http://192.168.1.1/0.1/gui/images/icon-harddrive.png
-
-http://192.168.1.1/0.1/gui/images/icon-hd.png
-
-http://192.168.1.1/0.1/gui/images/icon-hidden.png
-
-http://192.168.1.1/0.1/gui/images/icon-home-white.svg
-
-http://192.168.1.1/0.1/gui/images/icon-home.png
-
-http://192.168.1.1/0.1/gui/images/icon-home.svg
-
-http://192.168.1.1/0.1/gui/images/icon-import-pink.png
-
-http://192.168.1.1/0.1/gui/images/icon-import.png
-
-http://192.168.1.1/0.1/gui/images/icon-networt-storage.png
-
-http://192.168.1.1/0.1/gui/images/icon-next.svg
-
-http://192.168.1.1/0.1/gui/images/icon-office.png
-
-http://192.168.1.1/0.1/gui/images/icon-partner.png
-
-http://192.168.1.1/0.1/gui/images/icon-pause.svg
-
-http://192.168.1.1/0.1/gui/images/icon-phone.png
-
-http://192.168.1.1/0.1/gui/images/icon-play.svg
-
-http://192.168.1.1/0.1/gui/images/icon-prev.svg
-
-http://192.168.1.1/0.1/gui/images/icon-settings.png
-
-http://192.168.1.1/0.1/gui/images/icon-telephone.png
-
-http://192.168.1.1/0.1/gui/images/icon-voicemail.svg
-
-http://192.168.1.1/0.1/gui/images/icon-wifi0.png
-
-http://192.168.1.1/0.1/gui/images/icon-wifi1.png
-
-http://192.168.1.1/0.1/gui/images/icon-wifi2.png
-
-http://192.168.1.1/0.1/gui/images/icon-wifi3.png
-
-http://192.168.1.1/0.1/gui/images/icon-wifi4.png
-
-http://192.168.1.1/0.1/gui/images/ipv6-logo.png
-
-http://192.168.1.1/0.1/gui/images/loading.gif
-
-http://192.168.1.1/0.1/gui/images/loading2.gif
-
-http://192.168.1.1/0.1/gui/images/loading_dots.gif
-
-http://192.168.1.1/0.1/gui/images/lock.png
-
-http://192.168.1.1/0.1/gui/images/lock.svg
-
-http://192.168.1.1/0.1/gui/images/logo-footer.svg
-
-http://192.168.1.1/0.1/gui/images/logo-sgc-mobile.svg
-
-http://192.168.1.1/0.1/gui/images/logoappstore.png
-
-http://192.168.1.1/0.1/gui/images/logogplay.png
-
-http://192.168.1.1/0.1/gui/images/mass-storage-help.png
-
-http://192.168.1.1/0.1/gui/images/name.svg
-
-http://192.168.1.1/0.1/gui/images/network-map.svg
-
-http://192.168.1.1/0.1/gui/images/off-hook.svg
-
-http://192.168.1.1/0.1/gui/images/on-hook.svg
-
-http://192.168.1.1/0.1/gui/images/order-down.png
-
-http://192.168.1.1/0.1/gui/images/order-up.png
-
-http://192.168.1.1/0.1/gui/images/qrcode.png
-
-http://192.168.1.1/0.1/gui/images/refresh.png
-
-http://192.168.1.1/0.1/gui/images/refresh2-over.png
-
-http://192.168.1.1/0.1/gui/images/refresh2.png
-
-http://192.168.1.1/0.1/gui/images/rubbish7.png
-
-http://192.168.1.1/0.1/gui/images/simple_wait_spinner.svg
-
-http://192.168.1.1/0.1/gui/images/spectrum-greyed.svg
-
-http://192.168.1.1/0.1/gui/images/spectrum-normal.svg
-
-http://192.168.1.1/0.1/gui/images/splash_FU.gif
-
-http://192.168.1.1/0.1/gui/images/sprite-devices.png
-
-http://192.168.1.1/0.1/gui/images/sprite-home.svg
-
-http://192.168.1.1/0.1/gui/images/sprite-machine.svg
-
-http://192.168.1.1/0.1/gui/images/sprite-novo.svg
-
-http://192.168.1.1/0.1/gui/images/sprite.png
-
-http://192.168.1.1/0.1/gui/images/sprite_mobile.svg
-
-http://192.168.1.1/0.1/gui/images/sprite_tree.png
-
-http://192.168.1.1/0.1/gui/images/strong.png
-
-http://192.168.1.1/0.1/gui/images/telia
-
-http://192.168.1.1/0.1/gui/images/test-connection-ok.png
-
-http://192.168.1.1/0.1/gui/images/test-connection.jpg
-
-http://192.168.1.1/0.1/gui/images/upstream.png
-
-http://192.168.1.1/0.1/gui/images/view-password-icon.png
-
-http://192.168.1.1/0.1/gui/images/weak.png
-
-http://192.168.1.1/0.1/gui/images/wps-icon-da.png
-
-http://192.168.1.1/0.1/gui/images/wps-icon.png
-
-http://192.168.1.1/0.1/gui/css/gui-common.css
-
-http://192.168.1.1/0.1/gui/css/gui-core.css
-
-http://192.168.1.1/0.1/gui/css/images
-
-http://192.168.1.1/0.1/gui/css/jquery-ui-1.8.20.custom.css
-
-http://192.168.1.1/0.1/gui/css/jquery-ui.css
-
-http://192.168.1.1/0.1/gui/css/jquery.jqGrid.css
-
-http://192.168.1.1/0.1/gui/css/jquery.mobile.css
-
-http://192.168.1.1/0.1/gui/js/answering-machine.js
-
-http://192.168.1.1/0.1/gui/js/config.js
-
-http://192.168.1.1/0.1/gui/js/grid.locale-en.js
-
-http://192.168.1.1/0.1/gui/js/gui-api.js
-
-http://192.168.1.1/0.1/gui/js/gui-common.js
-
-http://192.168.1.1/0.1/gui/js/gui-core.js
-
-http://192.168.1.1/0.1/gui/js/gui-widgets.js
-
-http://192.168.1.1/0.1/gui/js/jquery-1.3.2-sc.js
-
-http://192.168.1.1/0.1/gui/js/jquery-1.7.2-sc.js
-
-http://192.168.1.1/0.1/gui/js/jquery-ui-1.7.2.custom.js
-
-http://192.168.1.1/0.1/gui/js/jquery-ui-1.7.3.custom-sc.js
-
-http://192.168.1.1/0.1/gui/js/jquery-ui-1.8.20.custom.js
-
-http://192.168.1.1/0.1/gui/js/jquery-ui.js
-
-http://192.168.1.1/0.1/gui/js/jquery-utils.js
-
-http://192.168.1.1/0.1/gui/js/jquery.cookie.js
-
-http://192.168.1.1/0.1/gui/js/jquery.form.js
-
-http://192.168.1.1/0.1/gui/js/jquery.jcarousel.js
-
-http://192.168.1.1/0.1/gui/js/jquery.jqGrid.js
-
-http://192.168.1.1/0.1/gui/js/jquery.js
-
-http://192.168.1.1/0.1/gui/js/jquery.metadata.js
-
-http://192.168.1.1/0.1/gui/js/jquery.mobile.js
-
-http://192.168.1.1/0.1/gui/js/jquery.printf.js
-
-http://192.168.1.1/0.1/gui/js/jquery.random.js
-
-http://192.168.1.1/0.1/gui/js/jquery.tmpl.js
-
-http://192.168.1.1/0.1/gui/js/json
-
-http://192.168.1.1/0.1/gui/js/json2.js
-
-http://192.168.1.1/0.1/gui/js/libs.js
-
-http://192.168.1.1/0.1/gui/js/md5.js
-
-http://192.168.1.1/0.1/gui/js/scripts.js
-
-http://192.168.1.1/0.1/gui/js/sha512.js
-
-http://192.168.1.1/0.1/gui/js/vendor.js
-
-http://192.168.1.1/0.1/gui/js/xmo.js
-
-http://192.168.1.1/0.1/gui/msg/da
-
-http://192.168.1.1/0.1/gui/msg/en
-
-http://192.168.1.1/0.1/gui/styles/app-download.css
-
-http://192.168.1.1/0.1/gui/styles/dev.css
-
-http://192.168.1.1/0.1/gui/styles/fonts
-
-http://192.168.1.1/0.1/gui/styles/lib.css
-
-http://192.168.1.1/0.1/gui/styles/login-malta.css
-
-http://192.168.1.1/0.1/gui/styles/login-telia.css
-
-http://192.168.1.1/0.1/gui/styles/main.css
-
-http://192.168.1.1/0.1/gui/styles/mobile
-
-http://192.168.1.1/0.1/gui/styles/mobile-main.css
-
-http://192.168.1.1/0.1/gui/styles/themes
-
-http://192.168.1.1/0.1/gui/styles/vendor.css
-
-http://192.168.1.1/0.1/gui/views/access-control.dmz-ipv6.html
-
-http://192.168.1.1/0.1/gui/views/access-control.dmz.html
-
-http://192.168.1.1/0.1/gui/views/access-control.firewall.html
-
-http://192.168.1.1/0.1/gui/views/access-control.ipv6-pinholling.html
-
-http://192.168.1.1/0.1/gui/views/access-control.main.html
-
-http://192.168.1.1/0.1/gui/views/access-control.main.wifi.html
-
-http://192.168.1.1/0.1/gui/views/access-control.parental-control.filtering.html
-
-http://192.168.1.1/0.1/gui/views/access-control.parental-control.main.html
-
-http://192.168.1.1/0.1/gui/views/access-control.parental-control.planning.dual.html
-
-http://192.168.1.1/0.1/gui/views/access-control.parental-control.planning.html
-
-http://192.168.1.1/0.1/gui/views/access-control.parental-control.planning.simple.html
-
-http://192.168.1.1/0.1/gui/views/access-control.parental-control.planning.timeslot.html
-
-http://192.168.1.1/0.1/gui/views/access-control.port-forwarding.games-app.html
-
-http://192.168.1.1/0.1/gui/views/access-control.port-forwarding.html
-
-http://192.168.1.1/0.1/gui/views/access-control.port-forwarding.main.html
-
-http://192.168.1.1/0.1/gui/views/access-control.port-forwarding.main.simple.html
-
-http://192.168.1.1/0.1/gui/views/access-control.port-triggering.html
-
-http://192.168.1.1/0.1/gui/views/access-control.portmirror.html
-
-http://192.168.1.1/0.1/gui/views/access-control.remote-access.simple.html
-
-http://192.168.1.1/0.1/gui/views/access-control.smartinterface-rrm.html
-
-http://192.168.1.1/0.1/gui/views/access-control.upnp.html
-
-http://192.168.1.1/0.1/gui/views/access-control.user.html
-
-http://192.168.1.1/0.1/gui/views/access-control.user.simple.html
-
-http://192.168.1.1/0.1/gui/views/android-help.html
-
-http://192.168.1.1/0.1/gui/views/answering-machine.mail-server.html
-
-http://192.168.1.1/0.1/gui/views/answering-machine.main.html
-
-http://192.168.1.1/0.1/gui/views/answering-machine.messages.html
-
-http://192.168.1.1/0.1/gui/views/answering-machine.settings.html
-
-http://192.168.1.1/0.1/gui/views/base-simple-talktalk.html
-
-http://192.168.1.1/0.1/gui/views/base.html
-
-http://192.168.1.1/0.1/gui/views/baseSimple.html
-
-http://192.168.1.1/0.1/gui/views/broad-band.simple.html
-
-http://192.168.1.1/0.1/gui/views/content-sharing.simple.html
-
-http://192.168.1.1/0.1/gui/views/dect.advanced.html
-
-http://192.168.1.1/0.1/gui/views/dect.basic.html
-
-http://192.168.1.1/0.1/gui/views/dect.handset.advanced.html
-
-http://192.168.1.1/0.1/gui/views/dect.handset.handset.html
-
-http://192.168.1.1/0.1/gui/views/dect.handset.main.html
-
-http://192.168.1.1/0.1/gui/views/dect.handset.main.simple.html
-
-http://192.168.1.1/0.1/gui/views/dect.main.html
-
-http://192.168.1.1/0.1/gui/views/ethernet-device.device-info.html
-
-http://192.168.1.1/0.1/gui/views/ethernet-device.dmz.html
-
-http://192.168.1.1/0.1/gui/views/ethernet-device.main.html
-
-http://192.168.1.1/0.1/gui/views/ethernet-device.main.simple.html
-
-http://192.168.1.1/0.1/gui/views/ethernet-device.port-forwarding.main.html
-
-http://192.168.1.1/0.1/gui/views/ethernet-device.port-forwarding.main.simple.html
-
-http://192.168.1.1/0.1/gui/views/ethernet-lan.html
-
-http://192.168.1.1/0.1/gui/views/ethernet.html
-
-http://192.168.1.1/0.1/gui/views/extended-menu.html
-
-http://192.168.1.1/0.1/gui/views/first-access.connection.html
-
-http://192.168.1.1/0.1/gui/views/first-access.end.html
-
-http://192.168.1.1/0.1/gui/views/first-access.html
-
-http://192.168.1.1/0.1/gui/views/first-access.ppp.html
-
-http://192.168.1.1/0.1/gui/views/first-access.user.html
-
-http://192.168.1.1/0.1/gui/views/first-access.wifi.html
-
-http://192.168.1.1/0.1/gui/views/internet-connection-talktalk.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.3g.cellular.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.3g.hsxpalte.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.basic.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.connectionServices.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.docsis.main.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.gpon.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.greTunnel.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.ipv4.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.ipv6Simple.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.main.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.main.simple.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.mapT.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.mptcp.kpi-information.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.mptcp.main.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.mptcp.statistics.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.mptcp.status.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.ppp.html
-
-http://192.168.1.1/0.1/gui/views/internet-connectivity.vlan.html
-
-http://192.168.1.1/0.1/gui/views/lan.main.html
-
-http://192.168.1.1/0.1/gui/views/login-dtag-xdsl.html
-
-http://192.168.1.1/0.1/gui/views/login-dtag.html
-
-http://192.168.1.1/0.1/gui/views/login-get.html
-
-http://192.168.1.1/0.1/gui/views/login-optus.html
-
-http://192.168.1.1/0.1/gui/views/login-simple-comhem.html
-
-http://192.168.1.1/0.1/gui/views/login-tim-v2.html
-
-http://192.168.1.1/0.1/gui/views/login-wizard-tim-v2.html
-
-http://192.168.1.1/0.1/gui/views/login.html
-
-http://192.168.1.1/0.1/gui/views/loginSimple.html
-
-http://192.168.1.1/0.1/gui/views/main-charter-5280.html
-
-http://192.168.1.1/0.1/gui/views/main-comhem.html
-
-http://192.168.1.1/0.1/gui/views/main-malta.html
-
-http://192.168.1.1/0.1/gui/views/main-new.html
-
-http://192.168.1.1/0.1/gui/views/main-simple-talktalk.html
-
-http://192.168.1.1/0.1/gui/views/main-talktalk-simple.html
-
-http://192.168.1.1/0.1/gui/views/main-talktalk.html
-
-http://192.168.1.1/0.1/gui/views/main-telia.html
-
-http://192.168.1.1/0.1/gui/views/main-telus.html
-
-http://192.168.1.1/0.1/gui/views/main.html
-
-http://192.168.1.1/0.1/gui/views/my-devices-simple-talktalk.html
-
-http://192.168.1.1/0.1/gui/views/mynetwork.main.html
-
-http://192.168.1.1/0.1/gui/views/mynetwork.map.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.advanced.options.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.antenna-settings.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.autodimming.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.bridge-mode.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.ddns.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.ddns.simple.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.arp.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.configuration.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.connection.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.device-info.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.dhcp-leases.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.docsis.configuration.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.docsis.connection.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.docsis.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.licenses.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.device-info.main.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.dhcp.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.dns.main.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.dns.server.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.fon.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.lan-ipv6-router.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.led-slider.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.led.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.ledDimmed.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.main.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.maintenance.dsl-line.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.maintenance.first-install.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.maintenance.internet-utilities.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.maintenance.log.main.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.maintenance.main.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.maintenance.mainSimple.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.maintenance.ntp.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.maintenance.reset.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.mass-storage.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.network-configuration.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.simple-main.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.sip-alg.html
-
-http://192.168.1.1/0.1/gui/views/mysagemcombox.walled-garden.html
-
-http://192.168.1.1/0.1/gui/views/partials
-
-http://192.168.1.1/0.1/gui/views/plc.device-info.html
-
-http://192.168.1.1/0.1/gui/views/ploampassword.html
-
-http://192.168.1.1/0.1/gui/views/scheduling.control.html
-
-http://192.168.1.1/0.1/gui/views/scheduling.html
-
-http://192.168.1.1/0.1/gui/views/scheduling.main.html
-
-http://192.168.1.1/0.1/gui/views/services.simple.main.html
-
-http://192.168.1.1/0.1/gui/views/splash-firmware-upgrade.html
-
-http://192.168.1.1/0.1/gui/views/traffic-monitor.main.simple.html
-
-http://192.168.1.1/0.1/gui/views/traffic-monitor.simple.html
-
-http://192.168.1.1/0.1/gui/views/usb-device.device-info.html
-
-http://192.168.1.1/0.1/gui/views/usb-device.main.html
-
-http://192.168.1.1/0.1/gui/views/usb-device.main.simple.html
-
-http://192.168.1.1/0.1/gui/views/webradio.html
-
-http://192.168.1.1/0.1/gui/views/wifi-simple-talktalk.html
-
-http://192.168.1.1/0.1/gui/views/wifi.advanced.html
-
-http://192.168.1.1/0.1/gui/views/wifi.basic.dual.generic.html
-
-http://192.168.1.1/0.1/gui/views/wifi.basic.html
-
-http://192.168.1.1/0.1/gui/views/wifi.environment.main.html
-
-http://192.168.1.1/0.1/gui/views/wifi.environment.scan.html
-
-http://192.168.1.1/0.1/gui/views/wifi.mac-filter.html
-
-http://192.168.1.1/0.1/gui/views/wifi.main.dual.html
-
-http://192.168.1.1/0.1/gui/views/wifi.main.html
-
-http://192.168.1.1/0.1/gui/views/wifi.new-ssid.main.html
-
-http://192.168.1.1/0.1/gui/views/wifi.simple.html
-
-http://192.168.1.1/0.1/gui/views/wifi.simple.main.html
-
-http://192.168.1.1/0.1/gui/views/wifi.ssid.creation.html
-
-http://192.168.1.1/0.1/gui/views/wifi.stats.html
-
-http://192.168.1.1/0.1/gui/views/wifi.wps.html
-
-http://192.168.1.1/0.1/gui/views-mobile/404.html
-
-http://192.168.1.1/0.1/gui/views-mobile/answering-machine.html
-
-http://192.168.1.1/0.1/gui/views-mobile/base.html
-
-http://192.168.1.1/0.1/gui/views-mobile/ethernet-device.device-info.html
-
-http://192.168.1.1/0.1/gui/views-mobile/ethernet-device.main.html
-
-http://192.168.1.1/0.1/gui/views-mobile/guest-access.html
-
-http://192.168.1.1/0.1/gui/views-mobile/login.html
-
-http://192.168.1.1/0.1/gui/views-mobile/main.html
-
-http://192.168.1.1/0.1/gui/views-mobile/maintenance.internet-utilities.html
-
-http://192.168.1.1/0.1/gui/views-mobile/maintenance.main.html
-
-http://192.168.1.1/0.1/gui/views-mobile/maintenance.reset.html
-
-http://192.168.1.1/0.1/gui/views-mobile/my.media.html
-
-http://192.168.1.1/0.1/gui/views-mobile/networkmap-app-phone.html
-
-http://192.168.1.1/0.1/gui/views-mobile/networkmap-app-tablet.html
-
-http://192.168.1.1/0.1/gui/views-mobile/networkmap-app.html
-
-http://192.168.1.1/0.1/gui/views-mobile/parental-control.html
-
-http://192.168.1.1/0.1/gui/views-mobile/qr-code.html
-
-http://192.168.1.1/0.1/gui/views-mobile/status-settings.main.html
-
-http://192.168.1.1/0.1/gui/views-mobile/status-settings.wifi.basic.html
-
-http://192.168.1.1/0.1/gui/views-mobile/status-settings.wifi.main.html
-
-http://192.168.1.1/0.1/gui/views-mobile/status-settings.wifi.sched.html
-
-http://192.168.1.1/0.1/gui/views-mobile/status-settings.wifi.wps.html
-
-http://192.168.1.1/0.1/gui/views-mobile/status-statistics.main.html
-
-http://192.168.1.1/0.1/gui/views-mobile/status-statistics.statistics.html
-
-http://192.168.1.1/0.1/gui/views-mobile/status-statistics.status.html
-
-http://192.168.1.1/0.1/gui/views-mobile/usb-device.device-info.html
-
-http://192.168.1.1/0.1/gui/views-mobile/voice.device-info.html
-
-http://192.168.1.1/0.1/gui/views-mobile/wifi-strength.html
-
-
-##### If anyone have found a way to use netcat from newRequest please let me know, i have tried everything almost i THINK, an example wich works to execute but listening other things like admin info and some other things:
-
-       $.xmo.client.newRequest("nc", "");
-
-      b.Request {client: b.Client, _options: {…}, actions: Array(0), _uploadFiles: _.fn.init(0)}actions: []client: b.Client {_options: {…}, _reqIndex: 32, _pendingRequests: Array(0), 
-      _connectedPages: Array(0), _sessionId: 4699, …}user: "sagemcom"_connectedPages: []_eventCount: 0_eventId: 1_eventRequest: null_events: {}_ha1: 
-      "582f7594246a7b16e18102"_hashEncoderPass: "f1b635ef4fadd500448d65"_nonce: "21734245"_options: actionErrorFunc: ƒ (d,e)actionResponseFunc: ƒ (e,d)ajaxErrorFunc: 
-      ƒ (d)ajaxRetry: falseajaxRetryTimer: 5ajaxTimeout: 30000authenticationErrorFunc: ƒ (d,e)authenticationResponseFunc: ƒ (e,d)autoRequestForEvents: truebasicAuth: falsecookie: 
-      "session"dataModel: {name: "Internal", nss: Array(1)}getEventsRetryDelay: 15lang: "en"notifyCurrentValue: falsepriority: falserefreshTimer: 5requestErrorFunc: ƒ 
-      (a,b)requestResponseFunc: ƒ (d)synchronous: false__proto__: Object_pendingRequests: []_reqIndex: 32_sessionId: 420863_proto__: Object_options: {0: "/", 1: "u", 2: "s", 3: "r", 
-      4: "/", 5: "s", 6: "b", 7: "i", 8: "n", 9: "/", 10: "n", 11: "c", ajaxTimeout: 30000, lang: "en", refreshTimer: 5, basicAuth: false, cookie: "session", …}0: "/"1: "u"2: "s"3: "r"4: 
-      "/"5: "s"6: "b"7: "i"8: "n"9: "/"10: "n"11: "c"actionErrorFunc: ƒ (d,e)actionResponseFunc: ƒ (e,d)ajaxErrorFunc: ƒ (d)ajaxRetry: falseajaxRetryTimer: 5ajaxTimeout: 
-      30000authenticationErrorFunc: ƒ (d,e)authenticationResponseFunc: ƒ (e,d)autoRequestForEvents: truebasicAuth: falsecontains: ƒ (str)cookie: "session"dataModel: {name: "Internal", 
-      nss: Array(1)}getEventsRetryDelay: 15lang: "en"notifyCurrentValue: falsepriority: falserefreshTimer: 5requestErrorFunc: ƒ (a,b)requestResponseFunc: ƒ (d)synchronous: 
-      false__proto__: Object_uploadFiles: _.fn.init []__proto__: Object
-
+      $.xmo.getValuesTree("Device\/DeviceInfo\/GUIFirmwareVersion/*")
+      $.xmo.getValuesTree("Device\/DeviceInfo\/HardwareVersion/*")
+      $.xmo.getValuesTree("Device\/DeviceInfo\/MACAddress/*")
+      $.xmo.getValuesTree("Device\/DeviceInfo\/SerialNumber/*")
+      $.xmo.getValuesTree("Device\/DeviceInfo\/SoftwareVersion/*")
+      $.xmo.getValuesTree("Device\/DeviceInfo\/UpTime/*")
+      $.xmo.getValuesTree("Device\/DHCPv4\/Clients\/Client[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/DHCPv4\/Server\/Enable/*")
+      $.xmo.getValuesTree("Device\/DHCPv4\/Server\/Pools\/*")
+      $.xmo.getValuesTree("Device\/DNS\/Client\/HostName/*")
+      $.xmo.getValuesTree("Device\/DNS\/Client\/LocalDomains/*")
+      $.xmo.getValuesTree("Device\/DNS\/Relay\/Forwardings\/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Interfaces\/Interface[PHY1]/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Interfaces\/Interface[PHY4]/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Interfaces\/Interface[@uid='1']/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Interfaces\/Interface[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Interfaces\/Interface[@uid='2']\/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Interfaces\/Interface[@uid='3']\/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Interfaces\/Interface[@uid='4']/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Interfaces\/Interface[@uid='4']\/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Interfaces\/Interface[@uid='7']\/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Links\/Link[ETHLNK_BR_DATA]/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Links\/Link[ETHLNK_BR_GUEST]/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Links\/Link[ETHLNK_BR_LAN]/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Links\/Link[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Links\/Link[@uid='2']\/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/Links\/Link[@uid='3']\/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/VLANTerminations\/VLANTermination[VLAN_IPTV_CISCO]/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/VLANTerminations\/VLANTermination[VLAN_MNGT]/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/VLANTerminations\/VLANTermination[VLAN_TV_UNTAGGED]/*")
+      $.xmo.getValuesTree("Device\/Ethernet\/VLANTerminations\/VLANTermination[VLAN_VOIP_CISCO]/*")
+      $.xmo.getValuesTree("Device\/Firewall\/Chains\/Chain[@uid='2']\/*")
+      $.xmo.getValuesTree("Device\/Firewall\/Chains\/Chain[@uid='3']\/*")
+      $.xmo.getValuesTree("Device\/Firewall\/Chains\/Chain[@uid='4']\/*")
+      $.xmo.getValuesTree("Device\/Firewall\/Config/*")
+      $.xmo.getValuesTree("Device\/Firewall\/RespondToPing/*")
+      $.xmo.getValuesTree("Device\/Hosts\/Hosts/*")
+      $.xmo.getValuesTree("Device\/Hosts\/Hosts\/Host[@uid='1']/*")
+      $.xmo.getValuesTree("Device\/Hosts\/Hosts\/Host[@uid='2']/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[IP_BR_GUEST]/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[IP_BR_LAN]/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[IP_BR_LAN]\/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[IP_DATA]/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[IP_DATA]\/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[IP_IPTV]/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[IP_MNGT]/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[IPTV_UNTAGED]/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[IP_VOIP]/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[@uid='2']\/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[@uid='3']\/*")
+      $.xmo.getValuesTree("Device\/IP\/Interfaces\/Interface[@uid='7']\/*")
+      $.xmo.getValuesTree("Device\/IP\/IPv4Status/*")
+      $.xmo.getValuesTree("Device\/IP\/IPv6Enable/*")
+      $.xmo.getValuesTree("Device\/IP\/IPv6Status/*")
+      $.xmo.getValuesTree("Device\/ManagementServer\/ConnectionRequestPassword/*")
+      $.xmo.getValuesTree("Device\/ManagementServer\/Password/*")
+      $.xmo.getValuesTree("Device\/Managers\/NetworkData\/BridgedMode/*")
+      $.xmo.getValuesTree("Device\/NAT\/InterfaceSettings\/InterfaceSetting[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/NAT\/InterfaceSettings\/InterfaceSetting[@uid='2']\/*")
+      $.xmo.getValuesTree("Device\/NAT\/InterfaceSettings\/InterfaceSetting[@uid='3']\/*")
+      $.xmo.getValuesTree("Device\/NAT\/PortMappings/*")
+      $.xmo.getValuesTree("Device\/Routing\/Routers\/Router[DEFAULT]/*")
+      $.xmo.getValuesTree("Device\/Se/*")
+      $.xmo.getValuesTree("Device\/Serv/*")
+      $.xmo.getValuesTree("Device\/Services\/Bandsteering\/Enable/*")
+      $.xmo.getValuesTree("Device\/Services\/VoiceServices\/VoiceService[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/TELIA\/Led\/DimmedMode/*")
+      $.xmo.getValuesTree("Device\/Time\/CurrentLocalTime/*")
+      $.xmo.getValuesTree("Device\/Time\/Enable/*")
+      $.xmo.getValuesTree("Device\/Time\/LocalTimeZone/*")
+      $.xmo.getValuesTree("Device\/Time\/LocalTimeZoneName/*")
+      $.xmo.getValuesTree("Device\/Time\/NTPServer1/*")
+      $.xmo.getValuesTree("Device\/Time\/NTPServer2/*")
+      $.xmo.getValuesTree("Device\/Time\/Status/*")
+      $.xmo.getValuesTree("Device\/UPnP\/Device\/UPnPIGD/*")
+      $.xmo.getValuesTree("Device\/UPnP\/Device\/UPnPMediaServer/*")
+      $.xmo.getValuesTree("Device\/UPnP\/Settings\/UPnPIGD\/*")
+      $.xmo.getValuesTree("Device\/UPnP\/Settings\/UPnPMediaServer\/*")
+      $.xmo.getValuesTree("Device\/USB\/Enable/*")
+      $.xmo.getValuesTree("Device\/USB\/USBHosts\/Hosts\/*")
+      $.xmo.getValuesTree("Device\/UserAccounts\/Users\/User[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/UserAccounts\/Users\/User[@uid='2']\/*")
+      $.xmo.getValuesTree("Device\/UserAccounts\/Users\/User[@uid='3']\/*")
+      $.xmo.getValuesTree("Device\/UserAccounts\/Users\/User[@uid='4']\/*")
+      $.xmo.getValuesTree("Device\/UserAccounts\/Users\/User[@uid='5']\/*")
+      $.xmo.getValuesTree("Device\/WebAccesses\/PortTrigger/*")
+      $.xmo.getValuesTree("Device\/WebAccesses\/WebRestriction/*")
+      $.xmo.getValuesTree("Device\/WiFi\/AccessPoints\/AccessPoint[@uid='1']/*")
+      $.xmo.getValuesTree("Device\/WiFi\/AccessPoints\/AccessPoint[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/AccessPoints\/AccessPoint[@uid='2']/*")
+      $.xmo.getValuesTree("Device\/WiFi\/AccessPoints\/AccessPoint[@uid='2']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/AccessPoints\/AccessPoint[@uid='3']/*")
+      $.xmo.getValuesTree("Device\/WiFi\/AccessPoints\/AccessPoint[@uid='3']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/AccessPoints\/AccessPoint[@uid='4']/*")
+      $.xmo.getValuesTree("Device\/WiFi\/AccessPoints\/AccessPoint[@uid='4']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/Radios\/Radio[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/Radios\/Radio[@uid='2']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/SSIDs\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/SSIDs\/SSID[@uid='1']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/SSIDs\/SSID[@uid='2']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/SSIDs\/SSID[@uid='3']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/SSIDs\/SSID[@uid='4']\/*")
+      $.xmo.getValuesTree("Device\/WiFi\/SSIDs\/SSID[WL_GUEST]/*")
+      $.xmo.getValuesTree("Device\/WiFi\/SSIDs\/SSID[WL_GUEST_5G]/*")
+      $.xmo.getValuesTree("Device\/WiFi\/SSIDs\/SSID[WL_PRIV]/*")
+      $.xmo.getValuesTree("Device\/WiFi\/SSIDs\/SSID[WL_VIDEO_5G]/*")
       $.xmo.setValuesTree("8213d162ea32a3fcfec2aae5538c48e5", "Device/UserAccounts/Users/User[@uid='1']/Password");
       $.xmo.setValuesTree("8213d162ea32a3fcfec2aae5538c48e5", "Device/UserAccounts/Users/User[@uid='2']/Password");
       $.xmo.setValuesTree("8213d162ea32a3fcfec2aae5538c48e5", "Device/UserAccounts/Users/User[@uid='3']/Password");
