@@ -1,0 +1,937 @@
+
+----
+BTRM
+V1.6
+PMCS
+AFEL
+PWRZ
+MEML
+PMCD
+MEMP
+CODE
+ZBSS
+MAIN
+CACH
+OTP?
+OTPP
+ROTB
+SCBT
+NAND
+IMG?
+IMGL
+HDR?
+HDRP
+MCV?
+KEY?
+KEYA
+MID?
+MIDP
+MCVA
+SBI?
+SBIA
+PASS
+----
+HELO
+CPU0
+PMCM
+PMCS
+PMCD
+CODE
+L1CD
+MMUI
+ZBBS
+MAIN
+5.0204-1.0.38-162.76
+Boot Strap Register:  0x7dfffc2f
+DRAM
+NVRAM memcfg 0x427
+MCB chksum 0xf67f5b05
+DDR3-1600 CL11 512MB
+PASS
+Version cfe-rom: 0.14.12-sec
+FPS0
+KEY1
+BTL?
+BTLA
+PASS
+J2EP
+
+
+Base: 5.2_04
+CFE version 1.0.38-162.76 for BCM963138 (32bit,SP,LE)
+Build Date: mardi 7 août 2018, 13:54:07 (UTC+0200) (g601671@rmm-p200156.femto.urd1.local)
+Copyright (C) 2000-2015 Broadcom Corporation.
+Version cfe-ram: 0.14.12-sec
+
+Boot Strap Register:  0x7dfffc2f
+Chip ID: BCM63139_B0, ARM Cortex A9 Dual Core: 1000MHz
+Total Memory: 536870912 bytes (512MB)
+NAND ECC BCH-4, page size 0x800 bytes, spare size used 64 bytes
+NAND flash device: , id 0xadda block 128KB size 262144KB
+pmc_init:PMC using DQM mode
+ERROR!!! Data pointer greater than total entry size
+Board IP address                  : 192.168.1.1
+Host IP address                   : 192.168.1.100
+Gateway IP address                :
+Run from flash/host/tftp (f/h/c)  : f
+Default host run file name        : vmlinux
+Default host flash file name      : bcm963xx_fs_kernel
+Boot delay (0-9 seconds)          : 1
+Default host ramdisk file name    :
+Default ramdisk store address     :
+Default DTB file name             :
+Board Id                          : FAST5370e
+Number of MAC Addresses (1-64)    : 10
+Base MAC Address                  : f8:08:4f:84:21:38
+PSI Size (1-128) KBytes           : 128
+Enable Backup PSI [0|1]           : 0
+System Log Size (0-256) KBytes    : 0
+Auxillary File System Size Percent: 0
+MC memory allocation (MB)         : 4
+TM memory allocation (MB)         : 44
+DHD 0 memory allocation (MB)      : 14
+DHD 1 memory allocation (MB)      : 7
+DHD 2 memory allocation (MB)      : 0
+WLan Feature                      : 0x00
+Partition 1 Size (MB)             : 0M
+Partition 2 Size (MB)             : 0M
+Partition 3 Size (MB)             : 0M
+Partition 4 Size (MB) (Data)      : 4MB
+
+Initalizing switch low level hardware.
+pmc_switch_power_up: Rgmii Tx clock zone1 enable 0 zone2 enable 0.
+Software Resetting Switch ... Done.
+Waiting MAC port Rx/Tx to be enabled by hardware ...Done
+Disable Switch All MAC port Rx/Tx
+Initializing UBI and starting U-Boot...
+Looking for UBI...
+Looking for U-Boot...
+Found valid GSDF
+We got aes_key1
+We got aes_key2 enc
+Starting U-Boot from UBI at 0x00080000
+
+
+U-Boot 2017.09@sc-0.26.2 (Aug 07 2018 - 13:47:19 +0200) sc_f5370e
+
+CPU:   BCM63xx
+Model: Sagemcom FAST5370e
+DRAM:  512 MiB
+NAND:  256 MiB
+Using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+
+Version: 2017.09@sc-0.26.2-sec
+
+Board: FAST5370e
+Mode: secure
+ubi0: attaching mtd1
+ubi0: scanning is finished
+ubi0: attached mtd1 (name "mtd=2", size 8 MiB)
+ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+ubi0: good PEBs: 70, bad PEBs: 0, corrupted PEBs: 0
+ubi0: user volume: 7, internal volumes: 1, max. volumes count: 128
+ubi0: max/mean erase counter: 2/0, WL threshold: 4096, image sequence number: 511933537
+ubi0: available PEBs: 28, total reserved PEBs: 42, PEBs reserved for bad PEB handling: 20
+ERROR: sc: invalid LAN base MAC address in PP
+Net:   brcm_rddeth
+sb3: booting 'operational'
+coe-aes: Using AES key2.
+ubi0: detaching mtd1
+ubi0: mtd1 is detached
+ubi0: attaching mtd1
+ubi0: scanning is finished
+ubi0: attached mtd1 (name "mtd=2", size 8 MiB)
+ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+ubi0: good PEBs: 70, bad PEBs: 0, corrupted PEBs: 0
+ubi0: user volume: 7, internal volumes: 1, max. volumes count: 128
+ubi0: max/mean erase counter: 2/0, WL threshold: 4096, image sequence number: 511933537
+ubi0: available PEBs: 28, total reserved PEBs: 42, PEBs reserved for bad PEB handling: 20
+ubi0: detaching mtd1
+ubi0: mtd1 is detached
+ubi0: attaching mtd1
+ubi0: scanning is finished
+ubi0: attached mtd1 (name "mtd=3", size 141 MiB)
+ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+ubi0: good PEBs: 1130, bad PEBs: 0, corrupted PEBs: 0
+ubi0: user volume: 3, internal volumes: 1, max. volumes count: 128
+ubi0: max/mean erase counter: 4456/2898, WL threshold: 4096, image sequence number: 541134384
+ubi0: available PEBs: 81, total reserved PEBs: 1049, PEBs reserved for bad PEB handling: 20
+sb3: loaded image 'operational' (31262720 bytes) at 0x01000000
+sb3: image 'operational' type is 'gsdf'
+sb3: image 'operational' signature is OK
+## Booting kernel from Legacy Image at 01001000 ...
+   Image Name:   scOS SG4T1E000606C (10.333.0)
+   Image Type:   ARM Linux Kernel Image (gzip compressed)
+   Data Size:    2686976 Bytes = 2.6 MiB
+   Load Address: 00008000
+   Entry Point:  00008000
+   Verifying Checksum ... OK
+   Uncompressing Kernel Image ... OK
+
+Starting kernel ...
+
+Booting Linux on physical CPU 0
+Initializing cgroup subsys cpuset
+Initializing cgroup subsys cpu
+Linux version 3.4.11-4.16L.05 (rmm-svce-urd2int04@compil-atr-2) (gcc version 4.6.2 (GCC) ) #1 SMP PREEMPT Thu Sep 10 18:26:17 CET 2020
+CPU: ARMv7 Processor [414fc091] revision 1 (ARMv7), cr=10c53c7d
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Machine: BCM963138
+Configured DHD pools size (in Bytes): [0]=0xe00000 [1]=0x700000 [2]=0x0
+bootconsole [earlycon0] enabled
+Memory policy: ECC disabled, Data cache writealloc
+creating a MT_MEMORY_NONCACHED device at physical address of 0x0fd00000 to virtual address at 0xcfd00000 with size of 0x300000 byte for DSL
+creating a MT_MEMORY_NONCACHED device at physical address of 0x0d000000 to virtual address at 0xcd000000 with size of 0x2c00000 byte for RDPA tm
+creating a MT_MEMORY_NONCACHED device at physical address of 0x0cc00000 to virtual address at 0xccc00000 with size of 0x400000 byte for RDPA mc
+creating a MT_MEMORY_NONCACHED device at physical address of 0x0be00000 to virtual address at 0xcbe00000 with size of 0xe00000 byte for DHD dhd0
+creating a MT_MEMORY_NONCACHED device at physical address of 0x0b600000 to virtual address at 0xcb600000 with size of 0x700000 byte for DHD dhd1
+On node 0 totalpages: 112640
+free_area_init_node: node 0, pgdat c04ec760, node_mem_map c1000000
+  DMA zone: 32 pages used for memmap
+  DMA zone: 0 pages reserved
+  DMA zone: 4064 pages, LIFO batch:0
+  Normal zone: 992 pages used for memmap
+  Normal zone: 107552 pages, LIFO batch:31
+pmc_init:PMC using DQM mode
+pmc_init:4b 3450346 4b004b
+L310 cache controller enabled
+l2x0: 16 ways, CACHE_ID 0x410000c9, AUX_CTRL 0x6a450000, Cache size: 524288 B
+PERCPU: Embedded 7 pages/cpu @c1405000 s5792 r8192 d14688 u32768
+pcpu-alloc: s5792 r8192 d14688 u32768 alloc=8*4096
+pcpu-alloc: [0] 0 [0] 1
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 111616
+Kernel command line: root=mtd:rootfs earlyprintk debug init=/etc/preinit ro rootfstype=squashfs console=ttyS0,115200 rootfs_offset=0x291800 rootfs_size=0x1b3f000  mtdparts=nand.0:128k(nvram),640k(cfe),8960k(boot),144640k(ubi),-(data) ubi.mtd=ubi,0 part_main=ubi part_boot=boot image_ubivol=operational secure board_type=00030090 oek=04005578 oiv=040056b8
+UBI image volume: "operational"
+PID hash table entries: 2048 (order: 1, 8192 bytes)
+Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+allocated 1048576 bytes of page_cgroup
+please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Memory: 182MB 1MB 1MB 256MB = 440MB total
+Memory: 439684k/439684k available, 84604k reserved, 0K highmem
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+    vmalloc : 0xe0800000 - 0xff000000   ( 488 MB)
+    lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+      .text : 0xc0008000 - 0xc048b694   (4622 kB)
+      .init : 0xc048c000 - 0xc04ae6a0   ( 138 kB)
+      .data : 0xc04b0000 - 0xc04ed2e0   ( 245 kB)
+       .bss : 0xc04ed304 - 0xc0523144   ( 216 kB)
+Preemptible hierarchical RCU implementation.
+        Dump stacks of tasks blocking RCU-preempt GP.
+NR_IRQS:256
+Cortex A9 MPCORE GIC init
+DIST at fc01f000, CPU_IF at fc01e100
+map_hw_timer_interrupt,132: interrupt_id 96
+map_hw_timer_interrupt,132: interrupt_id 97
+map_hw_timer_interrupt,132: interrupt_id 98
+map_hw_timer_interrupt,132: interrupt_id 99
+sched_clock: 32 bits at 1kHz, resolution 1000000ns, wraps every 4294967295ms
+console [ttyS0] enabled, bootconsole disabled
+console [ttyS0] enabled, bootconsole disabled
+Calibrating delay loop... 1990.65 BogoMIPS (lpj=995328)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+--Kernel Config--
+  SMP=1
+  PREEMPT=1
+  DEBUG_SPINLOCK=0
+  DEBUG_MUTEXES=0
+Initializing cgroup subsys cpuacct
+Initializing cgroup subsys memory
+Initializing cgroup subsys devices
+Initializing cgroup subsys freezer
+Initializing cgroup subsys blkio
+CPU: Testing write buffer coherency: ok
+Broadcom Logger v0.1 Sep 10 2020 18:22:06
+Setting up static identity map for 0x36da40 - 0x36da74
+CPU1: Booted secondary processor
+CPU1: Unknown IPI message 0x1
+Brought up 2 CPUs
+SMP: Total of 2 processors activated (3981.31 BogoMIPS).
+devtmpfs: initialized
+NET: Registered protocol family 16
+++++ Powering up USB blocks
+bcm63xx_pcie: setting resistor calibration value to 0xa
+bcm63xx_pcie: applying serdes parameters
+PCIE port 0 power-down
+bcm63xx_pcie: setting resistor calibration value to 0xa
+bcm63xx_pcie: applying serdes parameters
+PCIE port 1 link-up
+PCI host bridge to bus 0001:00
+pci_bus 0001:00: root bus resource [mem 0xa0000000-0xafffffff]
+pci 0001:00:00.0: [14e4:6313] type 01 class 0x060400
+pci 0001:00:00.0: PME# supported from D0 D3hot
+PCI: bus0: Fast back to back transfers disabled
+pci 0001:01:00.0: [14e4:4365] type 00 class 0x028000
+pci 0001:01:00.0: reg 10: [mem 0x00000000-0x00007fff 64bit]
+pci 0001:01:00.0: reg 18: [mem 0x00000000-0x007fffff 64bit]
+pci 0001:01:00.0: reg 20: [mem 0x00000000-0x000fffff 64bit pref]
+pci 0001:01:00.0: supports D1 D2
+pci 0001:00:00.0: Checking PCIe ASPM for vendor 14e4 device 4365
+pci 0001:00:00.0: Disabling PCIe ASPM for vendor 14e4 device 4365
+PCI: bus1: Fast back to back transfers disabled
+pci 0001:00:00.0: BAR 8: assigned [mem 0xa0000000-0xa0bfffff]
+pci 0001:00:00.0: BAR 9: assigned [mem 0xa0c00000-0xa0cfffff 64bit pref]
+pci 0001:01:00.0: BAR 2: assigned [mem 0xa0000000-0xa07fffff 64bit]
+pci 0001:01:00.0: BAR 4: assigned [mem 0xa0c00000-0xa0cfffff 64bit pref]
+pci 0001:01:00.0: BAR 0: assigned [mem 0xa0800000-0xa0807fff 64bit]
+pci 0001:00:00.0: PCI bridge to [bus 01-01]
+pci 0001:00:00.0:   bridge window [mem 0xa0000000-0xa0bfffff]
+pci 0001:00:00.0:   bridge window [mem 0xa0c00000-0xa0cfffff 64bit pref]
+PCI: enabling device 0001:00:00.0 (0140 -> 0143)
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+bcmhs_spi bcmhs_spi.1: master is unqueued, this is deprecated
+skb_free_task created successfully
+gbpm_do_work scheduled
+BLOG v3.0 Initialized
+BLOG Rule v1.0 Initialized
+Broadcom IQoS v0.1 Sep 10 2020 18:25:05 initialized
+Broadcom GBPM v0.1 Sep 10 2020 18:25:05 initialized
+NET: Registered protocol family 8
+NET: Registered protocol family 20
+Switching to clocksource timer_cs
+NET: Registered protocol family 2
+IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+TCP bind hash table entries: 16384 (order: 5, 196608 bytes)
+TCP: Hash tables configured (established 16384 bind 16384)
+TCP: reno registered
+UDP hash table entries: 256 (order: 1, 8192 bytes)
+UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+NET: Registered protocol family 1
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Registering unionfs 2.6 (for 3.4.103)
+jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+msgmni has been set to 858
+io scheduler noop registered (default)
+brd: module loaded
+loop: module loaded
+Broadcom NAND controller (BrcmNand Controller)
+mtd->oobsize=0, mtd->eccOobSize=0
+NAND_CS_NAND_XOR=00000000
+B4: NandSelect=20000000, nandConfig=26152300, chipSelect=0
+brcmnand_read_id: CS0: dev_id=adda9095
+After: NandSelect=00000100, nandConfig=26152300
+Block size=00020000, erase shift=17
+NAND Config: Reg=26152300, chipSize=256 MB, blockSize=128K, erase_shift=11
+busWidth=1, pageSize=2048B, page_shift=11, page_mask=000007ff
+BrcmNAND mfg ad da Hynix HY27UF082G2A 256MB on CS0
+
+Found NAND on CS0: ACC=c3840010, cfg=26152300, flashId=adda9095, tim1=65424458, tim2=80000e55
+BrcmNAND version = 0x80000700 256MB @00000000
+brcmnand_scan: B4 nand_select = 00000100
+brcmnand_scan: After nand_select = 00000100
+handle_acc_control: default CORR ERR threshold  3 bits
+ACC: 16 OOB bytes per 512B ECC step; from ID probe: 16
+page_shift=11, bbt_erase_shift=17, chip_shift=28, phys_erase_shift=17
+Brcm NAND controller version = 7.0 NAND flash size 256MB @10000000
+ECC layout=brcmnand_oob_bch4_2k
+brcmnand_scan:  mtd->oobsize=64
+brcmnand_scan: oobavail=35, eccsize=512, writesize=2048
+brcmnand_scan, eccsize=512, writesize=2048, eccsteps=4, ecclevel=4, eccbytes=7
+-->brcmnand_default_bbt
+brcmnand_default_bbt: bbt_td = bbt_slc_bch4_main_descr
+Bad block table Bbt0 not found for chip on CS0
+Bad block table 1tbB not found for chip on CS0
+Scanning device for bad blocks, options=00008000
+brcmnand_reset_corr_threshold: default CORR ERR threshold  3 bits for CS0
+-->brcmnand_isbad_raw(offs=ffe0000
+Bad block table written to 0x0ffe0000, version 0x01
+-->brcmnand_isbad_raw(offs=ffc0000
+Bad block table written to 0x0ffc0000, version 0x01
+Master size=10000000
+rootfs_ofs=0xffffffff, part1ofs=0x00000080, part2ofs=0x0001f600
+Part[0] name=bcmfs, size=20000, ofs=0
+Part[1] name=bcmfs_update, size=a0000, ofs=20000
+Part[2] name=ubi, size=fa40000, ofs=c0000
+Part[3] name=data, size=400000, ofs=fb00000
+Part[4] name=nvram, size=20000, ofs=0
+5 cmdlinepart partitions found on MTD device nand.0
+Creating 5 MTD partitions on "nand.0":
+0x000000000000-0x000000020000 : "nvram"
+0x000000020000-0x0000000c0000 : "cfe"
+0x0000000c0000-0x000000980000 : "boot"
+0x000000980000-0x0000096c0000 : "ubi"
+0x0000096c0000-0x000010000000 : "data"
+UBI: attaching mtd3 to ubi0
+UBI: physical eraseblock size:   131072 bytes (128 KiB)
+UBI: logical eraseblock size:    126976 bytes
+UBI: smallest flash I/O unit:    2048
+UBI: VID header offset:          2048 (aligned 2048)
+UBI: data offset:                4096
+UBI: max. sequence number:       3274662
+UBI: attached mtd3 to ubi0
+UBI: MTD device name:            "ubi"
+UBI: MTD device size:            141 MiB
+UBI: number of good PEBs:        1130
+UBI: number of bad PEBs:         0
+UBI: number of corrupted PEBs:   0
+UBI: max. allowed volumes:       128
+UBI: wear-leveling threshold:    4096
+UBI: number of internal volumes: 1
+UBI: number of user volumes:     3
+UBI: available PEBs:             90
+UBI: total number of reserved PEBs: 1040
+UBI: number of PEBs reserved for bad PEB handling: 11
+UBI: max/mean erase counter: 4456/2898
+UBI: image sequence number:  541134384
+UBI: background thread "ubi_bgt0d" started, PID 241
+Add UBI volume partitions: name=filesystem1
+Add UBI volume partitions: name=operational
+Creating 3 MTD partitions on "operational":
+0x000000000000-0x00000001f000 : "firm_header"
+0x00000001f000-0x0000002b0800 : "kernel"
+mtd: partition "kernel" doesn't end on an erase block -- force read-only
+0x000000291800-0x000001dd0800 : "rootfs"
+mtd: partition "rootfs" doesn't start on an erase block boundary -- force read-only
+Add UBI volume partitions: name=rescue
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+PPP generic driver version 2.4.2
+PPP BSD Compression module registered
+PPP Deflate Compression module registered
+NET: Registered protocol family 24
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ehci_hcd: block sizes: qh 64 qtd 96 itd 160 sitd 96
+ehci-platform ehci-platform.0: Generic Platform EHCI Controller
+drivers/usb/core/inode.c: creating file 'devices'
+drivers/usb/core/inode.c: creating file '001'
+ehci-platform ehci-platform.0: new USB bus registered, assigned bus number 1
+ehci-platform ehci-platform.0: reset hcs_params 0x1212 dbg=0 cc=1 pcc=2 ordered ports=2
+ehci-platform ehci-platform.0: reset hcc_params a026 thresh 2 uframes 256/512/1024 park
+ehci-platform ehci-platform.0: park 0
+ehci-platform ehci-platform.0: reset command 0080b02  park=3 ithresh=8 period=1024 Reset HALT
+ehci-platform ehci-platform.0: irq 105, io mem 0x8000c300
+ehci-platform ehci-platform.0: init command 0010005 (park)=0 ithresh=1 period=512 RUN
+ehci-platform ehci-platform.0: USB 2.0 started, EHCI 1.00
+usb usb1: default language 0x0409
+usb usb1: udev 1, busnum 1, minor = 0
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: Generic Platform EHCI Controller
+usb usb1: Manufacturer: Linux 3.4.11-4.16L.05 ehci_hcd
+usb usb1: SerialNumber: ehci-platform.0
+usb usb1: usb_probe_device
+usb usb1: configuration #1 chosen from 1 choice
+usb usb1: adding 1-0:1.0 (config #1, interface 0)
+hub 1-0:1.0: usb_probe_interface
+hub 1-0:1.0: usb_probe_interface - got id
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+hub 1-0:1.0: standalone hub
+hub 1-0:1.0: individual port power switching
+hub 1-0:1.0: individual port over-current protection
+hub 1-0:1.0: power on to power good time: 20ms
+hub 1-0:1.0: local power source is good
+hub 1-0:1.0: enabling power on all ports
+drivers/usb/core/inode.c: creating file '001'
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+ohci_hcd: block sizes: ed 64 td 64
+ohci-platform ohci-platform.0: Generic Platform OHCI Controller
+drivers/usb/core/inode.c: creating file '002'
+ohci-platform ohci-platform.0: new USB bus registered, assigned bus number 2
+ohci-platform ohci-platform.0: created debug files
+ohci-platform ohci-platform.0: irq 104, io mem 0x8000c400
+ohci-platform ohci-platform.0: OHCI controller state
+ohci-platform ohci-platform.0: OHCI 1.0, NO legacy support registers, rh state running
+ohci-platform ohci-platform.0: control 0x083 HCFS=operational CBSR=3
+ohci-platform ohci-platform.0: cmdstatus 0x00000 SOC=0
+ohci-platform ohci-platform.0: intrstatus 0x00000004 SF
+ohci-platform ohci-platform.0: intrenable 0x8000005a MIE RHSC UE RD WDH
+ohci-platform ohci-platform.0: hcca frame #0027
+ohci-platform ohci-platform.0: roothub.a 02000202 POTPGT=2 NPS NDP=2(2)
+ohci-platform ohci-platform.0: roothub.b 00000000 PPCM=0000 DR=0000
+ohci-platform ohci-platform.0: roothub.status 00008000 DRWE
+ohci-platform ohci-platform.0: roothub.portstatus [0] 0x00000100 PPS
+ohci-platform ohci-platform.0: roothub.portstatus [1] 0x00000100 PPS
+usb usb2: default language 0x0409
+usb usb2: udev 1, busnum 2, minor = 128
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: Generic Platform OHCI Controller
+usb usb2: Manufacturer: Linux 3.4.11-4.16L.05 ohci_hcd
+usb usb2: SerialNumber: ohci-platform.0
+usb usb2: usb_probe_device
+usb usb2: configuration #1 chosen from 1 choice
+usb usb2: adding 2-0:1.0 (config #1, interface 0)
+hub 2-0:1.0: usb_probe_interface
+hub 2-0:1.0: usb_probe_interface - got id
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 2 ports detected
+hub 2-0:1.0: standalone hub
+hub 2-0:1.0: no power switching (usb 1.0)
+hub 2-0:1.0: global over-current protection
+hub 2-0:1.0: power on to power good time: 4ms
+hub 2-0:1.0: local power source is good
+hub 2-0:1.0: no over-current condition exists
+hub 2-0:1.0: trying to enable port power on non-switchable hub
+drivers/usb/core/inode.c: creating file '001'
+uhci_hcd: USB Universal Host Controller Interface driver
+xhci-hcd xhci-hcd.0: xHCI Host Controller
+drivers/usb/core/inode.c: creating file '003'
+xhci-hcd xhci-hcd.0: new USB bus registered, assigned bus number 3
+xhci-hcd xhci-hcd.0: irq 106, io mem 0x8000d000
+hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0000
+usb usb3: default language 0x0409
+usb usb3: udev 1, busnum 3, minor = 256
+usb usb3: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb3: Product: xHCI Host Controller
+usb usb3: Manufacturer: Linux 3.4.11-4.16L.05 xhci-hcd
+usb usb3: SerialNumber: xhci-hcd.0
+usb usb3: usb_probe_device
+usb usb3: configuration #1 chosen from 1 choice
+xHCI xhci_add_endpoint called for root hub
+xHCI xhci_check_bandwidth called for root hub
+usb usb3: adding 3-0:1.0 (config #1, interface 0)
+hub 3-0:1.0: usb_probe_interface
+hub 3-0:1.0: usb_probe_interface - got id
+hub 3-0:1.0: USB hub found
+hub 3-0:1.0: 0 ports detected
+hub 3-0:1.0: standalone hub
+hub 3-0:1.0: individual port power switching
+hub 3-0:1.0: individual port over-current protection
+hub 3-0:1.0: Single TT
+hub 3-0:1.0: TT requires at most 8 FS bit times (666 ns)
+hub 3-0:1.0: power on to power good time: 20ms
+hub 3-0:1.0: local power source is good
+hub 3-0:1.0: enabling power on all ports
+drivers/usb/core/inode.c: creating file '001'
+xhci-hcd xhci-hcd.0: xHCI Host Controller
+drivers/usb/core/inode.c: creating file '004'
+xhci-hcd xhci-hcd.0: new USB bus registered, assigned bus number 4
+usb usb4: skipped 1 descriptor after endpoint
+usb usb4: default language 0x0409
+usb usb4: udev 1, busnum 4, minor = 384
+usb usb4: New USB device found, idVendor=1d6b, idProduct=0003
+usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb4: Product: xHCI Host Controller
+usb usb4: Manufacturer: Linux 3.4.11-4.16L.05 xhci-hcd
+usb usb4: SerialNumber: xhci-hcd.0
+usb usb4: usb_probe_device
+usb usb4: configuration #1 chosen from 1 choice
+xHCI xhci_add_endpoint called for root hub
+xHCI xhci_check_bandwidth called for root hub
+usb usb4: adding 4-0:1.0 (config #1, interface 0)
+hub 4-0:1.0: usb_probe_interface
+hub 4-0:1.0: usb_probe_interface - got id
+hub 4-0:1.0: USB hub found
+hub 4-0:1.0: 2 ports detected
+hub 4-0:1.0: standalone hub
+hub 4-0:1.0: individual port power switching
+hub 4-0:1.0: individual port over-current protection
+hub 4-0:1.0: TT requires at most 8 FS bit times (666 ns)
+hub 4-0:1.0: power on to power good time: 20ms
+hub 4-0:1.0: local power source is good
+hub 4-0:1.0: enabling power on all ports
+drivers/usb/core/inode.c: creating file '001'
+usbcore: registered new interface driver cdc_acm
+cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver usbserial
+usbserial: USB Serial Driver core
+brcmboard: brcm_board_init entry
+hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0000
+DYING GASP IRQ Initialized and Enabled
+Serial: BCM63XX driver $Revision: 3.00 $
+Magic SysRq with Auxilliary trigger char enabled (type ^ h for list of supported commands)
+ttyS0 at MMIO 0xfffe8600 (irq = 64) is a BCM63XX
+ttyS1 at MMIO 0xfffe8620 (irq = 65) is a BCM63XX
+BPM: tot_mem_size=536870912B (512MB), buf_mem_size <8%> =42949672B (40MB), num of buffers=21304, buf size=2016
+Broadcom BPM Module Char Driver v0.1 Sep 10 2020 18:24:15 Registered<244>
+GACT probability NOT on
+Mirror/redirect action on
+u32 classifier
+    input device check on
+    Actions configured
+TCP: cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 10
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+NET: Registered protocol family 15
+Initializing MCPD Module
+Ebtables v2.0 registered
+ebt_time registered
+ebt_ftos registered
+ebt_wmm_mark registered
+L2TP core: blog_l2tp_rcv_check
+L2TP core driver, V2.0
+PPPoL2TP kernel driver, V2.0
+8021q: 802.1Q VLAN Support v1.8
+hub 3-0:1.0: state 7 ports 0 chg 0000 evt 0000
+VFS: Mounted root (squashfs filesystem) readonly on device 31:9.
+devtmpfs: mounted
+Freeing init memory: 136K
+hub 4-0:1.0: state 7 ports 2 chg 0000 evt 0000
+kernel.hotplug = /sbin/mdev
+- preinit -
+- regular preinit -
+- init -
+UBIFS: recovery needed
+UBIFS: recovery completed
+UBIFS: mounted UBI device 0, volume 0, name "filesystem1"
+UBIFS: file system size:   40886272 bytes (39928 KiB, 38 MiB, 322 LEBs)
+UBIFS: journal size:       2031616 bytes (1984 KiB, 1 MiB, 16 LEBs)
+UBIFS: media format:       w4/r0 (latest is w4/r0)
+UBIFS: default compressor: lzo
+UBIFS: reserved for root:  1931159 bytes (1885 KiB)
+UBI: attaching mtd2 to ubi1
+UBI: physical eraseblock size:   131072 bytes (128 KiB)
+UBI: logical eraseblock size:    126976 bytes
+UBI: smallest flash I/O unit:    2048
+UBI: VID header offset:          2048 (aligned 2048)
+UBI: data offset:                4096
+UBI: max. sequence number:       7
+UBI: attached mtd2 to ubi1
+UBI: MTD device name:            "boot"
+UBI: MTD device size:            8 MiB
+UBI: number of good PEBs:        70
+UBI: number of bad PEBs:         0
+UBI: number of corrupted PEBs:   0
+UBI: max. allowed volumes:       128
+UBI: wear-leveling threshold:    4096
+UBI: number of internal volumes: 1
+UBI: number of user volumes:     7
+UBI: available PEBs:             46
+UBI: total number of reserved PEBs: 24
+UBI: number of PEBs reserved for bad PEB handling: 2
+UBI: max/mean erase counter: 2/0
+UBI: image sequence number:  511933537
+UBI: background thread "ubi_bgt1d" started, PID 455
+Add UBI volume partitions: name=secondaryboot
+Add UBI volume partitions: name=secondaryboot-secure
+Add UBI volume partitions: name=uboot
+Add UBI volume partitions: name=permanent_param
+Add UBI volume partitions: name=aes_key1
+Add UBI volume partitions: name=aes_key2
+Add UBI volume partitions: name=aes_key_operator
+unionfs: new lower inode mtime (bindex=1, name=tmp)
+bsp_gpio_data: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+Driver LED and BUTTON init .....
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+ Driver LED and BUTTON ok .....
+sgcnet: Unknown symbol sgc_on_send_igmp_leave_cb (err 0)
+sgcnet: Unknown symbol sgc_on_send_igmp_join_cb (err 0)
+sgcnet: Unknown symbol sgc_on_recv_igmp_query_cb (err 0)
+Endpoint: endpoint_init entry ( MS 4.16L.04 )
+Endpoint: HAL-BSP : bsp board  found ... Fast5370e_TELIA
+Endpoint: Try to find table matching with : [BaseBoardId=F@ST_5370 / VoiceBoardId=SI32176] ...
+ SUCCESS
+Endpoint: endpoint_init COMPLETED
+tm_base_addr 0xcd000000, size 46137344, tm_base_addr_phys 0x0d000000
+mc_base_addr 0xccc00000, size 4194304, mc_base_addr_phys 0x0cc00000
+
+ RDP TM memory = 44MB, MC memory = 4MB : Max Possible Bufs <15359> of size <2560>; Allocating <7680> bufs; RDP enum <2>
+WARNING!RDP reserved memories are wasting 22MB of memory, please adjust your reserved memory size
+++++Runner gso_desc_pool created successfully
+brcmchipinfo: brcm_chipinfo_init entry
+bcmxtmrt: Broadcom BCM3139B0 ATM/PTM Network Device v0.9 Sep 10 2020 17:59:35
+Creating CPU ring for queue number 5 with 256 packets descriptor=0xbf7bcef4
+ Done initializing Ring 5 Base=0xffdee000 End=0xffdef000 calculated entries= 256 RDD Base=0x00c06000 descriptor=0xbf7bcef4
+Creating CPU ring for queue number 6 with 256 packets descriptor=0xbf7bcf40
+ Done initializing Ring 6 Base=0xffde6000 End=0xffde7000 calculated entries= 256 RDD Base=0x00c0c000 descriptor=0xbf7bcf40
+NBUFF v1.0 Initialized
+Initialized fcache state
+Broadcom Packet Flow Cache  Char Driver v3.0 Sep 10 2020 17:56:30 Registered<242>
+Created Proc FS /procfs/fcache
+Broadcom Packet Flow Cache registered with netdev chain
+Broadcom Packet Flow Cache learning via BLOG enabled.
+[FHW]  pktDbgLvl[0xbf822da4]=0
+[FHW]  fhw_construct:
+Initialized Fcache HW accelerator layer state
+flwStatsThread created
+Constructed Broadcom Packet Flow Cache v3.0 Sep 10 2020 17:56:30
+bcmxtmcfg: bcmxtmcfg_init entry
+adsl: adsl_init entry
+pmc_switch_power_up: Rgmii Tx clock zone1 enable 0 zone2 enable 0.
+
+ LINK DOWN IMP Port
+Runner Port#0 (Internal MUX Port#2) connects to Crossbar Port#1
+Switch Port#3 (Internal MUX Port#0) connects to Crossbar Port#4
+Unused MUX Internal Port#1 connects to Crossbar External Port#0
+Cross Bar MUX Config : Internal Port 00 maps to External Port 04 <reg_val : 0x0000000c>
+Cross Bar MUX Config : Internal Port 01 maps to External Port 00 <reg_val : 0x00000004>
+Cross Bar MUX Config : Internal Port 02 maps to External Port 01 <reg_val : 0x00000044>
+Broadcom BCM63139B0 Ethernet Network Device v0.1 Sep 10 2020 17:59:29
+dgasp: kerSysRegisterDyingGaspHandler: bcmsw registered
+++++ disabling GSO on logical_port=0 dev=eth0
+eth0: <Int sw port: 0> <Logical : 00> PHY_ID <0x0007f00c : 0x0c> MAC : 00:00:00:00:00:01
+eth1: <Ext sw port: 0> <Logical : 08> PHY_ID <0x0007f008 : 0x08> MAC : 00:00:00:00:00:01
+eth2: <Ext sw port: 1> <Logical : 09> PHY_ID <0x0007f009 : 0x09> MAC : 00:00:00:00:00:01
+eth3: <Ext sw port: 2> <Logical : 10> PHY_ID <0x0007f00a : 0x0a> MAC : 00:00:00:00:00:01
+eth4: <Ext sw port: 3> <Logical : 11> PHY_ID <0x0007f00b : 0x0b> MAC : 00:00:00:00:00:01
+Ethernet Auto Power Down and Sleep: Enabled
+Cross bar port 1 of Int switch port 0; Adv capability change : MII=0x01e1, GMII=0x0f00
+Ext switch port 0; Adv capability change : MII=0x01e1, GMII=0x0f00
+Ext switch port 1; Adv capability change : MII=0x01e1, GMII=0x0f00
+Ext switch port 2; Adv capability change : MII=0x01e1, GMII=0x0f00
+Cross bar port 4 of Ext switch port 3; Adv capability change : MII=0x01e1, GMII=0x0f00
+All Port Bit Map: 0x0f01: eth0,eth1,eth2,eth3,eth4
+   Chip WAN Only Ports 0001, Defined WAN Only Ports 0000, WAN Only Port Result: 0x0001:eth0
+   Chip WAN Preffered Ports 0000, Defined WAN Preffered Ports 0000, WAN Preffered Port Result: 0x0000:
+   Chip LAN Only Ports 0f00, Defined LAN Only Ports 0000, LAN Only Port Result: 0x0f00:eth1,eth2,eth3,eth4
+   WAN/LAN Both Capable Ports 0x0000:
+Creating Enet CPU ring for queue number 1 with 512 packets,Descriptor base=ffde0000
+ Creating Enet CPU ring for queue number 0 with 512 packets,Descriptor base=ffddc000
+ Initialized Runner Host Layer
+Initialized Runner Unicast Layer
+Initialized Runner L2 Unicast Layer
+Initialized Runner Multicast Layer
+Broadcom Packet Flow Cache HW acceleration enabled.
+Enabled Runner binding to Flow Cache
+Initialized Runner Protocol Layer (700)
+Broadcom Runner Blog Driver Char Driver v0.1 Sep 10 2020 17:56:31 Registered <3009>
+Wifi Forwarding Driver is initialized!
+DHD_FKB_POOL size is:1280 and entry size:2016
+fkbpool address range: d9c00000 <-> d9e76000
+DHD_PKTTAG POOL size is:1280 and entry size:64
+dhd_module_init in
+dhd_queue_budget = 256
+dhd_sta_threshold = 2048
+dhd_if_threshold = 65536
+no wifi platform data, skip
+PCI_PROBE:  bus 1, slot 0,vendor 14E4, device 4365(good PCI location)
+dhdpcie_init: can't find adapter info for this chip
+PCI: enabling device 0001:01:00.0 (0140 -> 0142)
+DHD: dongle ram size is set to 1835008(orig 1835008) at 0x200000
+dhd:0: fw path:/etc/wlan/dhd nv path:(null)
+Creating CPU ring for queue number 7 with 128 packets descriptor=0xbf7bcf8c
+ Done initializing Ring 7 Base=0xffdf3000 End=0xffdf3800 calculated entries= 128 RDD Base=0x00c17000 descriptor=0xbf7bcf8c
+RDPA returned tx wakeup reg = <0x80299004>, val = <0x10000000>
+RDPA returned rx wakeup reg = <0x8029a004>, val = <0x26000000>
+dhd_runner_attach: Rx Offload - Enabled, Ring Size = 1024
+dhd_attach: wl0: pre-allocated buffer mode is disabled (allocskbsz=0)
+dhd_attach(): thread:dhd_watchdog_thread:2f4 started
+dhd_deferred_work_init: work queue initialized
+Creating CPU ring for queue number 0 with 1024 packets descriptor=0xbf982714
+ Creating CPU ring for queue number 1 with 1024 packets descriptor=0xbf982730
+  wfd_bind: Dev wl%d wfd_idx 0 wl_radio_idx 0 Type fkb configured WFD thread wfd0-thrd minQId/maxQId (8/9), status (0) qmask 0x3
+Instantiating WFD 0 thread
+dhd:0: fw path:/etc/wlan/dhd nv path:(null)
+dhd_bus_download_firmware: firmware path=/etc/wlan/dhd, nvram path=
+dhdpcie_ramsize_adj: Enter
+dhdpcie_ramsize_adj: Adjust dongle RAMSIZE to 0x240000
+dhdpcie_download_code_file: download firmware /etc/wlan/dhd/4366c0/rtecdc.bin
+wl:srom/otp not programmed, using main memory mapped srom info(wombo board)
+wl: ID=pci/1/1/0/
+wl: ID=pci/1/1/0/
+wl: loading /etc/wlan/bcm43664_map.bin
+wl: reading /etc/wlan/bcmcmn_nvramvars.bin, file size=20
+wl: reading /etc/wlan/bcm43664_nvramvars.bin, file size=20
+Replace or append with internal Mac Address
+dhdpcie_bus_write_vars: Download, Upload and compare of NVRAM succeeded.
+Unhandled fault: imprecise external abort (0x1406) at 0xe2000000
+Internal error: : 1406 [#1] PREEMPT SMP ARM
+Modules linked in: dhd(+) init_addr(bfa0b000 - bfa0b2bc), core_addr(bf9a1000 - bf9dbf0c)
+ wlemf(P) init_addr(  (null) -   (null)), core_addr(bf98b000 - bf995814)
+ wlcsm(P) init_addr(  (null) -   (null)), core_addr(bf986000 - bf986bdc)
+ wfd init_addr(  (null) -   (null)), core_addr(bf97f000 - bf98173c)
+ nciTMSkmod(P) init_addr(  (null) -   (null)), core_addr(bf931000 - bf94d090)
+ pktrunner(P) init_addr(  (null) -   (null)), core_addr(bf8fd000 - bf907208)
+ bcm_enet init_addr(  (null) -   (null)), core_addr(bf8d1000 - bf8e8c8c)
+ adsldd(P) init_addr(  (null) -   (null)), core_addr(bf843000 - bf8783d4)
+ bcmxtmcfg(P) init_addr(  (null) -   (null)), core_addr(bf829000 - bf8334b8)
+ pktflow(P) init_addr(  (null) -   (null)), core_addr(bf805000 - bf819f44)
+ bcmxtmrtdrv init_addr(  (null) -   (null)), core_addr(bf7fa000 - bf7feee4)
+ chipinfo(P) init_addr(  (null) -   (null)), core_addr(bf7f6000 - bf7f6138)
+ rdpa_mw init_addr(  (null) -   (null)), core_addr(bf7ed000 - bf7f09ec)
+ rdpa(P) init_addr(  (null) -   (null)), core_addr(bf6e0000 - bf742910)
+ rdpa_gpl init_addr(  (null) -   (null)), core_addr(bf6d6000 - bf6d73d8)
+ bdmf init_addr(  (null) -   (null)), core_addr(bf6aa000 - bf6c0f50)
+ endpointdd(PO) init_addr(  (null) -   (null)), core_addr(bf26d000 - bf3c1804)
+ fuse init_addr(  (null) -   (null)), core_addr(bf254000 - bf25efd0)
+ xt_SKIPLOG init_addr(  (null) -   (null)), core_addr(bf250000 - bf25001c)
+ nf_conntrack_netlink init_addr(  (null) -   (null)), core_addr(bf246000 - bf2488d8)
+ ip6t_REJECT init_addr(  (null) -   (null)), core_addr(bf242000 - bf242524)
+ ip6t_rpfilter init_addr(  (null) -   (null)), core_addr(bf23e000 - bf23e1bc)
+ ip6table_raw init_addr(  (null) -   (null)), core_addr(bf23a000 - bf23a0b0)
+ ip6_queue init_addr(  (null) -   (null)), core_addr(bf236000 - bf2369cc)
+ ip6table_mangle init_addr(  (null) -   (null)), core_addr(bf232000 - bf2321a4)
+ ip6table_filter init_addr(  (null) -   (null)), core_addr(bf22e000 - bf22e0cc)
+ ip6_tables init_addr(  (null) -   (null)), core_addr(bf228000 - bf229fcc)
+ nf_conntrack_ipv6 init_addr(  (null) -   (null)), core_addr(bf223000 - bf223ac4)
+ nf_defrag_ipv6 init_addr(  (null) -   (null)), core_addr(bf21e000 - bf21eca0)
+ arptable_filter init_addr(  (null) -   (null)), core_addr(bf21a000 - bf21a0b0)
+ arpt_mangle init_addr(  (null) -   (null)), core_addr(bf216000 - bf216164)
+ arp_tables init_addr(  (null) -   (null)), core_addr(bf210000 - bf211ad8)
+ nfnetlink init_addr(  (null) -   (null)), core_addr(bf20c000 - bf20c3c8)
+ nf_nat_sip init_addr(  (null) -   (null)), core_addr(bf207000 - bf20805c)
+ nf_conntrack_sip init_addr(  (null) -   (null)), core_addr(bf1fe000 - bf200dfc)
+ nf_nat_rtsp init_addr(  (null) -   (null)), core_addr(bf1fa000 - bf1fa790)
+ nf_conntrack_rtsp init_addr(  (null) -   (null)), core_addr(bf1f5000 - bf1f6114)
+ nf_nat_pptp init_addr(  (null) -   (null)), core_addr(bf1f1000 - bf1f13d4)
+ nf_conntrack_pptp init_addr(  (null) -   (null)), core_addr(bf1ed000 - bf1ed8e8)
+ nf_nat_h323 init_addr(  (null) -   (null)), core_addr(bf1e8000 - bf1e8e28)
+ nf_conntrack_h323 init_addr(  (null) -   (null)), core_addr(bf1dc000 - bf1df710)
+ nf_nat_proto_gre init_addr(  (null) -   (null)), core_addr(bf1d8000 - bf1d813c)
+ nf_conntrack_proto_gre init_addr(  (null) -   (null)), core_addr(bf1d4000 - bf1d46d0)
+ nf_nat_tftp init_addr(  (null) -   (null)), core_addr(bf1d0000 - bf1d0058)
+ nf_conntrack_tftp init_addr(  (null) -   (null)), core_addr(bf1cc000 - bf1cc17c)
+ nf_nat_irc init_addr(  (null) -   (null)), core_addr(bf1c8000 - bf1c8128)
+ nf_nat_ftp init_addr(  (null) -   (null)), core_addr(bf1c4000 - bf1c41dc)
+ nf_conntrack_irc init_addr(  (null) -   (null)), core_addr(bf1c0000 - bf1c0454)
+ nf_conntrack_ftp init_addr(  (null) -   (null)), core_addr(bf1bb000 - bf1bba6c)
+ xt_policy init_addr(  (null) -   (null)), core_addr(bf1b7000 - bf1b7500)
+ xt_mark init_addr(  (null) -   (null)), core_addr(bf1af000 - bf1af0a8)
+ xt_DSCP init_addr(  (null) -   (null)), core_addr(bf1ab000 - bf1ab234)
+ xt_dscp init_addr(  (null) -   (null)), core_addr(bf1a7000 - bf1a7118)
+ ipt_REDIRECT init_addr(  (null) -   (null)), core_addr(bf19f000 - bf19f0e4)
+ ipt_MASQUERADE init_addr(  (null) -   (null)), core_addr(bf19b000 - bf19b4fc)
+ iptable_nat init_addr(  (null) -   (null)), core_addr(bf197000 - bf1975d4)
+ nf_nat init_addr(  (null) -   (null)), core_addr(bf191000 - bf192b78)
+ xt_conntrack init_addr(  (null) -   (null)), core_addr(bf18d000 - bf18d5d8)
+ ipt_REJECT init_addr(  (null) -   (null)), core_addr(bf189000 - bf189428)
+ xt_TCPMSS init_addr(  (null) -   (null)), core_addr(bf185000 - bf185664)
+ xt_LOG init_addr(  (null) -   (null)), core_addr(bf17f000 - bf180904)
+ xt_multiport init_addr(  (null) -   (null)), core_addr(bf17b000 - bf17b2a4)
+ xt_mac init_addr(  (null) -   (null)), core_addr(bf177000 - bf1770a8)
+ xt_limit init_addr(  (null) -   (null)), core_addr(bf173000 - bf17326c)
+ iptable_raw init_addr(  (null) -   (null)), core_addr(bf16f000 - bf16f0ec)
+ iptable_mangle init_addr(  (null) -   (null)), core_addr(bf16b000 - bf16b184)
+ iptable_filter init_addr(  (null) -   (null)), core_addr(bf167000 - bf167108)
+ ip_tables init_addr(  (null) -   (null)), core_addr(bf161000 - bf162db4)
+ drv_gpio(O) init_addr(  (null) -   (null)), core_addr(bf156000 - bf157428)
+ hard_watchdog(PO) init_addr(  (null) -   (null)), core_addr(bf152000 - bf152794)
+ bsp_gpio_lkm(O) init_addr(  (null) -   (null)), core_addr(bf127000 - bf12a248)
+ ext2 init_addr(  (null) -   (null)), core_addr(bf117000 - bf11ec74)
+ xt_state init_addr(  (null) -   (null)), core_addr(bf113000 - bf1130a8)
+ nf_conntrack_ipv4 init_addr(  (null) -   (null)), core_addr(bf10c000 - bf10d664)
+ nf_defrag_ipv4 init_addr(  (null) -   (null)), core_addr(bf108000 - bf1080d0)
+ nf_conntrack init_addr(  (null) -   (null)), core_addr(bf0f7000 - bf0fec94)
+ xfs init_addr(  (null) -   (null)), core_addr(bf085000 - bf0dc938)
+ hfsplus init_addr(  (null) -   (null)), core_addr(bf06e000 - bf07824c)
+ hfs init_addr(  (null) -   (null)), core_addr(bf060000 - bf067c90)
+ ext4 init_addr(  (null) -   (null)), core_addr(bf01b000 - bf04c15c)
+ jbd2 init_addr(  (null) -   (null)), core_addr(bf009000 - bf0118b8)
+ nls_utf8 init_addr(  (null) -   (null)), core_addr(bf005000 - bf005080)
+ mbcache init_addr(  (null) -   (null)), core_addr(bf000000 - bf000cb0)
+
+CPU: 0    Tainted: P           O  (3.4.11-4.16L.05 #1)
+PC is at dhdpci_bus_read_frames+0x1084/0x1810 [dhd]
+LR is at dhdpci_bus_read_frames+0xfd4/0x1810 [dhd]
+pc : [<bf9cbb58>]    lr : [<bf9cbaa8>]    psr: 20000013
+sp : dc5f9ce8  ip : fc078070  fp : bf9f0c38
+r10: 00000000  r9 : 00000003  r8 : 00000000
+r7 : 0043fffc  r6 : da059d20  r5 : deaddead  r4 : da6b8000
+r3 : f7c5083a  r2 : 000003e8  r1 : 0043fffc  r0 : deaddead
+Flags: nzCv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+Control: 10c53c7d  Table: 1a5b004a  DAC: 00000015
+Process insmod (pid: 754, stack limit = 0xdc5f8270)
+Stack: (0xdc5f9ce8 to 0xdc5fa000)
+9ce0:                   00000080 00000000 00000001 60000013 df895600 18103000
+9d00: 18103000 bf9b18a8 da553200 18103000 00000070 00000000 da059de0 00000070
+9d20: da059de0 bf9b18ec 18103000 da070000 004c4b40 00000200 000001ff 000003e8
+9d40: 00000001 da6b8000 da07800c bf9f0c38 da07800c 00000000 00000003 00000000
+9d60: bf9f0c38 bf9ce828 bf9f0c40 da078000 bf9f0c38 da07800c da07800c bf9c0b84
+9d80: bf9f1454 df899000 00000000 bf9f0c38 da059d80 da059de0 da6b8000 bf9dbc3c
+9da0: 00004365 c00eae80 df9129a0 da05a848 da05a848 00000000 dc5f9dd0 c00ebb10
+9dc0: df8ba3c8 00000000 da059f00 df899060 df899000 00000000 bf9f51e8 bf9f51b8
+9de0: c0054318 00000024 bf9f5358 c018f2ac c050b570 bf9f51e8 df899060 00000000
+9e00: bf9f51e8 c01a9640 df899060 bf9f51e8 df899094 00000000 bf9f0c38 c01a983c
+9e20: bf9f51e8 00000000 c01a97b0 c01a7f9c df8b9e20 df890338 bf9f51e8 c04cfc30
+9e40: da059f00 c01a8eac bf9ed5f4 c016fbd8 df8b9dc0 bf9f51e8 bf9f51e8 c04cfc30
+9e60: bfa0b000 bf9f0c38 00000024 c01a9acc bf9f51b8 bf9f51e8 c04cfc30 bfa0b000
+9e80: bf9f0c38 c018f6f8 00000000 00000003 bf9f51b8 bf9fefa4 bfa0b000 bf9d1550
+9ea0: bf9fefa4 00000000 bf9f0c38 00000003 bf9f53a0 bfa0b1b4 dc5f8000 bf9f53a0
+9ec0: c04ed320 bfa0b000 00000000 c0008630 00000000 c0094148 dc5f9ed8 bf9f5358
+9ee0: bf9f5358 bf9f53a0 00000001 da5aa8a0 00000001 00000024 bf9f5358 c0056250
+9f00: bf9f5364 00007fff 00000000 dcb1c400 df52f4d0 00000000 00000124 bf9f5494
+9f20: bf9f5364 01b1f038 e1184000 00075b20 e11d8eac e11d8c1b e11df754 000602b0
+9f40: 000642d0 00000000 00000000 00000037 00000038 0000002e 00000000 00000012
+9f60: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 c009b93c
+9f80: 00000003 00075b20 be870e34 00000000 00000080 c0009228 dc5f8000 00000000
+9fa0: 00000000 c0009080 00075b20 be870e34 b6e14008 00075b20 01b1f038 01b1f008
+9fc0: 00075b20 be870e34 00000000 00000080 00000000 00000000 b6f2df74 00000000
+9fe0: be870c30 be870c20 000245a0 b6e97200 a0000010 b6e14008 e1a0300c e1a0200c
+[<bf9cbb58>] (dhdpci_bus_read_frames+0x1084/0x1810 [dhd]) from [<bf9ce828>] (dhd_bus_init+0x44/0xd4 [dhd])
+[<bf9ce828>] (dhd_bus_init+0x44/0xd4 [dhd]) from [<bf9c0b84>] (dhd_bus_start+0x5c/0x220 [dhd])
+[<bf9c0b84>] (dhd_bus_start+0x5c/0x220 [dhd]) from [<bf9dbc3c>] (dhdpcie_pci_probe+0x298/0x568 [dhd])
+[<bf9dbc3c>] (dhdpcie_pci_probe+0x298/0x568 [dhd]) from [<c018f2ac>] (pci_device_probe+0x64/0x88)
+[<c018f2ac>] (pci_device_probe+0x64/0x88) from [<c01a9640>] (driver_probe_device+0x70/0x1e0)
+[<c01a9640>] (driver_probe_device+0x70/0x1e0) from [<c01a983c>] (__driver_attach+0x8c/0x90)
+[<c01a983c>] (__driver_attach+0x8c/0x90) from [<c01a7f9c>] (bus_for_each_dev+0x50/0x7c)
+[<c01a7f9c>] (bus_for_each_dev+0x50/0x7c) from [<c01a8eac>] (bus_add_driver+0x174/0x234)
+[<c01a8eac>] (bus_add_driver+0x174/0x234) from [<c01a9acc>] (driver_register+0x78/0x12c)
+[<c01a9acc>] (driver_register+0x78/0x12c) from [<c018f6f8>] (__pci_register_driver+0x44/0xa4)
+[<c018f6f8>] (__pci_register_driver+0x44/0xa4) from [<bf9d1550>] (dhdpcie_bus_register+0x24/0xe0 [dhd])
+[<bf9d1550>] (dhdpcie_bus_register+0x24/0xe0 [dhd]) from [<bfa0b1b4>] (init_module+0x1b4/0x2bc [dhd])
+[<bfa0b1b4>] (init_module+0x1b4/0x2bc [dhd]) from [<c0008630>] (do_one_initcall+0x11c/0x184)
+[<c0008630>] (do_one_initcall+0x11c/0x184) from [<c0056250>] (sys_init_module+0xc20/0x18e0)
+[<c0056250>] (sys_init_module+0xc20/0x18e0) from [<c0009080>] (ret_fast_syscall+0x0/0x30)
+Code: 0afffff6 e5943188 e1530005 0afffff3 (e5943168)
+---[ end trace 9e6ff818ffd23534 ]---
+Loading PCM shim driver
+unionfs: new lower inode mtime (bindex=1, name=dev)
+Broadcom 802.1Q VLAN Interface, v0.1
+RDPA DS WAN UDP Filter Command Driver
+Creating CPU ring for queue number 2 with 256 packets descriptor=0xbf7bce10
+ Done initializing Ring 2 Base=0xffde4000 End=0xffde5000 calculated entries= 256 RDD Base=0x00c3e000 descriptor=0xbf7bce10
+UBI: attaching mtd4 to ubi2
+UBI: physical eraseblock size:   131072 bytes (128 KiB)
+UBI: logical eraseblock size:    126976 bytes
+UBI: smallest flash I/O unit:    2048
+UBI: VID header offset:          2048 (aligned 2048)
+UBI: data offset:                4096
+UBI: max. sequence number:       1085420
+UBI: attached mtd4 to ubi2
+UBI: MTD device name:            "data"
+UBI: MTD device size:            105 MiB
+UBI: number of good PEBs:        834
+UBI: number of bad PEBs:         8
+UBI: number of corrupted PEBs:   0
+UBI: max. allowed volumes:       128
+UBI: wear-leveling threshold:    4096
+UBI: number of internal volumes: 1
+UBI: number of user volumes:     1
+UBI: available PEBs:             34
+UBI: total number of reserved PEBs: 800
+UBI: number of PEBs reserved for bad PEB handling: 8
+UBI: max/mean erase counter: 1390/1302
+UBI: image sequence number:  2117556516
+UBI: background thread "ubi_bgt2d" started, PID 808
+Add UBI volume partitions: name=framework
+UBIFS: recovery needed
+UBIFS: recovery completed
+UBIFS: mounted UBI device 2, volume 0, name "framework"
+UBIFS: file system size:   98787328 bytes (96472 KiB, 94 MiB, 778 LEBs)
+UBIFS: journal size:       4952064 bytes (4836 KiB, 4 MiB, 39 LEBs)
+UBIFS: media format:       w4/r0 (latest is w4/r0)
+UBIFS: default compressor: lzo
+UBIFS: reserved for root:  4665969 bytes (4556 KiB)
+Ethernet Auto Power Down and Sleep: Enabled
+Energy Efficient Ethernet: Enabled
