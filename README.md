@@ -569,7 +569,7 @@ $.xmo.getValuesTree("Device/Managers/NetworkLan/GuestAccessControlEnable");
 ###### There is plenty of configuration files on the router and for download all these we need use newRequest and we also will use a function for this, edit the filename if you found another conf or file you want to download:
 
     $.config.modules.backupConfigurationAllBackup === !0 ? a.downloadSpecificFile($.xpaths.mySagemcomBox.maintenance.saveRestore.save, "device.cfg", 1, function() {}, function(a) {}) : 
-$.xmo.client.newRequest..downloadFile($.xpaths.mySagemcomBox.maintenance.saveRestore.save, function() {}, function(a) {}), $.xmo.client.newRequest.send;
+    $.xmo.client.newRequest..downloadFile($.xpaths.mySagemcomBox.maintenance.saveRestore.save, function() {}, function(a) {}), $.xmo.client.newRequest.send;
 
 ![Screenshot](https://nr1.nu/archive/sagemcom-hacking/download-files.gif)
 
@@ -1268,6 +1268,16 @@ You can find more info and good answers from this thread below from whirlpool wh
 
 https://forums.whirlpool.net.au/archive/2746904
 
+#### Random URLS for sagemcom
+
+    https://forum.archive.openwrt.org/viewtopic.php?id=73005
+    
+    https://www.dslreports.com/forum/r28188441-Line-Stats-Telnet-Unlock-Tool-for-Sagemcom-2864-V2-00
+
+### Tools
+
+    # Sagemunlock tool for 2864 v2.0.1
+    https://mega.nz/file/ohMxkArD#JKqV9gd9wBZBRIe_EFPwt0HFqalrdv9fVx72qQqm38A
 #### WEB SITE
 
 Visit my websites and profiles for the latest info and updated tools

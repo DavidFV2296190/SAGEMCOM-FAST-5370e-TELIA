@@ -1,0 +1,2024 @@
+ehci_hcd: block sizes: qh 64 qtd 96 itd 160 sitd 96
+ehci-platform ehci-platform.0: Generic Platform EHCI Controller
+drivers/usb/core/inode.c: creating file 'devices'
+drivers/usb/core/inode.c: creating file '001'
+ehci-platform ehci-platform.0: new USB bus registered, assigned bus number 1
+ehci-platform ehci-platform.0: reset hcs_params 0x1212 dbg=0 cc=1 pcc=2 ordered
+ehci-platform ehci-platform.0: reset hcc_params a026 thresh 2 uframes 256/512/10
+ehci-platform ehci-platform.0: park 0
+ehci-platform ehci-platform.0: reset command 0080b02  park=3 ithresh=8 period=10
+ehci-platform ehci-platform.0: irq 105, io mem 0x8000c300
+ehci-platform ehci-platform.0: init command 0010005 (park)=0 ithresh=1 period=51
+ehci-platform ehci-platform.0: USB 2.0 started, EHCI 1.00
+usb usb1: default language 0x0409
+usb usb1: udev 1, busnum 1, minor = 0
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: Generic Platform EHCI Controller
+usb usb1: Manufacturer: Linux 3.4.11-4.16L.05 ehci_hcd
+usb usb1: SerialNumber: ehci-platform.0
+usb usb1: usb_probe_device
+usb usb1: configuration #1 chosen from 1 choice
+usb usb1: adding 1-0:1.0 (config #1, interface 0)
+hub 1-0:1.0: usb_probe_interface
+hub 1-0:1.0: usb_probe_interface - got id
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+hub 1-0:1.0: standalone hub
+hub 1-0:1.0: individual port power switching
+hub 1-0:1.0: individual port over-current protection
+hub 1-0:1.0: power on to power good time: 20ms
+hub 1-0:1.0: local power source is good
+hub 1-0:1.0: enabling power on all ports
+drivers/usb/core/inode.c: creating file '001'
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+ohci_hcd: block sizes: ed 64 td 64
+ohci-platform ohci-platform.0: Generic Platform OHCI Controller
+drivers/usb/core/inode.c: creating file '002'
+ohci-platform ohci-platform.0: new USB bus registered, assigned bus number 2
+ohci-platform ohci-platform.0: created debug files
+ohci-platform ohci-platform.0: irq 104, io mem 0x8000c400
+ohci-platform ohci-platform.0: OHCI controller state
+ohci-platform ohci-platform.0: OHCI 1.0, NO legacy support registers, rh state r
+ohci-platform ohci-platform.0: control 0x083 HCFS=operational CBSR=3
+ohci-platform ohci-platform.0: cmdstatus 0x00000 SOC=0
+ohci-platform ohci-platform.0: intrstatus 0x00000004 SF
+ohci-platform ohci-platform.0: intrenable 0x8000005a MIE RHSC UE RD WDH
+ohci-platform ohci-platform.0: hcca frame #0028
+ohci-platform ohci-platform.0: roothub.a 02000202 POTPGT=2 NPS NDP=2(2)
+ohci-platform ohci-platform.0: roothub.b 00000000 PPCM=0000 DR=0000
+ohci-platform ohci-platform.0: roothub.status 00008000 DRWE
+ohci-platform ohci-platform.0: roothub.portstatus [0] 0x00000100 PPS
+ohci-platform ohci-platform.0: roothub.portstatus [1] 0x00000100 PPS
+usb usb2: default language 0x0409
+usb usb2: udev 1, busnum 2, minor = 128
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: Generic Platform OHCI Controller
+usb usb2: Manufacturer: Linux 3.4.11-4.16L.05 ohci_hcd
+usb usb2: SerialNumber: ohci-platform.0
+usb usb2: usb_probe_device
+usb usb2: configuration #1 chosen from 1 choice
+usb usb2: adding 2-0:1.0 (config #1, interface 0)
+hub 2-0:1.0: usb_probe_interface
+hub 2-0:1.0: usb_probe_interface - got id
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 2 ports detected
+hub 2-0:1.0: standalone hub
+hub 2-0:1.0: no power switching (usb 1.0)
+hub 2-0:1.0: global over-current protection
+hub 2-0:1.0: power on to power good time: 4ms
+hub 2-0:1.0: local power source is good
+hub 2-0:1.0: no over-current condition exists
+hub 2-0:1.0: trying to enable port power on non-switchable hub
+drivers/usb/core/inode.c: creating file '001'
+uhci_hcd: USB Universal Host Controller Interface driver
+xhci-hcd xhci-hcd.0: xHCI Host Controller
+drivers/usb/core/inode.c: creating file '003'
+xhci-hcd xhci-hcd.0: new USB bus registered, assigned bus number 3
+xhci-hcd xhci-hcd.0: irq 106, io mem 0x8000d000
+hub 1-0:1.0: state 7 ports 2 chg 0000 evt 0000
+usb usb3: default language 0x0409
+usb usb3: udev 1, busnum 3, minor = 256
+usb usb3: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb3: Product: xHCI Host Controller
+usb usb3: Manufacturer: Linux 3.4.11-4.16L.05 xhci-hcd
+usb usb3: SerialNumber: xhci-hcd.0
+usb usb3: usb_probe_device
+usb usb3: configuration #1 chosen from 1 choice
+xHCI xhci_add_endpoint called for root hub
+xHCI xhci_check_bandwidth called for root hub
+usb usb3: adding 3-0:1.0 (config #1, interface 0)
+hub 3-0:1.0: usb_probe_interface
+hub 3-0:1.0: usb_probe_interface - got id
+hub 3-0:1.0: USB hub found
+hub 3-0:1.0: 0 ports detected
+hub 3-0:1.0: standalone hub
+hub 3-0:1.0: individual port power switching
+hub 3-0:1.0: individual port over-current protection
+hub 3-0:1.0: Single TT
+hub 3-0:1.0: TT requires at most 8 FS bit times (666 ns)
+hub 3-0:1.0: power on to power good time: 20ms
+hub 3-0:1.0: local power source is good
+hub 3-0:1.0: enabling power on all ports
+drivers/usb/core/inode.c: creating file '001'
+xhci-hcd xhci-hcd.0: xHCI Host Controller
+drivers/usb/core/inode.c: creating file '004'
+xhci-hcd xhci-hcd.0: new USB bus registered, assigned bus number 4
+usb usb4: skipped 1 descriptor after endpoint
+usb usb4: default language 0x0409
+usb usb4: udev 1, busnum 4, minor = 384
+usb usb4: New USB device found, idVendor=1d6b, idProduct=0003
+usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb4: Product: xHCI Host Controller
+usb usb4: Manufacturer: Linux 3.4.11-4.16L.05 xhci-hcd
+usb usb4: SerialNumber: xhci-hcd.0
+usb usb4: usb_probe_device
+usb usb4: configuration #1 chosen from 1 choice
+xHCI xhci_add_endpoint called for root hub
+xHCI xhci_check_bandwidth called for root hub
+usb usb4: adding 4-0:1.0 (config #1, interface 0)
+hub 4-0:1.0: usb_probe_interface
+hub 4-0:1.0: usb_probe_interface - got id
+hub 4-0:1.0: USB hub found
+hub 4-0:1.0: 2 ports detected
+hub 4-0:1.0: standalone hub
+hub 4-0:1.0: individual port power switching
+hub 4-0:1.0: individual port over-current protection
+hub 4-0:1.0: TT requires at most 8 FS bit times (666 ns)
+hub 4-0:1.0: power on to power good time: 20ms
+hub 4-0:1.0: local power source is good
+hub 4-0:1.0: enabling power on all ports
+drivers/usb/core/inode.c: creating file '001'
+usbcore: registered new interface driver cdc_acm
+cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+Initializing USB Mass Storage driver...
+hub 2-0:1.0: state 7 ports 2 chg 0000 evt 0000
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver usbserial
+usbserial: USB Serial Driver core
+brcmboard: brcm_board_init entry
+hub 3-0:1.0: state 7 ports 0 chg 0000 evt 0000
+DYING GASP IRQ Initialized and Enabled
+Serial: BCM63XX driver $Revision: 3.00 $
+Magic SysRq with Auxilliary trigger char enabled (type ^ h for list of supported
+ttyS0 at MMIO 0xfffe8600 (irq = 64) is a BCM63XX
+ttyS1 at MMIO 0xfffe8620 (irq = 65) is a BCM63XX
+BPM: tot_mem_size=536870912B (512MB), buf_mem_size <8%> =42949672B (40MB), num o
+Broadcom BPM Module Char Driver v0.1 Sep 10 2020 18:24:15 Registered<244>
+hub 4-0:1.0: state 7 ports 2 chg 0000 evt 0000
+GACT probability NOT on
+Mirror/redirect action on
+u32 classifier
+    input device check on
+    Actions configured
+TCP: cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 10
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+NET: Registered protocol family 15
+Initializing MCPD Module
+Ebtables v2.0 registered
+ebt_time registered
+ebt_ftos registered
+ebt_wmm_mark registered
+L2TP core: blog_l2tp_rcv_check
+L2TP core driver, V2.0
+PPPoL2TP kernel driver, V2.0
+8021q: 802.1Q VLAN Support v1.8
+VFS: Mounted root (squashfs filesystem) readonly on device 31:9.
+devtmpfs: mounted
+Freeing init memory: 136K
+kernel.hotplug = /sbin/mdev
+- preinit -
+- regular preinit -
+- init -
+UBIFS: recovery needed
+UBIFS: recovery completed
+UBIFS: mounted UBI device 0, volume 0, name "filesystem1"
+UBIFS: file system size:   40886272 bytes (39928 KiB, 38 MiB, 322 LEBs)
+UBIFS: journal size:       2031616 bytes (1984 KiB, 1 MiB, 16 LEBs)
+UBIFS: media format:       w4/r0 (latest is w4/r0)
+UBIFS: default compressor: lzo
+UBIFS: reserved for root:  1931159 bytes (1885 KiB)
+UBI: attaching mtd2 to ubi1
+UBI: physical eraseblock size:   131072 bytes (128 KiB)
+UBI: logical eraseblock size:    126976 bytes
+UBI: smallest flash I/O unit:    2048
+UBI: VID header offset:          2048 (aligned 2048)
+UBI: data offset:                4096
+UBI: max. sequence number:       7
+UBI: attached mtd2 to ubi1
+UBI: MTD device name:            "boot"
+UBI: MTD device size:            8 MiB
+UBI: number of good PEBs:        70
+UBI: number of bad PEBs:         0
+UBI: number of corrupted PEBs:   0
+UBI: max. allowed volumes:       128
+UBI: wear-leveling threshold:    4096
+UBI: number of internal volumes: 1
+UBI: number of user volumes:     7
+UBI: available PEBs:             46
+UBI: total number of reserved PEBs: 24
+UBI: number of PEBs reserved for bad PEB handling: 2
+UBI: max/mean erase counter: 2/0
+UBI: image sequence number:  511933537
+UBI: background thread "ubi_bgt1d" started, PID 455
+Add UBI volume partitions: name=secondaryboot
+Add UBI volume partitions: name=secondaryboot-secure
+Add UBI volume partitions: name=uboot
+Add UBI volume partitions: name=permanent_param
+Add UBI volume partitions: name=aes_key1
+Add UBI volume partitions: name=aes_key2
+Add UBI volume partitions: name=aes_key_operator
+unionfs: new lower inode mtime (bindex=1, name=tmp)
+bsp_gpio_data: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+Driver LED and BUTTON init .....
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+ Driver LED and BUTTON ok .....
+sgcnet: Unknown symbol sgc_on_send_igmp_leave_cb (err 0)
+sgcnet: Unknown symbol sgc_on_send_igmp_join_cb (err 0)
+sgcnet: Unknown symbol sgc_on_recv_igmp_query_cb (err 0)
+Endpoint: endpoint_init entry ( MS 4.16L.04 )
+Endpoint: HAL-BSP : bsp board  found ... Fast5370e_TELIA
+Endpoint: Try to find table matching with : [BaseBoardId=F@ST_5370 / VoiceBoardI
+ SUCCESS
+Endpoint: endpoint_init COMPLETED
+tm_base_addr 0xcd000000, size 46137344, tm_base_addr_phys 0x0d000000
+mc_base_addr 0xccc00000, size 4194304, mc_base_addr_phys 0x0cc00000
+
+ RDP TM memory = 44MB, MC memory = 4MB : Max Possible Bufs <15359> of size <2560
+WARNING!RDP reserved memories are wasting 22MB of memory, please adjust your res
+++++Runner gso_desc_pool created successfully
+brcmchipinfo: brcm_chipinfo_init entry
+bcmxtmrt: Broadcom BCM3139B0 ATM/PTM Network Device v0.9 Sep 10 2020 17:59:35
+Creating CPU ring for queue number 5 with 256 packets descriptor=0xbf7bcef4
+ Done initializing Ring 5 Base=0xffdee000 End=0xffdef000 calculated entries= 256
+Creating CPU ring for queue number 6 with 256 packets descriptor=0xbf7bcf40
+ Done initializing Ring 6 Base=0xffde6000 End=0xffde7000 calculated entries= 256
+NBUFF v1.0 Initialized
+Initialized fcache state
+Broadcom Packet Flow Cache  Char Driver v3.0 Sep 10 2020 17:56:30 Registered<242
+Created Proc FS /procfs/fcache
+Broadcom Packet Flow Cache registered with netdev chain
+Broadcom Packet Flow Cache learning via BLOG enabled.
+[FHW]  pktDbgLvl[0xbf822da4]=0
+[FHW]  fhw_construct:
+Initialized Fcache HW accelerator layer state
+flwStatsThread created
+Constructed Broadcom Packet Flow Cache v3.0 Sep 10 2020 17:56:30
+bcmxtmcfg: bcmxtmcfg_init entry
+adsl: adsl_init entry
+pmc_switch_power_up: Rgmii Tx clock zone1 enable 0 zone2 enable 0.
+
+ LINK DOWN IMP Port
+Runner Port#0 (Internal MUX Port#2) connects to Crossbar Port#1
+Switch Port#3 (Internal MUX Port#0) connects to Crossbar Port#4
+Unused MUX Internal Port#1 connects to Crossbar External Port#0
+Cross Bar MUX Config : Internal Port 00 maps to External Port 04 <reg_val : 0x00
+Cross Bar MUX Config : Internal Port 01 maps to External Port 00 <reg_val : 0x00
+Cross Bar MUX Config : Internal Port 02 maps to External Port 01 <reg_val : 0x00
+Broadcom BCM63139B0 Ethernet Network Device v0.1 Sep 10 2020 17:59:29
+dgasp: kerSysRegisterDyingGaspHandler: bcmsw registered
+++++ disabling GSO on logical_port=0 dev=eth0
+eth0: <Int sw port: 0> <Logical : 00> PHY_ID <0x0007f00c : 0x0c> MAC : 00:00:00:
+eth1: <Ext sw port: 0> <Logical : 08> PHY_ID <0x0007f008 : 0x08> MAC : 00:00:00:
+eth2: <Ext sw port: 1> <Logical : 09> PHY_ID <0x0007f009 : 0x09> MAC : 00:00:00:
+eth3: <Ext sw port: 2> <Logical : 10> PHY_ID <0x0007f00a : 0x0a> MAC : 00:00:00:
+eth4: <Ext sw port: 3> <Logical : 11> PHY_ID <0x0007f00b : 0x0b> MAC : 00:00:00:
+Ethernet Auto Power Down and Sleep: Enabled
+Cross bar port 1 of Int switch port 0; Adv capability change : MII=0x01e1, GMII=
+Ext switch port 0; Adv capability change : MII=0x01e1, GMII=0x0f00
+Ext switch port 1; Adv capability change : MII=0x01e1, GMII=0x0f00
+Ext switch port 2; Adv capability change : MII=0x01e1, GMII=0x0f00
+Cross bar port 4 of Ext switch port 3; Adv capability change : MII=0x01e1, GMII=
+All Port Bit Map: 0x0f01: eth0,eth1,eth2,eth3,eth4
+   Chip WAN Only Ports 0001, Defined WAN Only Ports 0000, WAN Only Port Result:
+   Chip WAN Preffered Ports 0000, Defined WAN Preffered Ports 0000, WAN Preffere
+   Chip LAN Only Ports 0f00, Defined LAN Only Ports 0000, LAN Only Port Result:
+   WAN/LAN Both Capable Ports 0x0000:
+Creating Enet CPU ring for queue number 1 with 512 packets,Descriptor base=ffde0
+ Creating Enet CPU ring for queue number 0 with 512 packets,Descriptor base=ffdd
+ Initialized Runner Host Layer
+Initialized Runner Unicast Layer
+Initialized Runner L2 Unicast Layer
+Initialized Runner Multicast Layer
+Broadcom Packet Flow Cache HW acceleration enabled.
+Enabled Runner binding to Flow Cache
+Initialized Runner Protocol Layer (700)
+Broadcom Runner Blog Driver Char Driver v0.1 Sep 10 2020 17:56:31 Registered <30
+Wifi Forwarding Driver is initialized!
+DHD_FKB_POOL size is:1280 and entry size:2016
+fkbpool address range: d9c00000 <-> d9e76000
+DHD_PKTTAG POOL size is:1280 and entry size:64
+dhd_module_init in
+dhd_queue_budget = 256
+dhd_sta_threshold = 2048
+dhd_if_threshold = 65536
+no wifi platform data, skip
+PCI_PROBE:  bus 1, slot 0,vendor 14E4, device 4365(good PCI location)
+Scratch pad is not initialized.
+Scratch pad is not initialized.
+Scratch pad is not initialized.
+Scratch pad is not initialized.
+No scratch pad found.  Initialize scratch pad...
+dhdpcie_init: can't find adapter info for this chip
+PCI: enabling device 0001:01:00.0 (0140 -> 0142)
+Unhandled fault: imprecise external abort (0x1406) at 0xe1200000
+Internal error: : 1406 [#1] PREEMPT SMP ARM
+Modules linked in: dhd(+) init_addr(bfa0b000 - bfa0b2bc), core_addr(bf9a1000 - b
+ wlemf(P) init_addr(  (null) -   (null)), core_addr(bf98b000 - bf995814)
+ wlcsm(P) init_addr(  (null) -   (null)), core_addr(bf986000 - bf986bdc)
+ wfd init_addr(  (null) -   (null)), core_addr(bf97f000 - bf98173c)
+ nciTMSkmod(P) init_addr(  (null) -   (null)), core_addr(bf931000 - bf94d090)
+ pktrunner(P) init_addr(  (null) -   (null)), core_addr(bf8fd000 - bf907208)
+ bcm_enet init_addr(  (null) -   (null)), core_addr(bf8d1000 - bf8e8c8c)
+ adsldd(P) init_addr(  (null) -   (null)), core_addr(bf843000 - bf8783d4)
+ bcmxtmcfg(P) init_addr(  (null) -   (null)), core_addr(bf829000 - bf8334b8)
+ pktflow(P) init_addr(  (null) -   (null)), core_addr(bf805000 - bf819f44)
+ bcmxtmrtdrv init_addr(  (null) -   (null)), core_addr(bf7fa000 - bf7feee4)
+ chipinfo(P) init_addr(  (null) -   (null)), core_addr(bf7f6000 - bf7f6138)
+ rdpa_mw init_addr(  (null) -   (null)), core_addr(bf7ed000 - bf7f09ec)
+ rdpa(P) init_addr(  (null) -   (null)), core_addr(bf6e0000 - bf742910)
+ rdpa_gpl init_addr(  (null) -   (null)), core_addr(bf6d6000 - bf6d73d8)
+ bdmf init_addr(  (null) -   (null)), core_addr(bf6aa000 - bf6c0f50)
+ endpointdd(PO) init_addr(  (null) -   (null)), core_addr(bf26d000 - bf3c1804)
+ fuse init_addr(  (null) -   (null)), core_addr(bf254000 - bf25efd0)
+ xt_SKIPLOG init_addr(  (null) -   (null)), core_addr(bf250000 - bf25001c)
+ nf_conntrack_netlink init_addr(  (null) -   (null)), core_addr(bf246000 - bf248
+ ip6t_REJECT init_addr(  (null) -   (null)), core_addr(bf242000 - bf242524)
+ ip6t_rpfilter init_addr(  (null) -   (null)), core_addr(bf23e000 - bf23e1bc)
+ ip6table_raw init_addr(  (null) -   (null)), core_addr(bf23a000 - bf23a0b0)
+ ip6_queue init_addr(  (null) -   (null)), core_addr(bf236000 - bf2369cc)
+ ip6table_mangle init_addr(  (null) -   (null)), core_addr(bf232000 - bf2321a4)
+ ip6table_filter init_addr(  (null) -   (null)), core_addr(bf22e000 - bf22e0cc)
+ ip6_tables init_addr(  (null) -   (null)), core_addr(bf228000 - bf229fcc)
+ nf_conntrack_ipv6 init_addr(  (null) -   (null)), core_addr(bf223000 - bf223ac4
+ nf_defrag_ipv6 init_addr(  (null) -   (null)), core_addr(bf21e000 - bf21eca0)
+ arptable_filter init_addr(  (null) -   (null)), core_addr(bf21a000 - bf21a0b0)
+ arpt_mangle init_addr(  (null) -   (null)), core_addr(bf216000 - bf216164)
+ arp_tables init_addr(  (null) -   (null)), core_addr(bf210000 - bf211ad8)
+ nfnetlink init_addr(  (null) -   (null)), core_addr(bf20c000 - bf20c3c8)
+ nf_nat_sip init_addr(  (null) -   (null)), core_addr(bf207000 - bf20805c)
+ nf_conntrack_sip init_addr(  (null) -   (null)), core_addr(bf1fe000 - bf200dfc)
+ nf_nat_rtsp init_addr(  (null) -   (null)), core_addr(bf1fa000 - bf1fa790)
+ nf_conntrack_rtsp init_addr(  (null) -   (null)), core_addr(bf1f5000 - bf1f6114
+ nf_nat_pptp init_addr(  (null) -   (null)), core_addr(bf1f1000 - bf1f13d4)
+ nf_conntrack_pptp init_addr(  (null) -   (null)), core_addr(bf1ed000 - bf1ed8e8
+ nf_nat_h323 init_addr(  (null) -   (null)), core_addr(bf1e8000 - bf1e8e28)
+ nf_conntrack_h323 init_addr(  (null) -   (null)), core_addr(bf1dc000 - bf1df710
+ nf_nat_proto_gre init_addr(  (null) -   (null)), core_addr(bf1d8000 - bf1d813c)
+ nf_conntrack_proto_gre init_addr(  (null) -   (null)), core_addr(bf1d4000 - bf1
+ nf_nat_tftp init_addr(  (null) -   (null)), core_addr(bf1d0000 - bf1d0058)
+ nf_conntrack_tftp init_addr(  (null) -   (null)), core_addr(bf1cc000 - bf1cc17c
+ nf_nat_irc init_addr(  (null) -   (null)), core_addr(bf1c8000 - bf1c8128)
+ nf_nat_ftp init_addr(  (null) -   (null)), core_addr(bf1c4000 - bf1c41dc)
+ nf_conntrack_irc init_addr(  (null) -   (null)), core_addr(bf1c0000 - bf1c0454)
+ nf_conntrack_ftp init_addr(  (null) -   (null)), core_addr(bf1bb000 - bf1bba6c)
+ xt_policy init_addr(  (null) -   (null)), core_addr(bf1b7000 - bf1b7500)
+ xt_mark init_addr(  (null) -   (null)), core_addr(bf1af000 - bf1af0a8)
+ xt_DSCP init_addr(  (null) -   (null)), core_addr(bf1ab000 - bf1ab234)
+ xt_dscp init_addr(  (null) -   (null)), core_addr(bf1a7000 - bf1a7118)
+ ipt_REDIRECT init_addr(  (null) -   (null)), core_addr(bf19f000 - bf19f0e4)
+ ipt_MASQUERADE init_addr(  (null) -   (null)), core_addr(bf19b000 - bf19b4fc)
+ iptable_nat init_addr(  (null) -   (null)), core_addr(bf197000 - bf1975d4)
+ nf_nat init_addr(  (null) -   (null)), core_addr(bf191000 - bf192b78)
+ xt_conntrack init_addr(  (null) -   (null)), core_addr(bf18d000 - bf18d5d8)
+ ipt_REJECT init_addr(  (null) -   (null)), core_addr(bf189000 - bf189428)
+ xt_TCPMSS init_addr(  (null) -   (null)), core_addr(bf185000 - bf185664)
+ xt_LOG init_addr(  (null) -   (null)), core_addr(bf17f000 - bf180904)
+ xt_multiport init_addr(  (null) -   (null)), core_addr(bf17b000 - bf17b2a4)
+ xt_mac init_addr(  (null) -   (null)), core_addr(bf177000 - bf1770a8)
+ xt_limit init_addr(  (null) -   (null)), core_addr(bf173000 - bf17326c)
+ iptable_raw init_addr(  (null) -   (null)), core_addr(bf16f000 - bf16f0ec)
+ iptable_mangle init_addr(  (null) -   (null)), core_addr(bf16b000 - bf16b184)
+ iptable_filter init_addr(  (null) -   (null)), core_addr(bf167000 - bf167108)
+ ip_tables init_addr(  (null) -   (null)), core_addr(bf161000 - bf162db4)
+ drv_gpio(O) init_addr(  (null) -   (null)), core_addr(bf156000 - bf157428)
+ hard_watchdog(PO) init_addr(  (null) -   (null)), core_addr(bf152000 - bf152794
+ bsp_gpio_lkm(O) init_addr(  (null) -   (null)), core_addr(bf127000 - bf12a248)
+ ext2 init_addr(  (null) -   (null)), core_addr(bf117000 - bf11ec74)
+ xt_state init_addr(  (null) -   (null)), core_addr(bf113000 - bf1130a8)
+ nf_conntrack_ipv4 init_addr(  (null) -   (null)), core_addr(bf10c000 - bf10d664
+ nf_defrag_ipv4 init_addr(  (null) -   (null)), core_addr(bf108000 - bf1080d0)
+ nf_conntrack init_addr(  (null) -   (null)), core_addr(bf0f7000 - bf0fec94)
+ xfs init_addr(  (null) -   (null)), core_addr(bf085000 - bf0dc938)
+ hfsplus init_addr(  (null) -   (null)), core_addr(bf06e000 - bf07824c)
+ hfs init_addr(  (null) -   (null)), core_addr(bf060000 - bf067c90)
+ ext4 init_addr(  (null) -   (null)), core_addr(bf01b000 - bf04c15c)
+ jbd2 init_addr(  (null) -   (null)), core_addr(bf009000 - bf0118b8)
+ nls_utf8 init_addr(  (null) -   (null)), core_addr(bf005000 - bf005080)
+ mbcache init_addr(  (null) -   (null)), core_addr(bf000000 - bf000cb0)
+
+CPU: 1    Tainted: P           O  (3.4.11-4.16L.05 #1)
+PC is at osl_pcie_rreg+0x44/0x6c [dhd]
+LR is at si_setcoreidx+0x15c/0x900 [dhd]
+pc : [<bf9b1e38>]    lr : [<bf9b3b28>]    psr: 80000013
+sp : da4c1cc0  ip : fc070000  fp : da060028
+r10: 00000000  r9 : da060024  r8 : e1210000
+r7 : 18000000  r6 : 00004858  r5 : 00000001  r4 : da068000
+r3 : deaddead  r2 : da4c1cec  r1 : e1210000  r0 : dfb3caa0
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32  ISA ARM  Segment user
+Control: 10c53c7d  Table: 1a6ac04a  DAC: 00000015
+Process insmod (pid: 754, stack limit = 0xda4c0270)
+Stack: (0xda4c1cc0 to 0xda4c2000)
+1cc0: a0000013 df8009c0 000000d0 00000001 da060024 00000000 da060028 dfb3caa0
+1ce0: e1210000 00000680 dfb3caa0 e1210000 00000000 da068000 dfb3caa0 e1210000
+1d00: 00000000 00000001 da060024 db948000 da060028 bf9b43ec 00000001 da060000
+1d20: 00000000 da060000 bf9f0c38 00000000 dfb3caa0 00000001 e1210000 00000000
+1d40: bf9f0c38 bf9cad04 da060000 da060024 da060028 e1210000 da060000 bf9b19d8
+1d60: dfb3caa0 bf9f0c38 e1210000 da060000 e2000000 00000003 df89e800 bf9ccb30
+1d80: df89e800 df89e800 00000000 bf9f0c38 dfb3ca40 dfb3caa0 00000024 bf9dbb74
+1da0: 00004365 c00eae80 dcb6f9a0 da055388 da055388 00000000 da4c1dd0 c00ebb10
+1dc0: df8238c8 00000000 dfb3cb00 df89e860 df89e800 00000000 bf9f51e8 bf9f51b8
+1de0: c0054318 00000024 bf9f5358 c018f2ac c050b570 bf9f51e8 df89e860 00000000
+1e00: bf9f51e8 c01a9640 df89e860 bf9f51e8 df89e894 00000000 bf9f0c38 c01a983c
+1e20: bf9f51e8 00000000 c01a97b0 c01a7f9c df897c00 df890158 bf9f51e8 c04cfc30
+1e40: dfb3cb00 c01a8eac bf9ed5f4 c016fbd8 df897ba0 bf9f51e8 bf9f51e8 c04cfc30
+1e60: bfa0b000 bf9f0c38 00000024 c01a9acc bf9f51b8 bf9f51e8 c04cfc30 bfa0b000
+1e80: bf9f0c38 c018f6f8 00000000 00000003 bf9f51b8 bf9fefa4 bfa0b000 bf9d1550
+1ea0: bf9fefa4 00000000 bf9f0c38 00000003 bf9f53a0 bfa0b1b4 da4c0000 bf9f53a0
+1ec0: c04ed320 bfa0b000 00000000 c0008630 00000000 c0094148 da4c1ed8 bf9f5358
+1ee0: bf9f5358 bf9f53a0 00000001 dc592220 00000001 00000024 bf9f5358 c0056250
+1f00: bf9f5364 00007fff 00000000 dcb24000 df51d998 00000000 00000124 bf9f5494
+1f20: bf9f5364 00cd9038 e1184000 00075b20 e11d8eac e11d8c1b e11df754 000602b0
+1f40: 000642d0 00000000 00000000 00000037 00000038 0000002e 00000000 00000012
+1f60: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 c009b93c
+1f80: 00000003 00075b20 bece6e34 00000000 00000080 c0009228 da4c0000 00000000
+1fa0: 00000000 c0009080 00075b20 bece6e34 b6e57008 00075b20 00cd9038 00cd9008
+1fc0: 00075b20 bece6e34 00000000 00000080 00000000 00000000 b6f70f74 00000000
+1fe0: bece6c30 bece6c20 000245a0 b6eda200 a0000010 b6e57008 e3a0302e e5853ca8
+[<bf9b1e38>] (osl_pcie_rreg+0x44/0x6c [dhd]) from [<bf9b3b28>] (si_setcoreidx+0x
+[<bf9b3b28>] (si_setcoreidx+0x15c/0x900 [dhd]) from [<bf9b43ec>] (si_attach+0x70
+[<bf9b43ec>] (si_attach+0x70/0xe4 [dhd]) from [<bf9cad04>] (dhdpci_bus_read_fram
+[<bf9cad04>] (dhdpci_bus_read_frames+0x230/0x1810 [dhd]) from [<bf9ccb30>] (dhdp
+[<bf9ccb30>] (dhdpcie_bus_attach+0x88/0x1f8 [dhd]) from [<bf9dbb74>] (dhdpcie_pc
+[<bf9dbb74>] (dhdpcie_pci_probe+0x1d0/0x568 [dhd]) from [<c018f2ac>] (pci_device
+[<c018f2ac>] (pci_device_probe+0x64/0x88) from [<c01a9640>] (driver_probe_device
+[<c01a9640>] (driver_probe_device+0x70/0x1e0) from [<c01a983c>] (__driver_attach
+[<c01a983c>] (__driver_attach+0x8c/0x90) from [<c01a7f9c>] (bus_for_each_dev+0x5
+[<c01a7f9c>] (bus_for_each_dev+0x50/0x7c) from [<c01a8eac>] (bus_add_driver+0x17
+[<c01a8eac>] (bus_add_driver+0x174/0x234) from [<c01a9acc>] (driver_register+0x7
+[<c01a9acc>] (driver_register+0x78/0x12c) from [<c018f6f8>] (__pci_register_driv
+[<c018f6f8>] (__pci_register_driver+0x44/0xa4) from [<bf9d1550>] (dhdpcie_bus_re
+[<bf9d1550>] (dhdpcie_bus_register+0x24/0xe0 [dhd]) from [<bfa0b1b4>] (init_modu
+[<bfa0b1b4>] (init_module+0x1b4/0x2bc [dhd]) from [<c0008630>] (do_one_initcall+
+[<c0008630>] (do_one_initcall+0x11c/0x184) from [<c0056250>] (sys_init_module+0x
+[<c0056250>] (sys_init_module+0xc20/0x18e0) from [<c0009080>] (ret_fast_syscall+
+Code: e1c200f0 e12fff1e e5913000 f57ff04f (e5823000)
+---[ end trace 836665e313de1e5f ]---
+Loading PCM shim driver
+Broadcom 802.1Q VLAN Interface, v0.1
+RDPA DS WAN UDP Filter Command Driver
+Creating CPU ring for queue number 2 with 256 packets descriptor=0xbf7bce10
+ Done initializing Ring 2 Base=0xffde4000 End=0xffde5000 calculated entries= 256
+UBI: attaching mtd4 to ubi2
+UBI: physical eraseblock size:   131072 bytes (128 KiB)
+UBI: logical eraseblock size:    126976 bytes
+UBI: smallest flash I/O unit:    2048
+UBI: VID header offset:          2048 (aligned 2048)
+UBI: data offset:                4096
+UBI: max. sequence number:       1086008
+UBI: attached mtd4 to ubi2
+UBI: MTD device name:            "data"
+UBI: MTD device size:            105 MiB
+UBI: number of good PEBs:        834
+UBI: number of bad PEBs:         8
+UBI: number of corrupted PEBs:   0
+UBI: max. allowed volumes:       128
+UBI: wear-leveling threshold:    4096
+UBI: number of internal volumes: 1
+UBI: number of user volumes:     1
+UBI: available PEBs:             34
+UBI: total number of reserved PEBs: 800
+UBI: number of PEBs reserved for bad PEB handling: 8
+UBI: max/mean erase counter: 1390/1303
+UBI: image sequence number:  2117556516
+UBI: background thread "ubi_bgt2d" started, PID 813
+Add UBI volume partitions: name=framework
+UBIFS: mounted UBI device 2, volume 0, name "framework"
+UBIFS: file system size:   98787328 bytes (96472 KiB, 94 MiB, 778 LEBs)
+UBIFS: journal size:       4952064 bytes (4836 KiB, 4 MiB, 39 LEBs)
+UBIFS: media format:       w4/r0 (latest is w4/r0)
+UBIFS: default compressor: lzo
+UBIFS: reserved for root:  4665969 bytes (4556 KiB)
+Ethernet Auto Power Down and Sleep: Enabled
+Energy Efficient Ethernet: Enabled
+eth4 (Ext switch port: 3) (Logical Port: 11) Link UP 1000 mbps full duplex
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+d▒ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 2(eth4) received tcn bpdu
+BR_LAN: topology change detected, propagating
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+BR_LAN: port 3(veth0) entered disabled state
+<6>device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+eth4 (Ext switch port: 3) (Logical Port: 11) Link DOWN.
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+BR_LAN: port 2(eth4) entered disabled state
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+device eth4 left promiscuous mode
+BR_LAN: port 2(eth4) entered disabled state
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+Cross Bar MUX Config : Internal Port 02 maps to External Port 01 <reg_val : 0x00
+Cross Bar MUX Config : LED reg change ; software driven <0> link <1> <reg_val :
+eth0 (Int switch port: 0) (Logical Port: 0) Link UP 1000 mbps full duplex
+ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+netdev path : eth0.1 -> eth0
+BCMVLAN : eth0 mode was set to RG
+eth0.1 MAC address set to F8:08:4F:84:21:38
+device vr_BR_WAN entered promiscuous mode
+ADDRCONF(NETDEV_UP): BR_WAN: link is not ready
+device eth0.1 entered promiscuous mode
+device eth0 entered promiscuous mode
+BR_WAN: port 2(eth0.1) entered forwarding state
+BR_WAN: port 2(eth0.1) entered forwarding state
+ADDRCONF(NETDEV_CHANGE): BR_WAN: link becomes ready
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+BR_WAN: port 2(eth0.1) entered forwarding state
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+<6>ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+Cross Bar MUX Config : LED reg change ; software driven <0> link <0> <reg_val :
+eth0 (Int switch port: 0) (Logical Port: 0) Link DOWN.
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+BR_WAN: port 2(eth0.1) entered disabled state
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+eth4 (Ext switch port: 3) (Logical Port: 11) Link UP 1000 mbps full duplex
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+device eth0.1 left promiscuous mode
+device eth0 left promiscuous mode
+BR_WAN: port 2(eth0.1) entered disabled state
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered listening state
+BR_LAN: port 2(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 2(veth0) entered disabled state
+device eth4 entered promiscuous mode
+BR_LAN: port 2(eth4) entered listening state
+BR_LAN: port 2(eth4) entered listening state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+BR_LAN: port 2(eth4) entered learning state
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+BR_LAN: topology change detected, propagating
+BR_LAN: port 2(eth4) entered forwarding state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 left promiscuous mode
+BR_LAN: port 3(veth0) entered disabled state
+device veth0 entered promiscuous mode
+ADDRCONF(NETDEV_UP): veth0: link is not ready
+ADDRCONF(NETDEV_CHANGE): veth0: link becomes ready
+BR_LAN: port 3(veth0) entered listening state
+BR_LAN: port 3(veth0) entered listening state
+
