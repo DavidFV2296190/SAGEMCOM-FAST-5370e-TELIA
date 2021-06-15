@@ -1242,6 +1242,12 @@ fun! :)):
          GUI_ACTIVATE_SHA512ENCODE_OPT: 0
      };
 
+###### Serial Port
+
+Bootloader Log
+
+![Screnshot](.pics/sagemcim_bootlaoder.gif)
+
 ###### Hidden hacks:
 
     http://192.168.1.1/0.1/gui/?item=dhcpdstaticlease.cmd?action=add&mac=MAC:ADDR:HERE&static_ip=192.168.1.1&sessionKey=<session_key>#/
