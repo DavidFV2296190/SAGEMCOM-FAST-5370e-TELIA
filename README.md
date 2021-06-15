@@ -1244,7 +1244,8 @@ fun! :)):
 
 ###### Serial Port
 
-Bootloader Log
+
+![Bootloader Log](https://raw.githubusercontent.com/wuseman/SAGEMCOM-FAST-5370e-TELIA/master/bootlogs/sagemcom_bootlog.txt)
 
 ![Screnshot](.pics/sagemcim_bootlaoder.gif)
 
@@ -1252,8 +1253,7 @@ Bootloader Log
 
     http://192.168.1.1/0.1/gui/?item=dhcpdstaticlease.cmd?action=add&mac=MAC:ADDR:HERE&static_ip=192.168.1.1&sessionKey=<session_key>#/
     
-    
-
+   
 #### REQUIREMENTS
 
 A linux setup would be good ;)
