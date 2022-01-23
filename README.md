@@ -8,6 +8,16 @@
 
 ##### No intrusion on Telia or Sagemcom's servers has occurred and no damage on hardware has been done. It's all about extremely poor security in the firmware.
 
+#### News (2022-01-23) 
+
+Here is new pictures from the date this post was updated:
+
+![Screenshot](https://wuseman.nr1.nu/archive/sagemcom/3.jpg)
+![Screenshot](https://wuseman.nr1.nu/archive/sagemcom/2.jpg)
+![Screenshot](https://wuseman.nr1.nu/archive/sagemcom/4.jpg)
+![Screenshot](https://wuseman.nr1.nu/archive/sagemcom/1.jpg)
+
+
 ![Screenshot](https://nr1.nu/archive/sagemcom-hacking/felia1.jpg)
 
 #### Find hidden settings in latest firmware (3.42.3)
