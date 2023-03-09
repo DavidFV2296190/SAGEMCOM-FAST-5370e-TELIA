@@ -3000,6 +3000,20 @@ https://user-images.githubusercontent.com/26827453/202109900-83f70bdd-eb68-405a-
 
 ![Screenshot](https://user-images.githubusercontent.com/26827453/202100149-e55591fb-e75b-409f-8656-135da6e4f230.jpg)
 
+## References/Resources
+
+* https://github.com/ezruneko/masvoz-sagemcom-fast-5355-hacks
+* https://github.com/iMicknl/python-sagemcom-api
+* https://web.archive.org/web/20190128135420/https://noconroy.net/blog/
+* https://forums.whirlpool.net.au/archive/2746904
+* https://forum.archive.openwrt.org/viewtopic.php?id=73005
+* https://www.dslreports.com/forum/r28188441-Line-Stats-Telnet-Unlock-Tool-for-Sagemcom-2864-V2-00
+* https://mega.nz/file/ohMxkArD#JKqV9gd9wBZBRIe_EFPwt0HFqalrdv9fVx72qQqm38A
+* https://krishnendu.com/telia-se-router-sagemcom-f-st-5370e-mod/
+* https://www.dropbox.com/s/h74terxw9oga8ph/5355.json?dl=0
+* https://drive.google.com/file/d/1OcZrsvSmttWvZUOitP0dgtyFBGfHQDQx/view
+* https://github.com/electronicayciencia/tr-069-proxy
+* 
 ## Get in Touch
 
 * https://www.nr1.nu 
