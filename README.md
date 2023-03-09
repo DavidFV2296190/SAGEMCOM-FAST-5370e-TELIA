@@ -46,23 +46,19 @@ haut-debit/fst-5370e-telia-wifi-router
 https://46.105.164.134/sites/default/files/2021-06/UE-2021-1369_Telia%20WiFi%20router%20F%40st%205370e_253760395.pdf
 ```
 
-
 It was signed 2021-06 but first deal was done January 2021 it seems. So I guess the new board is from early 2022.
 
 That's all I know for now about thew new board. I may update this repo later if I find somehing usdeful, this was just for help new customers/users of telia
 
-Ahh btw, if you are curios why they are naming the routers as C1/D1/F1 and so on (wich is wrong) it is..
+I almost forgot, if you are curios why they are giving th the routers wierd names as: `C1`/`D1`/`F1` (wich is WRONG) that stands for..
 
 * "Coax1" 
 * "DSL1"
-* [Telia F1 (current for fibre)](https://www.telia.se/privat/bredband/produkter-tillbehor/products/wifi-router-f1)
+* [Telia F1 (current for fibre - this is a gpon technicolor for example but they use F1 as name)](https://www.telia.se/privat/bredband/produkter-tillbehor/products/wifi-router-f1)
 
 ## Sagemcom Fast 5370e 
 
 Firmware `v3.42.3` was sent to all customers that has this router worldwide (`Sagemcom` Models Affected: `57**x`)
-
-!!! Info "License Info"
-    This wiki and **all** scripts that will be added under this repo has been made by wuseman and is licensed under GPL Version 3.
 
 This is the first wiki online that will help you to bring the power back from `TeliaSonera Company AB` and `Sagemcom` 
 developers via _`ssh`_ `OR` _`telnet`_ and for being very clear in `=` No `intrusion` on `TeliaSonera Company AB` or `Sagemcom's` 
