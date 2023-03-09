@@ -56,6 +56,12 @@ I almost forgot, if you are curios why they are giving th the routers wierd name
 * "DSL1"
 * [Telia F1 (current for fibre - this is a gpon technicolor for example but they use F1 as name)](https://www.telia.se/privat/bredband/produkter-tillbehor/products/wifi-router-f1)
 
+I almost forgot. I found port 22 was used; output: 
+
+https://gist.githubusercontent.com/wuseman/3d35cb5b5ccebc4e35ffe84435f3cf93/raw/f7f76e6037c6f274e96d961273bb703c1c91f9ac/Sagemcom_F@st_5370e.nmap.txt
+
+Also I found some other ports was used, for example: Port 111 on the really first boot only if that will help someone. (SunRPC)
+
 ## Sagemcom Fast 5370e 
 
 Firmware `v3.42.3` was sent to all customers that has this router worldwide (`Sagemcom` Models Affected: `57**x`)
