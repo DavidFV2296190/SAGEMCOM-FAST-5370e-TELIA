@@ -51,6 +51,13 @@ It was signed 2021-06 but first deal was done January 2021 it seems. So I guess 
 
 That's all I know for now about thew new board. I may update this repo later if I find somehing usdeful, this was just for help new customers/users of telia
 
+Ahh btw, if you are curios why they are naming the routers as C1/D1/F1 and so on (wich is wrong) it is..
+
+"Coax1"
+"DSL1"
+"Fibre1"
+.... and so on.
+
 
 ## Sagemcom Fast 5370e 
 
