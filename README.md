@@ -47,7 +47,7 @@ https://46.105.164.134/sites/default/files/2021-06/UE-2021-1369_Telia%20WiFi%20r
 ```
 
 
-It was signed 2021-06. So I guess the new board is from early 2022.
+It was signed 2021-06 but first deal was done January 2021 it seems. So I guess the new board is from early 2022.
 
 That's all I know for now about thew new board. I may update this repo later if I find somehing usdeful, this was just for help new customers/users of telia
 
