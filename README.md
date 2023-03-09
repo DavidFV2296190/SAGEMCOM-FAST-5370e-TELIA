@@ -1,148 +1,9 @@
+# Sagemcom F@st 5370e | <small>TeliaCompany AB</small>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/26827453/202126278-d97264f9-64a4-461e-a97b-fc7daec40487.png" /><br>
-  <h1 align="center"># Sagemcom F@st 5370e</h1>
-  <h3 align="center">Everything has an End. <small>(Updated: 2022/11/15, 4 years later)</small></h3>
  </p>
 
-***
-
-Finally I found all the old pictures and it's been years now since this repo was created. this was worth a 100% CVE. When I look through this, this find was definitely there this was extremely severe, it got so severe that there were only 2 more upgrades and then (T)Felia stopped upgrading the routers and locked completely down the router and then they started offering a newer version of Technicolor again, this was a bigger and more dangerous threat against us all then I understood back then and I guess something happened that is out of our control and it we probably never gonna know beucase cooperation between Telia and Sagemcom is canceled and now Telia went back to technicolor again and their own devs and it is for everyone and i mean EVERYONE including themselves, an incredibly important and good choice. They was taken seriously, thanks telia! They proved to me with this that they take their customers' safety seriously and I have great respect for everyone who works at telia and its subcontractors, I have now instead found flaws with other operators where there is extreme ignorance so this history is now history and I am both happy, proud and extremely satisfied with the results.
-
-Everything in this repo may still be relevant for other internet providers and the firmware they using on their devices worldwide since `Sagemcom` is still cooperates with `Tele2`(comhem) and many many many more internet providers out there  and even if Telia has removed most of the alternatives, mostly things is working the same as before but with less options(for telia customers) due to an upgraded version, so everything I have written here is highly relevant, but because I have already shown, revealed and done what if I can, I will archive this repo from `2022-11-15` and there will be no more upgrades.
-
-Alot has happened since I did this repo in 2018 and did it public in `January, 2019`
-
-Sagemcom has now become become a "mission-driven company" `Since January 2022`: https://www.sagemcom.com/en/group
-
-I spend all my waking hours trying to succeed and if I don't succeed I try again, I've been trying to get hold of a version v3.4.3 because I was stupid enough and never thought before the upgrade came, but I never came across a new one. Here are some pictures for myself to remember these 4 years, I have spent over 600 hours of my free time on this router, here are some random pictures I never shared before but since it is now archived, so here are my 600 hours in pictures shown.
-
-### Approx ~430 hours later and four years and all time I spent on this router I have learned:
-
-``` bash
-1) During these 4 years I bought 9 routers to find one with firmware 
-   ´v3.4.3´ after the major upgrade, without luck..
-
-2) During this period I was used 7 differnet serial tools for reading data
-
-3) During this period I really know how dangerous it can be to try things 
-   without be VERY careful and reading datasheets,  i even managed to set the router on fire (FOR REAL)
-
-4) I tried so many things that would make anyone to think im crazy, 
-  but during this time I found a way to bypass auth if serial console is protected 
-  by password and it works on other devices as well, this is my secret but I don't 
-  regret spending so many hours on this router, in my solitude ;)
-
-5) During this period I asked support 12 times if there is a 'back door' 
-  into my home for whatever reason? I got the answer NO out of 11 out of 12 in 
-  my internet operator's support for answers. I now know that support cannot 
-  be trusted and their knowledge of their own devices is zero.
-
-6) I'll let all the pictures speak for themselves, what's not included 
-   here probably isn't worth knowing..
-   
-   Save yourself from bricking/disassemble the device if you don't really want to, 
-   you'll see most of what's on the router below.
-```
-
-#### Did you know there is a hidden and 'secret' connector under the aluminum case on the 'front side' of the board?
-
-* When I mention 'front' side of the board it is this side of the board
-
-![PXL_20211022_092146149](https://user-images.githubusercontent.com/26827453/202089140-8fbef78c-8381-44aa-af2e-1edf4d9b693a.jpg)
-
-* When I mention 'back' side of the board it is this side of the board
-
-![Screenshot_20221116_072307](https://user-images.githubusercontent.com/26827453/202100395-1aa6b76b-81bf-4cb2-914a-ba977049f32b.png)
-
-* The secret/hidden (not in even in manual it's listed) connector is on the 'front side' of the router board
-
-![IMG_20220116_002359](https://user-images.githubusercontent.com/26827453/202090160-4c1a51ef-7a86-4405-acf0-ed556dcba091.jpg)
-![IMG_20220116_002413](https://user-images.githubusercontent.com/26827453/202090161-151e180c-8af3-4b6c-b254-6362ac8c9c5d.jpg)
-![IMG_20220116_002416](https://user-images.githubusercontent.com/26827453/202090163-aadc435c-bed7-4701-a1e4-60e6ec9e998f.jpg)
-![IMG_20220116_002419](https://user-images.githubusercontent.com/26827453/202090167-94488a94-ded6-4610-afda-28d48816b3cd.jpg)
-![IMG_20220116_002427](https://user-images.githubusercontent.com/26827453/202090168-0606beee-8f77-436e-88b4-672014e486c9.jpg)
-
-![Screenshot_20221116_072307](https://user-images.githubusercontent.com/26827453/202102035-7c588ddd-4f66-40f0-a7c5-ac162a1f61e6.png)
-![Screenshot_20221116_072638](https://user-images.githubusercontent.com/26827453/202101976-f20bdd4d-a992-48c3-ad0d-0fe9cfdedf50.png)
-
-* Under the aluminum case on 'backside' of this board the broadcom chip is found
-
-![Screenshot_20221116_073703](https://user-images.githubusercontent.com/26827453/202103423-cf4a390e-277c-4bb5-aac5-d5bb91404641.png)
-![IMG_20220116_010234](https://user-images.githubusercontent.com/26827453/202090285-50756bab-d3a2-4864-b736-4a5c6e33482d.jpg)
-![IMG_20220116_010238](https://user-images.githubusercontent.com/26827453/202090291-93fe6f86-65cc-4a3a-aeba-d0e17f21a493.jpg)
-
-* During this period I documented a lot I never told or have told, 
-  here you can see how I did, what I did, how I work, how extremely 
-  determined to succeed I am when it comes to hacking devices for fun
-
-* These photos I took to remember RX/TX/GND to NOT come when v3.3 on the first router.
-
-![PXL_20211126_232927539 PORTRAIT](https://user-images.githubusercontent.com/26827453/202092114-5b3887ac-0b7e-461c-b97b-6553cbce831c.jpg)
-![PXL_20211126_232910051](https://user-images.githubusercontent.com/26827453/202092151-d0a839c6-2dbc-496b-94b0-24dc738eea44.jpg)
-![PXL_20211126_232527185](https://user-images.githubusercontent.com/26827453/202092337-65277804-9cd4-4064-8861-55c3907dc14b.jpg)
-![PXL_20211126_232529791](https://user-images.githubusercontent.com/26827453/202092346-a077f469-565f-44b3-995d-580a86a25dfd.jpg)
-![PXL_20211126_232534970 (1)](https://user-images.githubusercontent.com/26827453/202092348-1782992f-037a-4582-b1c6-d73c5cd5b3a1.jpg)
-![PXL_20211126_232910051](https://user-images.githubusercontent.com/26827453/202092352-1a603472-4a8b-4e15-9c5a-1b0091242476.jpg)
-
-* Here is serial console when I was forcefully "yanking" two capacitors away on 1 of the 9 routers to see what happens at different 
-  "damages" to a device to know what different things are due to if there are "failures" in the future on other devices
-  so this is NOT because  because a wrong baudrate of course, it was a "let's fuck this router and see what happens" time
-
-https://user-images.githubusercontent.com/26827453/202096875-354674e4-ae9c-4690-9650-7c8ced71338a.mp4
-
-* Just another device and other tools for trying AGAIN to hack the last firmware release 
-  after few months with a break for get motivation back again for trying get root access on latest firmware `v4.**`
-
-![PXL_20211027_190253660](https://user-images.githubusercontent.com/26827453/202093360-798581c0-2cce-4645-bb62-c6026f38d600.jpg)
-![PXL_20211027_190259295](https://user-images.githubusercontent.com/26827453/202093363-220359fd-3b09-41fd-858a-da44961c4e0c.jpg)
-![PXL_20211027_190301283](https://user-images.githubusercontent.com/26827453/202093365-452818b4-15f6-45a8-9a02-e75d5662e75e.jpg)
-
-* Same as above but just another device of the same model and firmware and A new ft232dl reader since I experimenting 
- with "crazy" things and the serial readers gets and these devices break extremely easily if you guess pins etc 
- and if you are NEW to hardware hacking want to try the same things if you get insperation. Always read the manual, 
- datasheets and measure the points and don't take chances it will end in disaster. It is impossible to GUESS 
- unless there is clearly what is what on the devices, *BE CAREFUL*!!
- 
-![PXL_20210922_130435544](https://user-images.githubusercontent.com/26827453/202093672-9cd73222-6bf7-4955-8150-e0c3ee9e6d22.jpg)
-
-* This was 4 Years _after_ this repo was created and I still was not able to get root access on latest firmware :(
-
-![1](https://user-images.githubusercontent.com/26827453/202099558-e6939525-f49e-4472-a4f1-4ce0a3b4377a.jpg)
-![3](https://user-images.githubusercontent.com/26827453/202099561-fb485649-748f-47c3-a003-7132e557d35d.jpg)
-
-I have a large collection on all devices and hardware that I have managed to hack in my own way. Here is the current router in the list. All the others I throw away or give away to whoever needs them as I don't use these myself. J
-
-* Sagemcom F@st 5370e is the 97th device I manage to hack or find vulnerabilities in my own personal way for FUN as a non-profit hacker.
-
-![Screenshot_20221116_070306](https://user-images.githubusercontent.com/26827453/202099355-92abde81-4acb-4520-833f-6aab3d32240a.png)
-![Screenshot_20221116_071524](https://user-images.githubusercontent.com/26827453/202099359-857bc4ad-ba76-4fd5-a1f0-36876043713f.png)
-![Screenshot_20221116_075818](https://user-images.githubusercontent.com/26827453/202108874-696e121d-f74a-4a4e-9555-40309a612b81.png)
-
-* 4 of 9 different routers I found, I really worked hard for get root access on this device
-
-![Screenshot_20221116_075552](https://user-images.githubusercontent.com/26827453/202108870-fb37a1be-b77b-4e94-8125-897a380630a1.png)
-![Screenshot_20221116_075818](https://user-images.githubusercontent.com/26827453/202109025-8db87775-10c9-4717-bbab-5553cdf636b7.png)
-![Screenshot_20221116_080505](https://user-images.githubusercontent.com/26827453/202109252-27382c55-8255-41e5-93ee-47db124b467f.png)
-![Screenshot_20221116_075933](https://user-images.githubusercontent.com/26827453/202108882-b45e20a4-257e-492b-874f-b6d266f27a9d.png)
-
-### Shit happens ;) 
-
-https://user-images.githubusercontent.com/26827453/202110329-ae0db266-8fb8-458e-b9bb-e5e7d95afef4.mp4
-
-https://user-images.githubusercontent.com/26827453/202110573-13a36b14-809e-49b9-9f09-5bd5689a6b70.mp4
-
-https://user-images.githubusercontent.com/26827453/202109900-83f70bdd-eb68-405a-87b3-2854142d7352.mp4
-
-![BURN M*THER F*CKER BURN!](https://user-images.githubusercontent.com/26827453/202100149-e55591fb-e75b-409f-8656-135da6e4f230.jpg)
-
-<p align="center">* This repository was created: January 30, 2019 and was archived: November 16, 2022/11/15
-<p align="center">* And of course, thanks for your likes and support Stargazzers, keep up the good work everyone and _never_ give up!
-<p align="center">// wuseman
- </p>
-
-*** 
-
-# Sagemcom Fast 5370e 
+## Sagemcom Fast 5370e 
 
 _before above message was added it started here, have fun!_
 
@@ -152,15 +13,24 @@ I will probably get a new one this summer so don't expect this repo to get updat
 Of course all commands in this wiki is available still if you are on firmware `v3.42.2`. In firmware `v3.43.3` all 
 important settings has been removed so you can't enable telnet and ssh access via the console by the exploits in this wiki anymore. 
 
-* Firmware `v3.42.3` was sent to all customers that has this router worldwide (`Sagemcom` Models Affected: `57**x`)
+Firmware `v3.42.3` was sent to all customers that has this router worldwide (`Sagemcom` Models Affected: `57**x`)
 
-### IMPORTANT INFO FOR EVERYONE THAT WILL FOLLOW THIS README!
+!!! Info "License Info"
+    This wiki and **all** scripts that will be added under this repo has been made by wuseman and is licensed under GPL Version 3.
 
-This wiki and **all** scripts that will be added under this repo has been made by wuseman and is licensed under GPL Version 3.
+This is the first wiki online that will help you to bring the power back from `TeliaSonera Company AB` and `Sagemcom` 
+developers via _`ssh`_ `OR` _`telnet`_ and for being very clear in `=` No `intrusion` on `TeliaSonera Company AB` or `Sagemcom's` 
+servers has occurred and **`NO`** damage on hardware has been done and im a _`non-profit`_ hacker that is doing this without any 
+interests in _`politics`_ or to harm any companies and I have been in contact the developers of this firmware them for those who 
+are wondering, `hacking` is my passion, for real. `NOT` a *wannabe* _criminal_ *black hat* _hacker_ because for me hacking is for 
+fun and without any profits at all for education and sharing knowledge for fun!
 
-This is the first wiki online that will help you to bring the power back from `TeliaSonera Company AB` and `Sagemcom` developers via _`ssh`_ `OR` _`telnet`_ and for being very clear in `=` No `intrusion` on `TeliaSonera Company AB` or `Sagemcom's` servers has occurred and **`NO`** damage on hardware has been done and im a _`non-profit`_ hacker that is doing this without any interests in _`politics`_ or to harm any companies and I have been in contact the developers of this firmware them for those who are wondering, `hacking` is my passion, for real. `NOT` a *wannabe* _criminal_ *black hat* _hacker_ because for me hacking is for fun and without any profits at all for education and sharing knowledge for fun!
+this repository is all about extremely poor security in the firmware. I wanted to share what I found without report anything on 
+this device to ALL out there because for me its all about fun and without any profits at all and I don't care for getting status. 
 
-this repository is all about extremely poor security in the firmware. I wanted to share what I found without report anything on this device to ALL out there because for me its all about fun and without any profits at all and I don't care for getting status. As usual, I do this for `YOU` completely free and you can share and change this wiki as much as you want, it would be appreciated if you added a url to this original readme to help us all for sharing knowledge and contribute to a safer internet if you want - You are certainly not forced to this, of course ;)
+As usual, I do this for `YOU` completely free and you can share and change this wiki as much as you want, it would be appreciated 
+ you added a url to this original readme to help us all for sharing knowledge and contribute to a safer internet if you want 
+ - You are certainly not forced to this, of course ;)
 
 ## Find hidden settings in latest firmware (`v3.42.`)
 
@@ -176,7 +46,8 @@ $.xmo.getValuesTree("*/*/*/*/*/*")
 $.xmo.getValuesTree("*/*/*/*/*/*/*")
 and so on.. 
 ```
-### For list more things like attributes wich above command wont list, use `getCapability` instead
+
+## For list more things like attributes wich above command wont list, use `getCapability` instead
 
 ```javascript
 $.xmo.getCapability("*")
@@ -185,7 +56,10 @@ $.xmo.getCapability("*/*/*")
 and so on..
 ```
 
-### For list all configurations where you can list `allowedUsers`, `blockedUsers` and other configurations
+## List configurations 
+
+Where you can list `allowedUsers`, `blockedUsers` and other configurations
+
 ```javascript
 $.config
 $.config.allowedUsers
@@ -193,7 +67,9 @@ $.config.modules
 $.config.reinitializeWithFactory
 and so on..
 ```
-### For list all features that has been disable from default
+
+## For list all features that has been disable from default
+
 ```javascript
 $.config.showedpages
 ```
@@ -209,7 +85,7 @@ IAPDEnable: {enable: false}
 MTU: {enable: false}
 ```
 
-#### Proof for the shell access, as `root`
+## Proof for the shell access, as `root`
 
 ![68747470733a2f2f6e72312e6e752f617263686976652f736167656d636f6d2d6861636b696e672f74656c69612d74656c6e65742e676966](https://user-images.githubusercontent.com/26827453/202030223-e06b7207-0c80-4f49-b1ad-be6cada5761f.gif)
 
@@ -229,43 +105,45 @@ here is a proof for how to find info about all settings they have configured
 
 ![68747470733a2f2f6e72312e6e752f617263686976652f736167656d636f6d2d6861636b696e672f736167656d2d6f776e6564322e706e67](https://user-images.githubusercontent.com/26827453/202030335-0645ff31-23c8-4b0f-85e7-fbf6eba433cf.png)
 
-### Stop/Start LXC From TelialXC Rootfs
+## Stop/Start LXC From TelialXC Rootfs
 
 ```bash
 lxc-stop -n teliaLxc -F
 lxc-start -n teliaLxc -F
 ```
 
-### UCI Settings
+## UCI Settings
+
 ```bash
 uci show network
 uci show dhcp
 uci show system
 ```
 
-### Login as another user
-```´javascript
+## Login as another user
+
+```javascript
 var x = $.xmo;
 $.xmo.init();
 $.xmo.login("username", "password");
 $.dosomethingherewithoutloginongui
 ```
 
-### Route INFO
+## Route info
 
 ```javascript
 $.xmo.getValuesTree("Device/Routing/RouteInformation/Enable");
 $.xmo.setValuesTree("true", "Device/Routing/RouteInformation/Enable");
 ```
 
-### Enable ADVANCED Mode
+## Enable ADVANCED Mode
 
 ```javascript
 $.xmo.getValuesTree("Device/UserInterface/AdvancedMode");
 $.xmo.setValuesTree("true", "Device/UserInterface/AdvancedMode");
 ```
 
-### Set user settings for Administrator/admin/internal
+## Set user settings for `Administrator`/`admin`/`internal`
 
 ```javascript
 $.xmo.getValuesTree("Device/UserAccounts/Users/User[@uid='1']");
@@ -282,7 +160,7 @@ $.xmo.getValuesTree("Device/UserAccounts/Users/User[@uid='3']/RemoteAccesses/Rem
 $.xmo.getValuesTree("Device/UserAccounts/Users/User[@uid='2']/RemoteAccesses/RemoteAccess[@uid='1']");
 ```
 
-### BACKDOORS (DONT PLAY WITH THIS IF YOU DONT KNOW WHAT YOU ARE DOING IT WILL FREEZE ROUTER AND FACTORY RESET IS REQUIRED)
+## TeliaCompany AB: `backdoor`
 
 ```javascript
 $.xmo.getValuesTree("Device/UserAccounts/Users/User[@uid='3']/RemoteAccesses/RemoteAccess[@uid='2']/Enabled"); # SSH FOR TELIA ENABLE BY DEFAULT
@@ -290,14 +168,14 @@ $.xmo.setValuesTree("false", "Device/UserAccounts/Users/User[@uid='3']/RemoteAcc
 $.xmo.setValuesTree("false", "Device/UserAccounts/Users/User[@uid='3']/RemoteAccesses/RemoteAccess[@uid='4']/Enabled");
 ```
 
-### Response to PING
+## Response to ping
 
 ```javascript
 $.xmo.getValuesTree("$.xmo.getValuesTree("Device/Firewall/RespondToPing");");
 $.xmo.setValuesTree("", "");
 ```
 
-### Print/Set DYNDNS Stuff
+## Print/Set dyndns settings
 
 ```javascript
 $.xmo.getValuesTree("Device/Services/DynamicDNS/Clients/Client[@uid='1']/Enable");
@@ -306,14 +184,16 @@ $.xmo.getValuesTree("Device/Services/DynamicDNS/Clients/Client[@uid='1']/Usernam
 $.xmo.getValuesTree("Device/Services/DynamicDNS/Clients/Client[@uid='1']/Password");
 ```
 
-### Storageservices GET INFO
+## Storageservices get info 
+
 ```javascript
 $.xmo.getValuesTree("Device/Services/StorageServices/StorageService[@uid='1']/Capabilities/SFTPCapable");
 $.xmo.getValuesTree("Device/Services/StorageServices/StorageService[@uid='1']/Capabilities/FTPCapable");
 $.xmo.getValuesTree("Device/Services/StorageServices/StorageService[@uid='1']/Capabilities/HTTPWritable");
 ```
 
-### Storageservices SET INFO
+## Storageservices set info
+
 ```javascript
 $.xmo.setValuesTree("true", "Device/Services/StorageServices/StorageService[@uid='1']/Capabilities/SFTPCapable");
 $.xmo.setValuesTree("true", "Device/Services/StorageServices/StorageService[@uid='1']/Capabilities/FTPCapable");
@@ -327,43 +207,44 @@ $.xmo.getValuesTree("Device/Services/StorageServices/StorageService[@uid='1']/FT
 $.xmo.getValuesTree("Device/Services/StorageServices/StorageService[@uid='1']/FTPServer/Status");
 ```
 
-### Print IPV4 Addresses
+## Print IPv4 addresses
 
 ```javascript
 $.xmo.getValuesTree("Device/IP/Interfaces/Interface[Alias=\"IP_DATA\"]/IPv4Addresses/IPv4Address[Alias=\"IP_DATA_ADDRESS\"]/IPAddress");
 ```
 
-### Print IPV6 Addresses
+## Print IPv6 addresses
 
 ```javascript
 $.xmo.getValuesTree("Device/IP/Interfaces/Interface[@uid='1']/IPv6Addresses/IPv6Address[@uid='1']/IPAddress");
 ```
 
-### Enable Telnet
+## Enable telnet
 
 ```javascript
 $.xmo.setValuesTree("ACCESS_ENABLE_ALL", "Device/UserAccounts/Users/User[@uid='1']/RemoteAccesses/RemoteAccess[@uid='4']/LANRestriction");
 ```
 
-### Enable SSH
+## Enable ssh on 
 
 ```javascript
 $.xmo.setValuesTree("ACCESS_ENABLE_ALL", "Device/UserAccounts/Users/User[@uid='1']/RemoteAccesses/RemoteAccess[@uid='4']/LANRestriction");
 ```
 
-### Print hardware version
+## Print current hardware version
 
 ```javascript
 $xmo.setValuesTree("Device/DeviceInfo/HardwareVersion");
 ```
 
-### Remove BLACKLISTED ports
+## Remove blacklisted ports
+
 ```javascript
 $.xmo.setValuesTree("", "Device/Managers/NetworkData/BlacklistedPorts");
 $.xmo.getValuesTree("", "Device/Managers/NetworkData/BlacklistedPorts");
 ```
 
-### Enable SFTP
+## Enable sftp
 
 ```javascript
 $.xmo.getValuesTree("Device/ServicesStorageService[1]/Enable");
@@ -371,7 +252,7 @@ $.xmo.getValuesTree("Device/Services/StorageServices/StorageService[@uid='1']/En
 $.xmo.setValuesTree('true', "Device/Services/StorageServices/StorageService[@uid='1']/SFTPServer/Enable");
 ```
 
-### Enable FTP
+## Enable ftp
 
 ```javascript
 $.xmo.getValuesTree("Device/Services/StorageServices/StorageService[@uid='1']/FTPServer");
@@ -379,24 +260,25 @@ $.xmo.setValuesTree("true", "Device/Services/StorageServices/StorageService[@uid
 $.xmo.getValuesTree("Device/Services/StorageServices/StorageService[@uid='1']/FTPServer/Enable"); 
 ```
 
-### Edit first connection
+## Edit first connection
 
 ```javascript
 $.xmo.getValuesTree("Device/DeviceInfo/FirstConnection");
 ```
 
-### Interface: 
+## WAN Interface 
+
 ```javascript
 $.xmo.getValuesTree("Device/Ethernet/Interfaces/Interface[Role='WAN']");
 ```
 
-### Print MAC Address
+## Print hw address address
 
 ```javascript
 $.xmo.getValuesTree("Device/DeviceInfo/MACAddress");
 ```
 
-### UPNP Stuff
+## UPNP Settings
 
 ```javascript
 $.xmo.getValuesTree("Device/UPnP/Settings/UPnPMediaServer/UPnPMediaServerPort");
@@ -412,7 +294,7 @@ $.xmo.getValuesTree("Device/UPnP/Settings/UPnPMediaServer/UploadEnabled");
 $.xmo.setValuesTree("1", "Device/UPnP/Settings/UPnPMediaServer/UploadEnabled");
 ```
 
-### Enable more AccessControl Settings
+## Enable more accessControl settings
 
 ```javascript
 $.xmo.getValuesTree("Device/Managers/NetworkLan/AccessControlEnable");
@@ -421,18 +303,19 @@ $.xmo.setValuesTree("true", "Device/Managers/NetworkLan/GuestAccessControlEnable
 $.xmo.getValuesTree("Device/Managers/NetworkLan/GuestAccessControlEnable");
 ```
 
-### Enable Advanced Mode
+## Enable advanced mode
+
 ```javascript
 $.xmo.setValuesTree("true", "Device/UserInterface/AdvancedMode");
 ```
 
-### Get status for advanced mode
+## Get status for advanced mode
 
-```
+```javascript
 $.xmo.getValuesTree("Device/UserInterface/AdvancedMode");  
 ```
 
-### Syslog Settings
+## Configure syslog to send logs to remote server
 
 * Browser Developer Console
 
@@ -441,14 +324,14 @@ $.xmo.setValuesTree("192.168.1.104", "Device/DeviceInfo/Logging/Syslog/Server/IP
 $.xmo.setValuesTree(".*", "Device/DeviceInfo/Logging/Syslog/Server/SyslogConfig");
 ```
 
-* From Router Shell
+## Configure syslog to from commandline
 
 ```bash
 sed -i 's/81.236.57.18/192.168.1.104/g' /etc/syslog-ng/syslog-ng.conf 
 sed -i 's/1.1.1.1/192.168.1.104/g' /telia/lxc/rootfs/etc/syslog-ng/syslog-ng.conf
 ```
 
-### Colors
+## Play with css (theme) colors
 
 ```javascript
 $.xmo.setValuesTree("#000000", "Device/UserInterface/BackgroundColor")
@@ -457,7 +340,7 @@ $.xmo.setValuesTree("magenta", "Device/UserInterface/ButtonColor")
 $.xmo.setValuesTree("white", "Device/UserInterface/TextColor")
 ```
 
-### Disable upcomming firmware upgrades
+## Disable upcomming firmware upgrades
 
 ```
 Telia ACS Server: https://acs.telia.com:7575/ACS-server/ACS"
@@ -472,13 +355,13 @@ $.xmo.setValuesTree("", "Device/ManagementServer/URL");
 $.xmo.getValuesTree("Device/Managers/NetworkData")
 ```
 
-### Print Serial Number
+## Print serial number of device
 
 ```javascript
 $.xmo.getValuesTree("Device/GatewayInfo/SerialNumber");
 ```
 
-### Set/Print hostname/dns
+## Configure hostname/dns
 
 ```javascript
 $.xmo.getValuesTree("Device/DNS/Client/HostName");
@@ -490,7 +373,7 @@ $.xmo.getValuesTree("Device/Services/DynamicDNS/Clients/Client[1]/Enable");
 
 ```
 
-### Print DNS Server IP:s
+## Print current dns server in use
 
 ```javascript
 $.xmo.getValuesTree("Device/DNS/Client/Servers/Server[1]/DNSServer");
@@ -498,27 +381,28 @@ $.xmo.getValuesTree("Device/DNS/Client/Servers/Server[2]/DNSServer");
 
 ```
 
-### Print Time & Date status
+## Print time/date for router
 
 ```javascript
 $.xmo.getValuesTree("Device/Time/Enable");
 $.xmo.getValuesTree("Device/Time/Status");
 ```
 
-### QOS Settings
+## QOS Settings
 
 ```javascript
 $.xmo.getValuesTree("Device/QoS/DefaultDSCPMark");
 ```
 
-### Status for USB
+## Dump current status for usb
 
 ```javascript
 $.xmo.getValuesTree("Device/USB/Enable");
 
 ```
 
-### Print info about interfaces
+## Dump info about interfaces
+
 ```javascript
 $.xmo.getValuesTree("Device/Ethernet/Interfaces/Interface[Alias="PHY1"]/Stats/BroadcastPacketsReceived");
 $.xmo.getValuesTree("Device/Ethernet/Interfaces/Interface[Alias="PHY1"]/Stats/BroadcastPacketsSent");
@@ -594,7 +478,7 @@ $.xmo.getValuesTree("Device/Ethernet/Interfaces/Interface[Alias="PHY4"]/Stats/Un
 $.xmo.getValuesTree("Device/Ethernet/Interfaces/Interface[Alias="PHY4"]/Stats/UnicastPacketsSent");
 ```
 
-### Disable blacklists
+## Disable blacklists
 
 ```javascript
 $.xmo.getValuesTree("Device/Hosts/Hosts/Host[@uid='1']");
@@ -603,7 +487,7 @@ $.xmo.setValuesTree('false', "Device/Hosts/Hosts/Host[@uid='1']/BlacklistedAccor
 $.xmo.getValuesTree("Device/Hosts/Hosts");
 ```
 
-### Control Rules
+## Configure and control various rules
 
 ```css
 sboxApp.controller("AntennaSettingsController", ["$scope", "$rootScope", "$timeout", "AntennaSettings", function($scope, $rootScope, $timeout, AntennaSettings) {
@@ -666,45 +550,46 @@ sboxApp.controller("AntennaSettingsController", ["$scope", "$rootScope", "$timeo
      });
 ```
 
-### Change values to true after changes
+## Change values to true after changes
 
 ```javascript
 $.xmo.addChild($.xpaths.advanced.remoteManagement.usersUpdate.enable = "true")
 ```
 
-### VOIP
+## VOIP settings
 
 ```javascript
 $.xmo.getValuesTree("Device/Services/VoiceServices/VoiceService[@uid=1]/VoiceProfiles/VoiceProfile[@uid=1]/Enable");
 $.xmo.getValuesTree("Device/Services/VoiceServices/VoiceService[@uid='1']/PhyInterfaces/PhyInterface/OutGoingLine");
 ```
 
-### Edit RIP
+## RIP settings
 
 ```javascript
 $.xmo.getValuesTree("Device/Routing/RIP/Enable");
 $.xmo.setValuesTree('true', "Device/Routing/RIP/Enable");
 ```
 
-### Get Country Settings
+## Print pre-configured country for device
 
 ```javascript
 $.xmo.getValuesTree("Device/DeviceInfo/Country");
 ```
 
-### Print/Set CWPD Settings
+## Configure cwpd settings
 
 ```javascript
 $.xmo.setValuesTree("", "Device/ManagementServer/TR69InternalData/Settings/Port");
 $.xmo.getValuesTree("Device/ManagementServer/TR69InternalData/Settings/Port")
 ```
 
-### Grab passwords for any user
+## Dump password for any user (by username)
+
 ```javascript
 $.xmo.client.getPassword('username')
 ```
 
-### UPNP/Twonky settings
+## UPNP/Twonky settings
 
 ```javascript
 $.xmo.getValuesTree("Device/UPnP/Settings/UPnPMediaServer/AllName");
@@ -734,55 +619,61 @@ $.xmo.getValuesTree("Device/UPnP/Settings/UPnPMediaServer/VideoNodes/VideoNode[@
 $.xmo.getValuesTree("Device/UPnP/Settings/UPnPMediaServer/Language");
 ```
 
-### Print WIFI Settings
+## Print wireless settings
 
 ```javascript
 $.xmo.getValuesTree("Device/WiFi/SSIDs");
 ```
 
-### Print/Set portscan detection
+## Configure portscan detection
+
 ```javascript
 $.xmo.getValuesTree("Device/Firewall/PortScanDetection");
 $.xmo.setValuesTree('true', "Device/Firewall/PortScanDetection");
 ```
 
-### And for hashPasswords
+## Print password hash for any user (by username)
+
 ```javascript
 $.xmo.client.hashPassword('username')
 ```
 
-### For authenticate as another user
+## Login another user
+
 ```javascript
 $.xmo.client.authenticate('username')
 ```
 
-### Save cookie with password
+## Save cookies with password
+
 ```javascript
 $.xmo.client.saveToCookie
 ```
 
-### Info about authentications: 
+## Info about authentications
 
 ```javascript
 $.xmo.client._options
 ```
 
-### List pending requests
+## List pending requests
 ```javascript
 $.xmo.client._pendingRequests
 ```
 
-### Find your UID or SESSION ID wich is needed for set settings permanent
+## Find your UID or SESSION ID wich is needed for set settings permanent
+
 ```javascript
 $.xmo.client._sessionId
 ```
 
-### List and set different name on any setting, you can use your own js script for example
+## List and set different name on any setting, you can use your own js script for example
+
 ```javascript
 $.xmo.client.__proto__
 ```
 
-### Gather info about your device (included plain text passwords): 
+## Gather info about your device (included plain text passwords)
 
 ```javascript
 $.xmo.getValuesTree('Device')
@@ -791,7 +682,7 @@ $.xmo.getValuesTree('Device')
 ![68747470733a2f2f6e72312e6e752f617263686976652f736167656d636f6d2d6861636b696e672f6465766963652d696e666f2e706e67](https://user-images.githubusercontent.com/26827453/202030518-29097da5-0f17-4001-bffa-c6b30ec630ce.png)
 
 
-### Gather info for users
+## Gather info for users
 
 ```javascript
 $.xmo.getValuesTree("Device/UserAccounts/Users");
@@ -799,7 +690,7 @@ $.xmo.getValuesTree("Device/UserAccounts/Users");
     
 ![68747470733a2f2f6e72312e6e752f617263686976652f736167656d636f6d2d6861636b696e672f75736572706173732e706e67](https://user-images.githubusercontent.com/26827453/202030581-6590f509-cf99-49a2-968a-480d739e52a9.png)
 
-### Find deviceInfo, advancedOptions and more settings
+## Dump deviceInfo
 
 ```javascript
 $.xmo.getValuesTree($.xpaths.mySagemcomBox);
@@ -807,7 +698,7 @@ $.xmo.getValuesTree($.xpaths.mySagemcomBox);
 
 ![68747470733a2f2f6e72312e6e752f617263686976652f736167656d636f6d2d6861636b696e672f736167656d636f6d626f782e706e67 (1)](https://user-images.githubusercontent.com/26827453/202043519-048b294a-3491-45cb-b4bc-96df82796078.png)
 
-### Reboot device via developer console
+## Reboot device via developer console
 
 ```javascript
 $.xmo.reboot = function() {
@@ -820,8 +711,7 @@ $.xmo.reboot = function() {
          a.send();
 ```
 
-### Set runlevel for device
-
+## Set runlevel for device
 
 | Level      | Description     |
 |------------|-----------------|
@@ -834,12 +724,14 @@ $.xmo.reboot = function() {
 $.xmo.setValuesTree(4, $.xpaths.runlevel);
 ```
 
-### For set settings it is required to have knowledge about xpaths, grab them by type
+## For set settings it is required to have knowledge about xpaths, grab them by type
+
 ```javascript
 $.xpaths
 ```
 
-### So for example to use everything from xpaths we can print our IP as an example by command
+## So for example to use everything from xpaths we can print our IP as an example by command
+
 ```javascript
 $.xmo.getValuesTree("Device.IP.Interfaces.Interface[Alias=\"IP_DATA\"].IPv4Addresses.IPv4Address[Alias=\"IP_DATA_ADDRESS\"].IPAddress");
 ```
@@ -854,7 +746,7 @@ $.xmo.client.newRequest..downloadFile($.xpaths.mySagemcomBox.maintenance.saveRes
 ```
 ![68747470733a2f2f6e72312e6e752f617263686976652f736167656d636f6d2d6861636b696e672f646f776e6c6f61642d66696c65732e676966 (1)](https://user-images.githubusercontent.com/26827453/202043295-4d8ca9ee-69fc-45a2-9db2-1d5e76b68b9d.gif)
 
-### REMOVE THE ANNOYING AUTO LOGOUT BY CHANGE TIMEOUT TO 0(Unlimited)
+## Disable autologout after X seconds idle
 
 ![68747470733a2f2f6e72312e6e752f617263686976652f736167656d636f6d2d6861636b696e672f616e6e6f79696e672d6c6f676f75742e706e67 (2)](https://user-images.githubusercontent.com/26827453/202043345-6e3f433f-8b0f-466b-ae9a-1b688c9297ec.png)
     
@@ -870,23 +762,26 @@ $.xmo.setValuesTree(0, "Device.UserInterface.Httpd.SessionTimeout");
 $.xmo.sessionTimeOut = 0;
 ```
 
-### Print device model
+## Print device model
+
 ```javascript
 $.xmo.getValuesTree($.xpaths.mySagemcomBox.deviceInfo.modelNumber);
 ```
 
-### Change password for any user
+## Change password for any user
 
 ```javascript
 $.xmo.changePassword("<userrnameToEditPasswordFor>","<changethistourPassword");
 ```
 
-### Get values for wizard
+## Dumps wizard settings
+
 ```javascript
 $.xpaths.wizard
 ```
 
-### List all features that is possible like clouds as dropbox, usb stuff, tv over wifi things and led configuration and much much more
+## List all features available
+
 ```javascript
 $.xpaths.checkFeaturesAvailable
 ```
@@ -915,22 +810,25 @@ modules.myBox.dhcp.defaultValues
 
 ```
 
-### Enable samba
+## Enable masstorage via samba
+
 ```javascript
 $.xmo.setValuesTree('true', "massStorage.samba.enable");
 ```
 
-### Enable walletgarden
+## Enable walletgarden
+
 ```javascript
 $.xmo.setValuesTree('true', "walledGarden.enable");
 ```
 
-### Save
+## Save edited settings (must be used before reboot)
+
 ```javascript
 $.xmo.setValuesTree('true', "maintenance.saveRestore.save");
 ```
 
-### Configure dropbear via router shell
+## Configure dropbear via router shell
 
 ```bash
 mkdir -p /tmp/dropbear
@@ -942,12 +840,13 @@ vim /etc/dropbear/authorized_keys
 chmod 600 authorized_keys
 ```
 
-### LXC - Telia 
+## LXC - Telia 
+
 ```bash
 lxc-start -n teliaLxc -F
 ```
 
-### Directories and File configuration available for LXC stored on device
+## LXC files/paths
 
 ```bash
 /usr/share/lxs/userns.conf
@@ -981,8 +880,10 @@ lxc-start -n teliaLxc -F
 
 ```
 
+## Userinfo
 
-### USERS (USER/1 = admin - Edit my examples for your own details)
+USER/1 = admin - edit all values here (if you want)
+
 ```javascript
 $.xmo.getValuesTree("Device/UserAccounts/Users/User[@uid='1']");
 $.xmo.getValuesTree("Device/UserAccounts/Users/User[@uid='1']/Role");
@@ -998,7 +899,7 @@ $.xmo.getValuesTree("Device/UserAccounts/Users/User[@uid='3']/RemoteAccesses/Rem
 $.xmo.getValuesTree("Device/UserAccounts/Users/User[@uid='2']/RemoteAccesses/RemoteAccess[@uid='1']");
 ```
 
-### Firmware Info
+## Firmware info
 
 ```
 Source....: http://MASKED.for.safety
@@ -1013,7 +914,8 @@ $.xmo.getValuesTree("Device/ManagementServer/Password");
 $.xmo.setValuesTree("", "Device/ManagementServer/Password");
 ```
 
-### Disable all remote acccess for ISP, copy and paste
+## Disable all remote acccess for ISP, copy and paste
+
 ```javascript
 $.xmo.setValuesTree("", 'Device/IP/Interfaces/Interface[Alias="IP_MNGT"]/LowerLayers')
 $.xmo.setValuesTree("", 'Device/IP/Interfaces/Interface[Alias="IP_MNGT"]/Router')
@@ -1104,62 +1006,63 @@ $.xmo.setValuesTree("", 'Device/IP/Interfaces/Interface[Alias="HEY7"]/Router')
 $.xmo.setValuesTree("", 'Device/IP/Interfaces/Interface[Alias="HEY8"]/Router');
 ```
 
-### Rip
-```javascript
-$.xmo.getValuesTree("Device/Routing/RIP/Enable");
-$.xmo.setValuesTree("true", "Device/Routing/RIP/Enable");
-```
+## Dump leds values
 
-### Leds
 ```javascript
 $.xmo.getValuesTree("Device/Managers/Led/LedPowerBlink");
 $.xmo.setValuesTree("true", "Device/Managers/Led/LedPowerBlink");
 ```
 
-### AccessControl
+## AccessControl
+
 ```javascript
 $.xmo.getValuesTree("Device/Managers/NetworkLan/AccessControlEnable");
 $.xmo.setValuesTree("true", "Device/Managers/NetworkLan/AccessControlEnable");
 ```
 
-### Logs
+## Flush device logs
 
 ```javascript
 $.xmo.getValuesTree("Device/DeviceInfo/FlushDeviceLog");
 $.xmo.getValuesTree("true", "Device/DeviceInfo/FlushDeviceLog");
 ```
 
-### Cwmpd
+## Cwmpd settings
 
 ```javascript
 $.xmo.getValuesTree("Device/ManagementServer/EnableCWMP")
 $.xmo.setValuesTree(false, "Device/ManagementServer/EnableCWMP")
 ```
 
-### Print masstorage data
+## Print masstorage data
+
 ```javascript
 $.xmo.setValuesTree("wuseman", $.xpaths.mySagemcomBox.massStorage.dlnaMediaName)
 ```
 
-### Route info
+## Route info
+
 ```javascript
 $.xmo.getValuesTree("Device/Routing/RouteInformation/Enable");
 $.xmo.setValuesTree("true", "Device/Routing/RouteInformation/Enable");
 ```
 
-### CLI Password
+## Dump passwprd commandline interface (serial console)
+
 ```javascript
 $.xmo.getValuesTree("Device/Services/CLIPassword");
 $.xmo.setValuesTree("odemnn", "Device/Services/CLIPassword");
 ```
 
-### Parent control
+## Parent control settings
+
 ```javascript
 $.xmo.getValuesTree("Device/Services/ParentalControl/Enable");
 $.xmo.setValuesTree("true", "Device/Services/ParentalControl/Enable");
 ```
 
-### Random stuff
+## Random stuff
+
 ```javascript
 $.xmo.getValuesTree($.xpaths.management);
 $.xmo.getValuesTree($.xpaths.main);
@@ -1185,7 +1088,7 @@ users: "Device/UserAccounts/Users"
 wanBlockingEnable: "Device/Firewall/WanBlocking"
 ```
 
-### Go visit 192.168.1.1:9000 to enjoy the hidden Twonky interface
+## Go visit 192.168.1.1:9000 to enjoy the hidden Twonky interface
 
 ![68747470733a2f2f6e72312e6e752f617263686976652f736167656d636f6d2d6861636b696e672f74776f6e6b792d736167656d636f6d2e706e67](https://user-images.githubusercontent.com/26827453/202127484-bdc3c13a-9515-4df1-9f9b-7f42371cbf2c.png)
 
@@ -1194,7 +1097,7 @@ curl 192.168.1.1:9000/rpc/reset
 > reset to defaults!
 ```
 
-### Check webconfig/config.js for more rpc files, few examples
+## Check webconfig/config.js for more rpc files, few examples
 ```bash
 curl 192.168.1.1:9000/nmc/rpc
 curl 192.168.1.1:9000/webconfig/config.js
@@ -1202,7 +1105,7 @@ curl 192.168.1.1:9000/webconfig/config.js
 
 ![68747470733a2f2f6e72312e6e752f617263686976652f736167656d636f6d2d6861636b696e672f736167656d636f6d2d35333730652e706e67](https://user-images.githubusercontent.com/26827453/202127510-ff1f1ddc-daa5-46ce-9212-7c8f1d4d74d4.png)
 
-### List folders by an exploit
+## List folders by an exploit
 
 ```bash
 curl http://192.168.1.1:9000/rpc/dir?=path=/bin/ls
@@ -1224,7 +1127,7 @@ curl http://192.168.1.1:9000/rpc/dir?=path=/bin/ls
 024D/var
 ```
 
-### Response and settings for `Twonky`
+## Response and settings for `Twonky`
 
 ```bash
 curl http://192.168.1.1:9000/rpc/get_all
@@ -1331,7 +1234,7 @@ curl http://192.168.1.1:9000/rpc/get_all
     ........
 ```
 
-### All sections for device settings
+## All sections for device settings
 
 ```javascript
 $.xmo.getValuesTree($.xpaths.Device)
@@ -1520,13 +1423,13 @@ $.xmo.getValuesTree("Device/WiFi/AccessPoints/AccessPoint[@uid='1']/Security/Key
 $.xmo.getValuesTree("Device/DHCPv4/Server/Pools/Pool[@uid='1']/SubnetMask");
 ```
 
-### Main configurations is stored in LXC `Telia` dir
+## Main configurations is stored in LXC `Telia` dir
 
 ```
 /telia/lxc/rootfs/etc/hosts
 ```
 
-### JQuery: 
+## JQuery
 
 ```javascript
 jQuery.gui = {};
@@ -1546,7 +1449,7 @@ jQuery.gui.opt = {
 ```
 
 
-### Serial Console (Bootlog)
+## Serial Console (Bootlog)
 
 ![Screnshot](.pics/sagemcim_bootlaoder.gif)
 
@@ -2490,7 +2393,7 @@ Ethernet Auto Power Down and Sleep: Enabled
 Energy Efficient Ethernet: Enabled
 ```
 
-### All available urls on device (incl. hidden ones as default)
+## All available urls on device (incl. hidden ones as default)
 ```http://192.168.1.1/0.1/gui/js/answering-machine.js
 http://192.168.1.1/0.1/gui/js/config.js
 http://192.168.1.1/0.1/gui/js/grid.locale-en.js
@@ -2900,7 +2803,7 @@ http://192.168.1.1/0.1/gui/views-mobile/voice.device-info.html
 http://192.168.1.1/0.1/gui/views-mobile/wifi-strength.html
 ```
 
-### Asking for your help 
+## Asking for your help 
 
 * If anyone have found a way to use netcat from newRequest please let me know, 
 i have tried everything almost i belive, an example wich works to execute but 
@@ -2945,7 +2848,7 @@ $.xmo.getValuesTree("Device\/WiFi\/Radios\/Radio[@uid='1']\/OperatingChannelBand
 $.xmo.getValuesTree("Device/WiFi/AccessPoints/AccessPoint[@uid='1']/Security/KeyPassphrase");
 $.xmo.getValuesTree("Device/DHCPv4/Server/Pools/Pool[@uid='1']/SubnetMask");
 ```
-### Donation 
+## Donation 
 
 All donations I get I use to buy new devices that I spend all my waking hours 
 trying to hack, if it's something unique and something that I'm first with 
@@ -2957,28 +2860,147 @@ know for YOU and as always for FREE and under GPLv3.
 BTC: bc1q9jzfuwww5me9602y0fsk69lkjhg8svk8h3ejz0
 ```
 
-### Bonus tip, for the real hackers 
+## Bonus tip, for the real hackers 
 
 * `http://192.168.1.1/0.1/gui/?item=dhcpdstaticlease.cmd?action=add&mac=MAC:ADDR:HERE&static_ip=192.168.1.1&sessionKey=<session_key>#/`
 
 brrrrrrrz, did you get it? ;-) (if not, no worries - this was added for the curios one)
 
-### Get in touch
 
-If you have problems, questions, ideas or suggestions please contact me by posting to [wuseman@nr1.nu](mailto:wuseman@nr1.nu)
 
-https://forums.whirlpool.net.au/archive/2746904
 
-### Awesome Resources
 
-You can find more info and good answers from this thread below from whirlpool where i am active too, 
-if you know something that we don't please feel free to contribute in the thread or use my issue template. Thanks:-)
 
-* [Sagemcom F@ST5355 serial connection](https://forum.archive.openwrt.org/viewtopic.php?id=73005)
-* [Line Stats & Telnet Unlock Tool for Sagemcom 2864 (V2.00)](https://www.dslreports.com/forum/r28188441-Line-Stats-Telnet-Unlock-Tool-for-Sagemcom-2864-V2-00)
-* [Sagemunlock 2864 v2.0.1](https://mega.nz/file/ohMxkArD#JKqV9gd9wBZBRIe_EFPwt0HFqalrdv9fVx72qQqm38A)
+## Here is some bonus, for fun!
 
-### Get in Touch
+Finally I found all the old pictures and it's been years now since this repo was created. this was worth a 100% CVE. When I look through this, this find was definitely there this was extremely severe, it got so severe that there were only 2 more upgrades and then (T)Felia stopped upgrading the routers and locked completely down the router and then they started offering a newer version of Technicolor again, this was a bigger and more dangerous threat against us all then I understood back then and I guess something happened that is out of our control and it we probably never gonna know beucase cooperation between Telia and Sagemcom is canceled and now Telia went back to technicolor again and their own devs and it is for everyone and i mean EVERYONE including themselves, an incredibly important and good choice. They was taken seriously, thanks telia! They proved to me with this that they take their customers' safety seriously and I have great respect for everyone who works at telia and its subcontractors, I have now instead found flaws with other operators where there is extreme ignorance so this history is now history and I am both happy, proud and extremely satisfied with the results.
+
+Everything in this repo may still be relevant for other internet providers and the firmware they using on their devices worldwide since `Sagemcom` is still cooperates with `Tele2`(comhem) and many many many more internet providers out there  and even if Telia has removed most of the alternatives, mostly things is working the same as before but with less options(for telia customers) due to an upgraded version, so everything I have written here is highly relevant, but because I have already shown, revealed and done what if I can, I will archive this repo from `2022-11-15` and there will be no more upgrades.
+
+Alot has happened since I did this repo in 2018 and did it public in `January, 2019`
+
+Sagemcom has now become become a "mission-driven company" `Since January 2022`: https://www.sagemcom.com/en/group
+
+I spend all my waking hours trying to succeed and if I don't succeed I try again, I've been trying to get hold of a version v3.4.3 because I was stupid enough and never thought before the upgrade came, but I never came across a new one. Here are some pictures for myself to remember these 4 years, I have spent over 600 hours of my free time on this router, here are some random pictures I never shared before but since it is now archived, so here are my 600 hours in pictures shown.
+
+## Approx ~430 hours later and four years and all time I spent on this router I have learned:
+
+``` bash
+1) During these 4 years I bought 9 routers to find one with firmware 
+   ´v3.4.3´ after the major upgrade, without luck..
+
+2) During this period I was used 7 differnet serial tools for reading data
+
+3) During this period I really know how dangerous it can be to try things 
+   without be VERY careful and reading datasheets,  i even managed to set the router on fire (FOR REAL)
+
+4) I tried so many things that would make anyone to think im crazy, 
+  but during this time I found a way to bypass auth if serial console is protected 
+  by password and it works on other devices as well, this is my secret but I don't 
+  regret spending so many hours on this router, in my solitude ;)
+
+5) During this period I asked support 12 times if there is a 'back door' 
+  into my home for whatever reason? I got the answer NO out of 11 out of 12 in 
+  my internet operator's support for answers. I now know that support cannot 
+  be trusted and their knowledge of their own devices is zero.
+
+6) I'll let all the pictures speak for themselves, what's not included 
+   here probably isn't worth knowing..
+   
+   Save yourself from bricking/disassemble the device if you don't really want to, 
+   you'll see most of what's on the router below.
+```
+
+## Secret connector
+
+ Did you know there is a hidden and 'secret' connector under the aluminum case on the 'front side' of the board?
+
+* When I mention 'front' side of the board it is this side of the board
+
+![PXL_20211022_092146149](https://user-images.githubusercontent.com/26827453/202089140-8fbef78c-8381-44aa-af2e-1edf4d9b693a.jpg)
+
+* When I mention 'back' side of the board it is this side of the board
+
+![Screenshot_20221116_072307](https://user-images.githubusercontent.com/26827453/202100395-1aa6b76b-81bf-4cb2-914a-ba977049f32b.png)
+
+* The secret/hidden (not in even in manual it's listed) connector is on the 'front side' of the router board
+
+![IMG_20220116_002359](https://user-images.githubusercontent.com/26827453/202090160-4c1a51ef-7a86-4405-acf0-ed556dcba091.jpg)
+![IMG_20220116_002413](https://user-images.githubusercontent.com/26827453/202090161-151e180c-8af3-4b6c-b254-6362ac8c9c5d.jpg)
+![IMG_20220116_002416](https://user-images.githubusercontent.com/26827453/202090163-aadc435c-bed7-4701-a1e4-60e6ec9e998f.jpg)
+![IMG_20220116_002419](https://user-images.githubusercontent.com/26827453/202090167-94488a94-ded6-4610-afda-28d48816b3cd.jpg)
+![IMG_20220116_002427](https://user-images.githubusercontent.com/26827453/202090168-0606beee-8f77-436e-88b4-672014e486c9.jpg)
+
+![Screenshot_20221116_072307](https://user-images.githubusercontent.com/26827453/202102035-7c588ddd-4f66-40f0-a7c5-ac162a1f61e6.png)
+![Screenshot_20221116_072638](https://user-images.githubusercontent.com/26827453/202101976-f20bdd4d-a992-48c3-ad0d-0fe9cfdedf50.png)
+
+Under the aluminum case on 'backside' of this board the broadcom chip is found
+
+![Screenshot_20221116_073703](https://user-images.githubusercontent.com/26827453/202103423-cf4a390e-277c-4bb5-aac5-d5bb91404641.png)
+![IMG_20220116_010234](https://user-images.githubusercontent.com/26827453/202090285-50756bab-d3a2-4864-b736-4a5c6e33482d.jpg)
+![IMG_20220116_010238](https://user-images.githubusercontent.com/26827453/202090291-93fe6f86-65cc-4a3a-aeba-d0e17f21a493.jpg)
+
+During this period I documented a lot I never told or have told, 
+here you can see how I did, what I did, how I work, how extremely 
+determined to succeed I am when it comes to hacking devices for fun
+
+These photos I took to remember RX/TX/GND to NOT come when v3.3 on the first router.
+
+![PXL_20211126_232927539 PORTRAIT](https://user-images.githubusercontent.com/26827453/202092114-5b3887ac-0b7e-461c-b97b-6553cbce831c.jpg)
+![PXL_20211126_232910051](https://user-images.githubusercontent.com/26827453/202092151-d0a839c6-2dbc-496b-94b0-24dc738eea44.jpg)
+![PXL_20211126_232527185](https://user-images.githubusercontent.com/26827453/202092337-65277804-9cd4-4064-8861-55c3907dc14b.jpg)
+![PXL_20211126_232529791](https://user-images.githubusercontent.com/26827453/202092346-a077f469-565f-44b3-995d-580a86a25dfd.jpg)
+![PXL_20211126_232534970 (1)](https://user-images.githubusercontent.com/26827453/202092348-1782992f-037a-4582-b1c6-d73c5cd5b3a1.jpg)
+![PXL_20211126_232910051](https://user-images.githubusercontent.com/26827453/202092352-1a603472-4a8b-4e15-9c5a-1b0091242476.jpg)
+
+Here is serial console when I was forcefully "yanking" two capacitors away on 1 of the 9 routers to see what happens at different 
+  "damages" to a device to know what different things are due to if there are "failures" in the future on other devices
+  so this is NOT because  because a wrong baudrate of course, it was a "let's fuck this router and see what happens" time
+
+https://user-images.githubusercontent.com/26827453/202096875-354674e4-ae9c-4690-9650-7c8ced71338a.mp4
+
+Just another device and other tools for trying AGAIN to hack the last firmware release 
+  after few months with a break for get motivation back again for trying get root access on latest firmware `v4.**`
+
+![PXL_20211027_190253660](https://user-images.githubusercontent.com/26827453/202093360-798581c0-2cce-4645-bb62-c6026f38d600.jpg)
+![PXL_20211027_190259295](https://user-images.githubusercontent.com/26827453/202093363-220359fd-3b09-41fd-858a-da44961c4e0c.jpg)
+![PXL_20211027_190301283](https://user-images.githubusercontent.com/26827453/202093365-452818b4-15f6-45a8-9a02-e75d5662e75e.jpg)
+
+Same as above but just another device of the same model and firmware and A new ft232dl reader since I experimenting 
+ with "crazy" things and the serial readers gets and these devices break extremely easily if you guess pins etc 
+ and if you are NEW to hardware hacking want to try the same things if you get insperation. Always read the manual, 
+ datasheets and measure the points and don't take chances it will end in disaster. It is impossible to GUESS 
+ unless there is clearly what is what on the devices, *BE CAREFUL*!!
+ 
+![PXL_20210922_130435544](https://user-images.githubusercontent.com/26827453/202093672-9cd73222-6bf7-4955-8150-e0c3ee9e6d22.jpg)
+
+This was 4 Years _after_ this repo was created and I still was not able to get root access on latest firmware :(
+
+![1](https://user-images.githubusercontent.com/26827453/202099558-e6939525-f49e-4472-a4f1-4ce0a3b4377a.jpg)
+![3](https://user-images.githubusercontent.com/26827453/202099561-fb485649-748f-47c3-a003-7132e557d35d.jpg)
+
+I have a large collection on all devices and hardware that I have managed to hack in my own way. Here is the current router in the list. All the others I throw away or give away to whoever needs them as I don't use these myself. J
+
+Sagemcom F@st 5370e is the 97th device I manage to hack or find vulnerabilities in my own personal way for FUN as a non-profit hacker.
+
+![Screenshot_20221116_070306](https://user-images.githubusercontent.com/26827453/202099355-92abde81-4acb-4520-833f-6aab3d32240a.png)
+![Screenshot_20221116_071524](https://user-images.githubusercontent.com/26827453/202099359-857bc4ad-ba76-4fd5-a1f0-36876043713f.png)
+![Screenshot_20221116_075818](https://user-images.githubusercontent.com/26827453/202108874-696e121d-f74a-4a4e-9555-40309a612b81.png)
+
+4 of 9 different routers I found, I really worked hard for get root access on this device
+
+![Screenshot_20221116_075552](https://user-images.githubusercontent.com/26827453/202108870-fb37a1be-b77b-4e94-8125-897a380630a1.png)
+![Screenshot_20221116_075818](https://user-images.githubusercontent.com/26827453/202109025-8db87775-10c9-4717-bbab-5553cdf636b7.png)
+![Screenshot_20221116_080505](https://user-images.githubusercontent.com/26827453/202109252-27382c55-8255-41e5-93ee-47db124b467f.png)
+![Screenshot_20221116_075933](https://user-images.githubusercontent.com/26827453/202108882-b45e20a4-257e-492b-874f-b6d266f27a9d.png)
+
+https://user-images.githubusercontent.com/26827453/202110329-ae0db266-8fb8-458e-b9bb-e5e7d95afef4.mp4
+https://user-images.githubusercontent.com/26827453/202110573-13a36b14-809e-49b9-9f09-5bd5689a6b70.mp4
+https://user-images.githubusercontent.com/26827453/202109900-83f70bdd-eb68-405a-87b3-2854142d7352.mp4
+
+![Screenshot](https://user-images.githubusercontent.com/26827453/202100149-e55591fb-e75b-409f-8656-135da6e4f230.jpg)
+
+## Get in Touch
 
 * https://www.nr1.nu 
 * https://github.com/wuseman/ 
