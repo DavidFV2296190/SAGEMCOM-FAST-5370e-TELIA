@@ -3,15 +3,53 @@
   <img src="https://user-images.githubusercontent.com/26827453/202126278-d97264f9-64a4-461e-a97b-fc7daec40487.png" /><br>
  </p>
 
+### Small notice for all TeliaSonera AB customers:
+
+Have you received a Sagemcom F@st 5370e from TeliaSonera 2022/2023 or later, this small intro notice is for you (2023-03-09)
+
+TeliaSonera AB is offering this router for customers still but it is not exactly the same board as earlier, the two differnet versions looks *exactly* the same on the outside but it's not the same board as before on the current Sagemcom F@st 5370e routers.. The new board looks different and have disable serial console so it' s not possible to connect as I show in this readme on the new boards, the only message you will see is "GO!" if you connect to serial console on the pins as before when we boot the device. 
+
+You can see the difference in two ways of the earlier verison and current version of this router.
+
+Either by disassemble the router and (it is unnecessary if you are not an expert, in which if you are and find something awesome that can help us all please share your find, however the other way is you can compare the old/new board except under the "alliumnium" shell and contact that is gone, is the number on board. If you look really really close you will see the new board is written as "V3.2" with gold color on the hw board
+
+In addition to the serial console, they have removed the contact I have shown in this repo (located at the bottom of the page where you can see that there are contacts under the allumium shell) and the "new" version does not use http://192.168.1.1/2.0/gui , they moved back to http://192.168.1.1/1.0/gui but with very limited settings. Besides all these "hardware changes" on the new board it is almost the same as the old version, that means all commands in this repository still works on latest board: 2023 from TeliaSonera AB, that's all for now.
+
+And btw.
+
+Just fyi, I searched around the web for find some info about all this mystery and they really not want to share their code so let me share all what I can tie to telia > sagemcom, they are under a pack called "C1".. It is some old verison I think, same as Tele2/Comhem uses for COAX(they are all exposed on the web btw)
+
+```
+Details Pack Telia C1
+Pack Telia C1
+Consult the EU declaration of conformity for the Pack Telia C1 Gateway on the Sagemcom official support website
+Details Pack Telia C1\n\nConsult the EU declaration of conformity for the Pack Telia C1 Gateway on the Sagemcom official support website.\n\n\n\nDiscover all product
+```
+
+Also I found this
+
+```
+DCIW387 UHD GET / DCIW387 UHD TELIA
+https://46.105.164.134/fr/decodeurs-son/dciw387-uhd-get-dciw387-uhd-telia?language_content_entity=fr
+../../en/set-top-boxes-and-sound-products/dciw387-uhd-get-dciw387-uhd-telia
+https://46.105.164.134/en/gateways/pack-telia-c1?language_content_entity=en
+https://46.105.164.134/sites/default/files/2021-09/UE-2021-1571_DOC_PACK%20TELIA%20C1_253900775_20210720.pdf
+```
+
+AND FINALLY
+
+```
+haut-debit/fst-5370e-telia-wifi-router
+..... but not much info, just
+https://46.105.164.134/sites/default/files/2021-06/UE-2021-1369_Telia%20WiFi%20router%20F%40st%205370e_253760395.pdf
+```
+
+It was signed 2021-06. So I guess the new board is from early 2022.
+
+That's all I know for now about thew new board. I may update this repo later if I find somehing usdeful, this was just for help new customers/users of telia
+
+
 ## Sagemcom Fast 5370e 
-
-_before above message was added it started here, have fun!_
-
-This `README` is on hold until I will get a new router from `TeliaSonera Company AB` since i bought a private router for now, 
-I will probably get a new one this summer so don't expect this repo to get updated in the upcomming weeks. 
-
-Of course all commands in this wiki is available still if you are on firmware `v3.42.2`. In firmware `v3.43.3` all 
-important settings has been removed so you can't enable telnet and ssh access via the console by the exploits in this wiki anymore. 
 
 Firmware `v3.42.3` was sent to all customers that has this router worldwide (`Sagemcom` Models Affected: `57**x`)
 
