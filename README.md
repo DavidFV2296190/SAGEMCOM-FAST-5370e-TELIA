@@ -53,11 +53,9 @@ That's all I know for now about thew new board. I may update this repo later if 
 
 Ahh btw, if you are curios why they are naming the routers as C1/D1/F1 and so on (wich is wrong) it is..
 
-"Coax1"
-"DSL1"
-"Fibre1"
-.... and so on.
-
+* "Coax1" 
+* "DSL1"
+* [Telia F1 (current for fibre)](https://www.telia.se/privat/bredband/produkter-tillbehor/products/wifi-router-f1)
 
 ## Sagemcom Fast 5370e 
 
@@ -3061,7 +3059,8 @@ https://user-images.githubusercontent.com/26827453/202109900-83f70bdd-eb68-405a-
 * https://www.dropbox.com/s/h74terxw9oga8ph/5355.json?dl=0
 * https://drive.google.com/file/d/1OcZrsvSmttWvZUOitP0dgtyFBGfHQDQx/view
 * https://github.com/electronicayciencia/tr-069-proxy
-* 
+
+
 ## Get in Touch
 
 * https://www.nr1.nu 
