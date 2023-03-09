@@ -36,13 +36,16 @@ https://46.105.164.134/en/gateways/pack-telia-c1?language_content_entity=en
 https://46.105.164.134/sites/default/files/2021-09/UE-2021-1571_DOC_PACK%20TELIA%20C1_253900775_20210720.pdf
 ```
 
-AND FINALLY
+AND FINALLY (the url will visit sagemcoms website and view this pdf if someone just dont want to visit the URl let me provide the sign)
+
+![Screenshot](https://i.imgur.com/H2BTkmc.png)
 
 ```
 haut-debit/fst-5370e-telia-wifi-router
 ..... but not much info, just
 https://46.105.164.134/sites/default/files/2021-06/UE-2021-1369_Telia%20WiFi%20router%20F%40st%205370e_253760395.pdf
 ```
+
 
 It was signed 2021-06. So I guess the new board is from early 2022.
 
